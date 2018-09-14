@@ -65,6 +65,11 @@ class PreProcessor(object):
         
         
     def labelEncode(self,df):
+        
+        place = "Red Soil"
+        df['soil_type'].fillna(place, inplace=True)
+        
+        
         from sklearn import preprocessing
         labelEncoder_soiltype = preprocessing.LabelEncoder()
         labelEncoder_soiltype.fit(df['soil_type'])
@@ -81,23 +86,24 @@ class PreProcessor(object):
         pass
 
     def new_csv(self,df):
-        newFileName = 'processed.csv'
-        pd.to_csv(newFileName,index= False)
-    
+        newFilePath = 'preprocessing/processed.csv'
+        df.to_csv(newFilePath,index= False)
+        
+        
+        
 def main():
-    #initialising object
 
-
-    filepath = 'original_details.csv'
+    filepath = 'exctraction/soil_parameters.csv'
     df = pd.read_csv(filepath)
-    
+
+    #initialising object    
     api = PreProcessor(df)
 
     #calling functinos
     api.removeNaN(df)
     api.rounding(df)
-    api.removeDuplicate(df)
     api.labelEncode(df)
+    api.new_csv(df)
 
 
 if __name__ == "__main__":
