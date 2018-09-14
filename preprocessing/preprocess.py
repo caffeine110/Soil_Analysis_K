@@ -28,8 +28,6 @@ class PreProcessor(object):
     def rounding(self,df):
         df.round({'ph':2, 'ec':2, 'oc':2, 'av_p':2, 'av_k':2, 'av_s':2, 'av_zn':2,'av_b':2, 'av_fe':2,'av_cu':2, 'av_mn':2 })
 
-    def removeDuplicate(self,df):
-        df.drop_duplicates(inplace=True)
         
     def removeNaN(self,df):
         mean = df['ph'].mean()
@@ -96,9 +94,9 @@ def main():
     api = PreProcessor(df)
 
     #calling functinos
+    api.removeNaN(df)
     api.rounding(df)
     api.removeDuplicate(df)
-    api.removeNaN(df)
     api.labelEncode(df)
 
 
