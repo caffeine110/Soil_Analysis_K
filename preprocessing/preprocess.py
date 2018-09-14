@@ -21,24 +21,17 @@ import os
 
 
 class PreProcessor(object):
-    def __init__ (self):
-        try:
-            filepath = 'original_details.csv'
-            df = pd.read_csv(filepath, index = False)
-            return df
-            
-        except:
-            print("File not found...")
+    def __init__ (self,df):
+        self.df = df
 
 
-
-    def rounding(self):
+    def rounding(self,df):
         df.round({'ph':2, 'ec':2, 'oc':2, 'av_p':2, 'av_k':2, 'av_s':2, 'av_zn':2,'av_b':2, 'av_fe':2,'av_cu':2, 'av_mn':2 })
 
-    def removeDuplicate(df):
+    def removeDuplicate(self,df):
         df.drop_duplicates(inplace=True)
-    
-    def removeNaN(self):
+        
+    def removeNaN(self,df):
         mean = df['ph'].mean()
         df['ph'].fillna(mean, inplace=True)
         
@@ -73,32 +66,40 @@ class PreProcessor(object):
         df['av_mn'].fillna(mean, inplace=True)
         
         
-    def labelEncode(self):
+    def labelEncode(self,df):
         from sklearn import preprocessing
-        from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-        labelEncoder_soiltype = LabelEncoder()
+        labelEncoder_soiltype = preprocessing.LabelEncoder()
+        labelEncoder_soiltype.fit(df['soil_type'])
+        labelEncoder_soiltype.classes_
+
+        labelEncoder_soiltype.transform(df['soil_type'])
         df['soil_type'] = labelEncoder_soiltype.fit_transform(df['soil_type'])
 
 
-    def scaler(self):
+    def scaler(self,df):
         pass
 
-    def tobinary(self):
+    def tobinary(self,df):
         pass
 
-    def new_csv(df):
+    def new_csv(self,df):
         newFileName = 'processed.csv'
         pd.to_csv(newFileName,index= False)
     
 def main():
     #initialising object
-    api = PreProcessor()
+
+
+    filepath = 'original_details.csv'
+    df = pd.read_csv(filepath)
+    
+    api = PreProcessor(df)
 
     #calling functinos
-    api.rounding()
-    api.removeDuplicate()
-    api.removeNaN()
-    api.labelEncode()
+    api.rounding(df)
+    api.removeDuplicate(df)
+    api.removeNaN(df)
+    api.labelEncode(df)
 
 
 if __name__ == "__main__":
