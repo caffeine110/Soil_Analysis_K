@@ -3,9 +3,11 @@
 """
 Created on Thu Sep 13 23:37:47 2018
 
-@author: gaurav gaurav
-
-
+@author : gaurav gaurav
+        : caffeine110
+        
+AIM     : To Analyse the soil Data in Karnataka State and its compatibility, fertility, and predict the best fit crop for that soil
+        : Final year Project of Compoter Engineering
 
 """
 
@@ -26,4 +28,4 @@ filepath = 'original_details.csv'
 df = pd.read_csv(filepath, usecols = ['soil_type','ph', 'ec', 'oc', 'av_p', 'av_k', 'av_s', 'av_zn', 'av_b', 'av_fe','av_cu', 'av_mn'])
 
 
-df.to_csv('soilparameters.csv')
+df.to_csv('soilparameters.csv', index = False)
