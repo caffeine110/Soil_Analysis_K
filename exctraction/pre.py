@@ -11,6 +11,8 @@ AIM     : To Analyse the soil Data in Karnataka State and its compatibility, fer
 
 """
 
+
+
 import pandas as pd
 import os
 
