@@ -26,7 +26,8 @@ class PreProcessor(object):
 
 
     def rounding(self,df):
-        df.round({'ph':2, 'ec':2, 'oc':2, 'av_p':2, 'av_k':2, 'av_s':2, 'av_zn':2,'av_b':2, 'av_fe':2,'av_cu':2, 'av_mn':2 })
+        df.round({'ph':2, 'ec':2, 'oc':2, 'av_p':2, 'av_k':2, 'av_s':2, 'av_zn':2,'av_b':2, 'av_fe':2, 'av_cu':2, 'av_mn':2 })
+        print("in a roundign")
 
         
     def removeNaN(self,df):
@@ -63,27 +64,43 @@ class PreProcessor(object):
         mean = df['av_mn'].mean()
         df['av_mn'].fillna(mean, inplace=True)
         
+        df['crop'].fillna("Maize", inplace=True)
+        
         
     def labelEncode(self,df):
         
-        place = "Red Soil"
-        df['soil_type'].fillna(place, inplace=True)
+        place = "Maize"
+        df['crop'].fillna(place, inplace=True)
         
         
         from sklearn import preprocessing
-        labelEncoder_soiltype = preprocessing.LabelEncoder()
-        labelEncoder_soiltype.fit(df['soil_type'])
-        labelEncoder_soiltype.classes_
+        labelEncoder_croptype = preprocessing.LabelEncoder()
+        labelEncoder_croptype.fit(df['crop'])
+        labelEncoder_croptype.classes_
 
-        labelEncoder_soiltype.transform(df['soil_type'])
-        df['soil_type'] = labelEncoder_soiltype.fit_transform(df['soil_type'])
+        labelEncoder_croptype.transform(df['crop'])
+        df['crop'] = labelEncoder_croptype.fit_transform(df['crop'])
+
+
+        onehotencoder = preprocessing.OneHotEncoder()
+        df = pd.DataFrame({'country': ['russia', 'germany', 'australia','korea','germany']})
+        pd.get_dummies(df,prefix=['country'])
+
+        df = pd.concat([df,pd.get_dummies(df['crop'], prefix='crop')],axis=1)
+        df.drop(['crop'],axis=1, inplace=True)
+
+
 
 
     def scaler(self,df):
         pass
 
     def tobinary(self,df):
-        pass
+        print(df.dtypes)
+        print(df.columns)
+        print(df.head())
+        print(df.info)
+
 
     def new_csv(self,df):
         newFilePath = 'preprocessing/processed.csv'
@@ -96,6 +113,8 @@ def main():
     filepath = 'exctraction/soil_parameters.csv'
     df = pd.read_csv(filepath)
 
+
+
     #initialising object    
     api = PreProcessor(df)
 
@@ -104,6 +123,7 @@ def main():
     api.rounding(df)
     api.labelEncode(df)
     api.new_csv(df)
+    #api.tobinary(df)
 
 
 if __name__ == "__main__":
