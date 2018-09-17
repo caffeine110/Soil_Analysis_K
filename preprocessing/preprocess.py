@@ -3,9 +3,12 @@
 """
 Created on Thu Sep 13 18:36:36 2018
 
-@author: gaurav
-"""
+@author : gaurav gahukar
+        : caffeine110
+    
+Aim     : To preprocess the data in csv to removes NaN, and rounding of Float variables
 
+"""
 
 """
 field_names = ['card_no', 'farmer_number', 'sau', 'state', 'district', 'taluk',

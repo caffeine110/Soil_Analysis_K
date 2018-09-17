@@ -28,18 +28,23 @@ fieldnames = ['card_no', 'farmer_number', 'sau', 'state', 'district', 'taluk',
        'ph', 'ec', 'oc', 'av_p', 'av_k', 'av_s', 'av_zn', 'av_b', 'av_fe',
        'av_cu', 'av_mn','crop' ]
 
+
 with open('all_details.csv') as csvfile:
     reader = csv.DictReader(csvfile)
+    writer = csv.DictWriter(writeFile, fieldnames)
+    writer.writeheader()
     for row in reader:
         row['crop'] = random.choice(['Ragi', 'G.nut', 'Avare', 'Maize', 'Tur', 'Paddy', 'Castor', 'Niger', 'H.gram', 'Greengram', 'Sunflower'])
         print(row['district'], row['crop'])
-        writer = csv.DictWriter(writeFile, fieldnames)
         writer.writerow(row)
 
 
 
 
 
+
+########################################
+"""
 
 
 filepath = "newTry.csv"
@@ -58,40 +63,10 @@ filepath = "newTry.csv"
 df.to_csv(filepath, index = False)
 
 
+"""
+###########################################
 
 
-
-
-
-
-
-
-X = df.iloc[:,:23].values
-Y = df.iloc[:,22].values
-
-
-
-
-for i in range(0,52833):
-    
-
-
-
-
-
-
-
-
-import random
-
-for i in range(0,92833):
-    X[i,22] = random.choice(['Ragi', 'G.nut', 'Avare', 'Maize', 'Tur', 'Paddy', 'Castor', 'Niger', 'H.gram', 'Greengram', 'Sunflower'])
-    print(X[i,22])
-
-df = X
-
-filepath = 'new.csv'
-np.savetxt("foo.csv", X, delimiter=",")
 
 ###############
 '''
