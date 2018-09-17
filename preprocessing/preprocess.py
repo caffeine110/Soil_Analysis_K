@@ -82,13 +82,14 @@ class PreProcessor(object):
         df['crop'] = labelEncoder_croptype.fit_transform(df['crop'])
 
 
+'''
         onehotencoder = preprocessing.OneHotEncoder()
         df = pd.DataFrame({'country': ['russia', 'germany', 'australia','korea','germany']})
         pd.get_dummies(df,prefix=['country'])
 
         df = pd.concat([df,pd.get_dummies(df['crop'], prefix='crop')],axis=1)
         df.drop(['crop'],axis=1, inplace=True)
-
+'''
 
 
 
