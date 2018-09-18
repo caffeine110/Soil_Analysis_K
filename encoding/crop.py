@@ -16,11 +16,10 @@ df['crop'] = ''
 df.to_csv(filepath, index = False)
 
 
-
-
 import csv
 import random
 import os
+from collections import Counter
 
 writeFile = open('newTry.csv', 'w', newline='')
 fieldnames = ['card_no', 'farmer_number', 'sau', 'state', 'district', 'taluk',
@@ -29,11 +28,25 @@ fieldnames = ['card_no', 'farmer_number', 'sau', 'state', 'district', 'taluk',
        'av_cu', 'av_mn','crop' ]
 
 
+#dist = []
+#dist.append('Black Soil')
+
 with open('all_details.csv') as csvfile:
     reader = csv.DictReader(csvfile)
+        
     writer = csv.DictWriter(writeFile, fieldnames)
     writer.writeheader()
     for row in reader:
+        """
+        d = row['soil_type']
+        if d in dist:
+            continue
+        else:
+            dist.append(d)
+
+        #print(dist)
+        """
+        
         row['crop'] = random.choice(['Ragi', 'G.nut', 'Avare', 'Maize', 'Tur', 'Paddy', 'Castor', 'Niger', 'H.gram', 'Greengram', 'Sunflower'])
         print(row['district'], row['crop'])
         writer.writerow(row)
@@ -43,10 +56,74 @@ with open('all_details.csv') as csvfile:
 
 
 
-########################################
+###########################################################
+# code to retun all soil types
+
+soil_types = []
+soil_types.append('Black Soil')
+
+with open('all_details.csv') as csvfile:
+    reader = csv.DictReader(csvfile)
+        
+    writer = csv.DictWriter(writeFile, fieldnames)
+    writer.writeheader()
+    for row in reader:
+        d = row['soil_type']
+        if d in soil_types:
+            continue
+        else:
+            soil_types.append(d)
+
+    print(soil_types)
+    
+###########################################################
+
+
+###########################################################
+# code to ruturn all Distirctss in Karnataka
+dist = []
+dist.append('Bagalgot')
+
+with open('all_details.csv') as csvfile:
+    reader = csv.DictReader(csvfile)
+        
+    writer = csv.DictWriter(writeFile, fieldnames)
+    writer.writeheader()
+    for row in reader:
+        d = row['district']
+        if d in dist:
+            continue
+        else:
+            dist.append(d)
+
+    print(dist)
+    
+###########################################################
+
+###########################################################
+# code to print all the villages in karnataka
+villages = []
+villages.append('Badani')
+
+with open('all_details.csv') as csvfile:
+    reader = csv.DictReader(csvfile)
+        
+    writer = csv.DictWriter(writeFile, fieldnames)
+    writer.writeheader()
+    for row in reader:
+        d = row['village']
+        if d in villages:
+            continue
+        else:
+            villages.append(d)
+
+    print(dist)
+    
+###########################################################
+
+
+
 """
-
-
 filepath = "newTry.csv"
 df = pd.read_csv(filepath)
 
@@ -81,8 +158,6 @@ df.head()
 
 
 
-
-
 '''
 for i in df.rows:
 
@@ -93,7 +168,6 @@ for i in df.rows:
         df['crop'] = random.choice(['Ragi', 'G.nut', 'Avare', 'Maize', 'Tur', 'Paddy', 'Castor', 'Niger', 'H.gram', 'Greengram', 'Sunflower'])
 
 '''
-
 
 """
 df.columns

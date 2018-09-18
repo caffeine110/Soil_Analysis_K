@@ -13,6 +13,8 @@ AIM     : To Analyse the soil Data in Karnataka State and its compatibility, fer
         : Implimentation for Kharif Season
 """
 
+
+
 #importing the libraries
 
 import pandas as pd
