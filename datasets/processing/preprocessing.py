@@ -8,6 +8,9 @@ Created on Thu Sep 13 18:36:36 2018
     
 Aim     : To preprocess the data in csv to removes NaN, and rounding of Float variables
 
+        : input file  <<  .../to_csv/original_details.csv
+        : output file <<  .../to_csv/complete_details.csv
+
 """
 
 
@@ -27,8 +30,12 @@ class PreProcessor(object):
     def __init__ (self,df):
         self.df = df
 
-        
-    def removeNaN(self,df):
+
+    def remove_Duplicates(self,df):
+        df.drop_duplicates(inplace=True)
+
+
+    def remove_NaN(self,df):
         
         df['card_no'].fillna('Unknown', inplace=True)
         df['farmer_number'].fillna('Unknown', inplace=True)
@@ -103,14 +110,11 @@ class PreProcessor(object):
 
 
     def get_Details(self,df):
-        print(df.dtypes)
-        print(df.columns)
-        print(df.head())
-        print(df.info)
-        pass
+        print(df.count)
 
 
-    def new_csv(self,df):
+
+    def new_CSV(self,df):
         newFilePath = 'to_csv/complete_details.csv'
         df.to_csv(newFilePath,index= False)
         
@@ -120,6 +124,7 @@ def main():
 
     filepath = 'to_csv/original_details.csv'
     df = pd.read_csv(filepath)
+    print(df.count)
 
 
 
@@ -127,13 +132,24 @@ def main():
     api = PreProcessor(df)
 
     #calling functinos
-    api.removeNaN(df)
+    api.remove_Duplicates(df)
+    api.remove_NaN(df)
     api.rounding(df)
-    api.label_Encoding(df)
-    api.new_csv(df)
-    #api.tobinary(df)
+    api.get_Details(df)
+    api.new_CSV(df)
 
 
 if __name__ == "__main__":
     #calling main function
     main()
+
+
+
+
+"""
+        #print(df.dtypes)
+        #print(df.columns)
+        #print(df.head())
+        #print(df.info)
+
+"""

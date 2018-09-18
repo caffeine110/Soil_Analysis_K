@@ -84,7 +84,7 @@ with open('all_details.csv') as csvfile:
 dist = []
 dist.append('Bagalgot')
 
-with open('all_details.csv') as csvfile:
+with open('to_csv/complete_details.csv') as csvfile:
     reader = csv.DictReader(csvfile)
         
     writer = csv.DictWriter(writeFile, fieldnames)

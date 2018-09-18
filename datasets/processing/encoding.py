@@ -14,6 +14,8 @@ AIM     : To Analyse the soil Data in Karnataka State and its compatibility, fer
 
 """
 
+
+
 #importing 
 import pandas as pd
 import numpy as np
@@ -46,7 +48,7 @@ df['soil_type'] = labelEncoder_soiltype.fit_transform(df['soil_type'])
 '''
 
 
-
+"""
 import pandas as pd
 import numpy as np
 import os
@@ -66,3 +68,4 @@ df.tail()
 filename = 'soil_parameters.csv'
 df= pd.read_csv(filename)
 df.tail()
+"""

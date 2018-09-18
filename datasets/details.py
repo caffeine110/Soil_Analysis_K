@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 18 17:43:48 2018
-
-@author: gaurav
-"""
 
 #list of district
 district : ['Bagalkot', 'Ballari', 'Belagavi', 'Bengalur', 'Bidar', 'Chamaraj', 'Chikball', 'Chikkama', 'Chitradu', '7.7', 'Chitradu', 'Dakshina', 'Davanage', 'Dharwad', 'Gadag', 'Hassan', 'Haveri', 'Kalabura', 'Kodagu', 'Kolar', 'Koppal', '0.22', 'Koppal', 'Mandya', 'Mysuru', 'Raichur', 'Ramanaga', 'Shivamog', 'Tumakuru', 'Udupi', 'Uttara K', 'Vijayapu', 'Yadgir']
