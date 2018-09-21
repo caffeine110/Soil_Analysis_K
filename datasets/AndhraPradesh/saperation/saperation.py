@@ -75,7 +75,7 @@ def main():
     ####  For Soil Parametersig
 
     filepath_n = 'datasets/AndhraPradesh/complete_details_ap.csv'
-    df_soil = pd.read_csv(filepath_n, usecols = ['pH', 'EC', 'pH', 'Avail-P',
+    df_soil = pd.read_csv(filepath_n, usecols = ['Latitude','Longitude','pH', 'EC', 'pH', 'Avail-P',
                                                  'Exch-K', 'Avail-Ca', 'Avail-Mg', 
                                                  'Avail-Zn', 'Avail-Fe', 'Avail-Cu', 
                                                  'Avail-Mn'])
@@ -87,6 +87,17 @@ def main():
     df_soil.to_csv(filepath_to_save_soil_para, index = False)
 
 
+    #################################################################################
+    ############################# only crops
+
+    filepath_crops = 'datasets/AndhraPradesh/complete_details_ap.csv'
+    df_crop = pd.read_csv(filepath_crops, usecols = ['Crop_before'])
+    
+        
+    filepath_to_save_only_crops = 'datasets/AndhraPradesh/only_crops.csv'
+    df_crop.to_csv(filepath_to_save_only_crops, index = False)
+    
+    ################################################################################
 
 
 if __name__ == "__main__":

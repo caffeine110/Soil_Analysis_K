@@ -8,11 +8,12 @@ Created on Thu Sep 13 23:37:47 2018
         : caffeine110
         
 AIM     : Impllimentation for RABI crops
-        : To Analyse the soil Data in Karnataka State and its compatibility, fertility, and predict the best fit crop for that soil
-        : Final year Project of Compoter Engineering
+        	: To Analyse the soil Data in Andhrapradesh State and its compatibility, fertility,
+            and predict the best fit crop for that soil
 
 
 """
+
 
 #importing the libraries
 

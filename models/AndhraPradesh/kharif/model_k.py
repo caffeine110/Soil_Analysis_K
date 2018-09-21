@@ -6,11 +6,12 @@ Created on Thu Sep 13 23:37:47 2018
 
 @author : gaurav gaurav
         : caffeine110
-    
-AIM     : To Analyse the soil Data in Karnataka State and its compatibility, fertility, and predict the best fit crop for that soil
-        : Final year Project of Compoter Engineering
 
-        : Implimentation for Kharif Season
+    
+AIM     : Implimentation for Kharif Season
+        : To Analyse the soil Data in Andhrapradesh State and its compatibility, fertility,
+            and predict the best fit crop for that soil
+
 """
 
 

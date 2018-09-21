@@ -41,6 +41,5 @@ with open('all_details.csv') as csvfile:
     writer.writeheader()
     for row in reader:
         
-        row['Crop_Label'] = random.choice(['Ragi', 'G.nut', 'Avare', 'Maize', 'Tur', 'Paddy', 'Castor', 'Niger', 'H.gram', 'Greengram', 'Sunflower'])
-        print(row['district'], row['crop'])
+        row['Crop_Label'] =
         writer.writerow(row)

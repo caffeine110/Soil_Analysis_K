@@ -8,7 +8,8 @@ Created on Thu Sep 13 23:37:47 2018
         : caffeine110
         
 AIM     : Implimetation for SUMMER crops
-        	: To Analyse the soil Data in Andhrapradesh State and its compatibility, fertility, and predict the best fit crop for that soil
+        	: To Analyse the soil Data in Andhrapradesh State and its compatibility, fertility,
+            and predict the best fit crop for that soil
 
 
 """
