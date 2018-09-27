@@ -105,7 +105,7 @@ class PreProcessor(object):
 
 
     def new_CSV(self,df):
-        newFilePath = 'to_csv/AndhraPradesh/complete_details_ap.csv'
+        newFilePath = 'datasets/AndhraPradesh/complete_details_ap.csv'
         df.to_csv(newFilePath,index= False)
         
         

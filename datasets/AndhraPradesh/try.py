@@ -12,12 +12,16 @@ quates for text ""
 
 
 import pandas as pd
-import csv
 
+filepath = 'complete_details_ap.csv'
 
-filepath = 'datasets/AndhraPradesh/soil_parameters.csv'
+df = pd.read_csv(filepath, usecols=['Crop_before'])
 
-df = pd.read_csv(filepath, delimiter=',')
+from sklearn import preprocessing
+labelEncoder_croptype = preprocessing.LabelEncoder()
+labelEncoder_croptype.fit(df['Crop_before'])
+labelEncoder_croptype.classes_
+
 
 df.info()
 df.columns
@@ -25,21 +29,9 @@ df.count()
 df.dtypes
 
 
+
 df.head()
 
 
-
-import random
-
-writeFile = open('newTry.csv', 'w', newline='')
-
-
-with open('all_details.csv') as csvfile:
-    reader = csv.DictReader(csvfile)
-        
-    writer = csv.DictWriter(writeFile, fieldnames)
-    writer.writeheader()
-    for row in reader:
-        
-        row['Crop_Label'] =
-        writer.writerow(row)
+#################################################
+######################################################

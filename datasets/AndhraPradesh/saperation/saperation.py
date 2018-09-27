@@ -94,7 +94,17 @@ def main():
     df_crop = pd.read_csv(filepath_crops, usecols = ['Crop_before'])
     
         
-    filepath_to_save_only_crops = 'datasets/AndhraPradesh/only_crops.csv'
+    filepath_to_save_only_crops = 'datasets/AndhraPradesh/soil_and_crops/only_crops.csv'
+    df_crop.to_csv(filepath_to_save_only_crops, index = False)
+    
+    ################################################################################
+    ############################# only soil types
+
+    filepath_crops = 'datasets/AndhraPradesh/complete_details_ap.csv'
+    df_crop = pd.read_csv(filepath_crops, usecols = ['Soil_type'])
+    
+        
+    filepath_to_save_only_crops = 'datasets/AndhraPradesh/soil_and_crops/only_soil_types.csv'
     df_crop.to_csv(filepath_to_save_only_crops, index = False)
     
     ################################################################################
