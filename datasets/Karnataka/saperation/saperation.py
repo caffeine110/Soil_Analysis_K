@@ -44,48 +44,69 @@ class Exctraction(object):
 def main():
 
 
+    ##########################################################################
     # for complete details
-    filepath = 'exctraction/complete.csv'
+    filepath = 'datasets/Karnataka/complete.csv'
     df_full = pd.read_csv(filepath)
     
     #print("File << original_details.csv >> not found")
     
-
     obj_full = Exctraction(df_full)
     obj_full.removeDuplicate(df_full)
-    filepath_n = 'exctraction/complete.csv'
+    filepath_n = 'datasets/Karnataka/complete.csv'
     df_full.to_csv(filepath_n , index = False)
 
 
 
-
+    ##########################################################################
     ####  For User Details
-    filepath_n = 'exctraction/complete.csv'
+    filepath_n = 'datasets/Karnataka/complete.csv'
     df_user = pd.read_csv(filepath_n, usecols = ['card_no', 'farmer_number', 'sau',
                                                'state','district', 'taluk','village',
                                                'farmer_name','survey_number', 'soil_type','authority'])
     
     #print("File << all_details.csv >> not found")
-
-
-    filepath_u = 'exctraction/user_details.csv'
+    filepath_u = 'datasets/Karnataka/user_details.csv'
     df_user.to_csv(filepath_u, index = False)
 
 
 
+    ##########################################################################
     ####  For Soil Parametersig
-    filepath_n = 'exctraction/complete.csv'
+    filepath_n = 'datasets/Karnataka/complete.csv'
     df_soil = pd.read_csv(filepath_n, usecols = ['ph', 'ec', 'oc', 'av_p', 'av_k',
                                           'av_s','av_zn', 'av_b', 'av_fe','av_cu', 'av_mn','crop'])
 
 
-    #print("File < all_details not found >  not found")
-        
-        
-    filepath_s = 'exctraction/soil_parameters.csv'
+    #print("File < all_details not found >  not found")    
+    filepath_s = 'datasets/Karnataka/soil_parameters.csv'
     df_soil.to_csv(filepath_s, index = False)
 
 
+
+
+    ##########################################################################
+    ####  For soil types
+    filepath_n = 'datasets/Karnataka/complete.csv'
+    df_soil = pd.read_csv(filepath_n, usecols = ['soil_type'])
+
+
+    #print("File < all_details not found >  not found")    
+    filepath_s = 'datasets/Karnataka/soil_and_crops/only_soil_types.csv'
+    df_soil.to_csv(filepath_s, index = False)
+
+
+    """
+    ##########################################################################
+    ####  For crop types
+    filepath_n = 'datasets/Karnataka/complete.csv'
+    df_soil = pd.read_csv(filepath_n, usecols = [])
+
+
+    #print("File < all_details not found >  not found")    
+    filepath_s = 'datasets/Karnataka/soil_and_crops/only_crop_types.csv'
+    df_soil.to_csv(filepath_s, index = False)
+    """
 
 
 if __name__ == "__main__":
