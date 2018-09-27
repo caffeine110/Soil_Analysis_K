@@ -123,7 +123,7 @@ Unknown
 Unknown
 groundnut
 groundnut
-SUNFLOWER
+sunflower
 groundnut
 paddy
 TAMATO
@@ -305,7 +305,7 @@ groundnut
 groundnut
 Tomato
 groundnut
-Jowar
+jowar
 groundnut
 groundnut
 Tomato
@@ -385,7 +385,7 @@ Tomato
 groundnut
 groundnut
 groundnut
-Jowar
+jowar
 Beans
 Banana
 Tomato
@@ -630,7 +630,7 @@ Tomato
 Beans
 Beans
 groundnut
-Unknown
+-
 groundnut
 groundnut
 groundnut
@@ -663,7 +663,7 @@ horsegram
 groundnut
 potato
 groundnut
-Jowar
+jowar
 potato
 potato
 potato
@@ -730,102 +730,102 @@ groundnut
 groundnut
 groundnut
 Flowers
-Topioca  
-Topioca
+paddy
+"Topioca, Cashew"
 Unknown
 Paddy
 Paddy
 Unknown
-Topica
-Topioca
+"Topica, Paddy"
+paddy
 Unknown
 Paddy
-Cashew
-Unknown
-Paddy
-Unknown
-Unknown
-Unknown
+"Cashew, Mango"
 Unknown
 Paddy
 Unknown
 Unknown
 Unknown
 Unknown
-Topioca
-Paddy
-Topioca
-Paddy
-Unknown
-Unknown
-Topioca
-Paddy
-Topioca
-Paddy
-cotton
-Unknown
-cotton
-Paddy
-Paddy
-Unknown
 Paddy
 Unknown
 Unknown
 Unknown
 Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
-Unknown
+Topioca (Sample-2)
 Paddy
-Cotton 
+Topioca (Sample-1)
+Paddy (Sample-2)
 Unknown
 Unknown
-Unknown
-Unknown
-cotton
+paddy
 Paddy
-Topioca
-Topioca
+paddy
+Paddy (Sample-2)
+Cotton (Sample-1)
 Unknown
+Cotton (Sample-1)
+Paddy
+Paddy
 Unknown
 Paddy
 Unknown
-cotton
-Paddy
-Paddy
-cotton
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
 Unknown
 Unknown
 Paddy
-Unknown
-Unknown
+cotton
 Unknown
 Unknown
 Unknown
 Unknown
 cotton
-Brinjal
+Paddy
+"Cotton, Topioca"
+paddy
+Unknown
+Unknown
+Paddy
+Unknown
+cotton
+Paddy
+Paddy
+cotton
+Unknown
+Unknown
+Paddy
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+Unknown
+cotton
+"Paddy, Brinjal"
 Paddy
 Paddy
 Paddy
-Redgram
+"Cotton, Redgram"
 Paddy
 Unknown
 Paddy
-Paddy
+Paddy (Sample-1)
 Unknown
 Unknown
 Unknown
@@ -871,9 +871,9 @@ Unknown
 Turmeric
 Turmeric
 Turmeric
-Yam
-Yam
-Yam
+yam
+yam
+yam
 Paddy
 Banana
 Paddy
@@ -919,19 +919,19 @@ Paddy
 Paddy
 Turmeric
 Turmeric
-Yam
+yam
 Paddy
 Turmeric
 Paddy
-Yam
-Yam
+yam
+yam
 Paddy
 Paddy
-Yam
-Yam
-Yam
-Yam
-Yam
+yam
+yam
+yam
+yam
+yam
 Turmeric
 cotton
 Banana
@@ -939,17 +939,17 @@ Paddy
 Turmeric
 Paddy
 Turmeric
-Yam
+yam
 Turmeric
 Paddy
-Yam
+yam
 Turmeric
 Banana
 Turmeric
 Turmeric
 Banana
 Turmeric
-Yam
+yam
 Paddy
 Banana
 Turmeric
@@ -958,7 +958,7 @@ Paddy
 Turmeric
 Turmeric
 Turmeric
-Yam
+yam
 Banana
 Paddy
 Paddy
@@ -972,21 +972,21 @@ Paddy
 Paddy
 Turmeric
 Turmeric
-Yam
+yam
 Turmeric
 Banana
 Paddy
 Banana
-Yam
+yam
 Turmeric
-Yam
+yam
 Turmeric
-Yam
-Yam
-Yam
+yam
+yam
+yam
 Banana
 Turmeric
-Yam
+yam
 Banana
 Paddy
 Paddy
@@ -1007,8 +1007,8 @@ Paddy
 Paddy
 Paddy
 Paddy
-Yam
-Yam
+yam
+yam
 Turmeric
 Turmeric
 Banana
@@ -1213,39 +1213,39 @@ cotton
 cotton
 cotton
 cotton
-Sunflower
-Sunflower
+sunflower
+sunflower
 cotton
 cotton
 cotton
 cotton
-Sunflower
-cotton
-cotton
-cotton
-cotton
-cotton
-Sunflower
+sunflower
 cotton
 cotton
 cotton
 cotton
 cotton
-cotton
-Sunflower
-cotton
-cotton
-cotton
-Sunflower
-Sunflower
+sunflower
 cotton
 cotton
 cotton
 cotton
 cotton
 cotton
+sunflower
 cotton
-Sunflower
+cotton
+cotton
+sunflower
+sunflower
+cotton
+cotton
+cotton
+cotton
+cotton
+cotton
+cotton
+sunflower
 cotton
 cotton
 maize
@@ -1253,11 +1253,11 @@ Paddy
 Paddy
 cotton
 Paddy
-Sunflower
+sunflower
 Chilly
 cotton
 Mirchi
-Sunflower
+sunflower
 Chilly
 cotton
 Paddy
@@ -1322,47 +1322,47 @@ Paddy
 cotton
 Paddy
 cotton
-Sunflower
+sunflower
 cotton
 Paddy
 Paddy
 Paddy
 Paddy
 cotton
-Sunflower
-Sunflower
-Sunflower
+sunflower
+sunflower
+sunflower
 cotton
 cotton
 cotton
-Sunflower
+sunflower
 cotton
 cotton
 cotton
-Sunflower
+sunflower
 cotton
-Paddy
-Bajra
-cotton
-cotton
-Paddy
-cotton
-Bajra
-Bajra
 Paddy
 Bajra
 cotton
-Sunflower
+cotton
+Paddy
+cotton
 Bajra
 Bajra
-Jowar
-Jowar
+Paddy
+Bajra
+cotton
+sunflower
+Bajra
+Bajra
+jowar
+jowar
 Paddy
 maize
-Jowar
+jowar
 Bajra
 Paddy
-Jowar
+jowar
 Paddy
 maize
 Paddy
@@ -1375,23 +1375,23 @@ Paddy
 maize
 maize
 Paddy
-Sunflower
+sunflower
 Paddy
-Sunflower
+sunflower
 Paddy
-Sunflower
+sunflower
 Paddy
-Jowar
+jowar
 Bajra
 Paddy
-Sunflower
+sunflower
 Paddy
 Paddy
 Paddy
-Jowar
-Jowar
+jowar
+jowar
 Paddy
-Jowar
+jowar
 Paddy
 Paddy
 Paddy
@@ -1673,7 +1673,7 @@ cotton
 cotton
 cotton
 cotton
-chill
+cowpea
 vegetable
 vegetable
 cotton
@@ -1919,30 +1919,30 @@ Chickpea
 Chickpea
 Chickpea
 Pigeonpea
-Jowar
+jowar
 Coriandam
-Jowar
+jowar
 Coriandam
-Jowar
+jowar
 blackgram
-Jowar
+jowar
 blackgram
-Jowar
+jowar
 Coriandam
 Bengalgram
 Unknown
-Jowar
+jowar
 Redgram
 Bengalgram
 Coriandam
 Coriandam
 Bengalgram
-Jowar
-Jowar
+jowar
+jowar
 Bengalgram
 Unknown
 Bengalgram
-Jowar
+jowar
 Bengalgram
 Unknown
 Bengalgram
@@ -1952,7 +1952,7 @@ Bengalgram
 Redgram
 cotton
 Coriandam
-Jowar
+jowar
 Coriandam
 Bengalgram
 Bengalgram
@@ -1961,10 +1961,10 @@ blackgram
 Redgram
 blackgram
 Coriandam
-Jowar
+jowar
 Paddy
-Jowar
-Jowar
+jowar
+jowar
 Senaga
 Jonna
 Jonna
@@ -1975,13 +1975,13 @@ Unknown
 Vari
 Vari
 Jonna
-JOWAR
-Paddy
-Paddy
 jowar
 Paddy
 Paddy
-jowar
+"Paddy,jowar"
+Paddy
+Paddy
+"Paddy,jowar"
 Jonna
 Vari
 cotton
@@ -1989,19 +1989,19 @@ Vari
 Fodder Crops
 Paddy
 Dhanyalu
-Senaga
+"Jonna, Senaga"
 Senaga
 Pogaku
-Mahendra
+Mahendra Jonna
 cotton
 Senaga
 cotton
-Merappa
+Merappa ; Senaga
 Menumu
-Mahendra
-Pacha
-Mahendra
-Jonna
+Mahendra Jonna
+Pacha Jonna
+Mahendra Jonna
+Mahendra Jonna
 Jonna
 Dhanyalu
 Jonna
@@ -2009,9 +2009,9 @@ Jonna
 Senaga
 Senaga
 Fodder Crops
-Pacha
+Pacha Jonna
 Senaga
-Mahendra
+Mahendra Jonna
 Vari
 Senaga
 Jonna
@@ -2021,33 +2021,33 @@ Senaga
 Senaga
 Senaga
 Dhanyalu
-Vari
-Sunflower
-Jonna
-Jonna
-Jonna
-Jonna
-Vari
-Mahendra
-Sunflower
-Mahendra
-Korra
-Vari
-Jonna
-Sunflower
-Vari
-Jonna
-Dhanyalu
-Vari
-Unknown
-Unknown
-Vari
-Vari
 Vari
 sunflower
+Jonna
+Jonna
+Jonna
+Jonna
+Vari
+Mahendra Jonna
+sunflower
+Mahendra Jonna
+"Korra, Maagu"
+Vari
+Jonna
+sunflower
+Vari
+Jonna
 Dhanyalu
-Sunflower
+Vari
+Unknown
+Unknown
+Vari
+Vari
+Vari
+Jonna+ sunflower
 Dhanyalu
+sunflower
+"Dhanyalu , Jonnalu"
 Vari
 Vari
 Vari
@@ -2072,6 +2072,7 @@ Bengalgram
 Paddy
 Paddy
 Paddy
+Jonna/Senaga
 Jonna
 Jonna
 Dhanyalu
@@ -2085,7 +2086,7 @@ Unknown
 Senaga
 Unknown
 Vari
-Jonna
+Mahendra Jonna
 Vari
 Vari
 Vari
@@ -2094,13 +2095,13 @@ Jonna
 Senaga
 Jonna
 Jonna
-Sunflower
-Sunflower
+sunflower
+sunflower
 Erra senaga
 Erra senaga
 Erra senaga
-Sunflower
-Sunflower
+sunflower
+sunflower
 Vari
 Jonna
 Unknown
@@ -2111,67 +2112,67 @@ Pacha Jonna
 Jonna
 Senaga
 Erra senaga
-Sunflower
+sunflower
 Unknown
 Jonna
 Unknown
-Sunflower
-Erra
-Veru senaga
+sunflower
+Erra Jonna
+"Veru senaga, Jonna"
 Senaga
 Erra senaga
 Erra senaga
 Erra senaga
 Jonna
-Peasara
+Peasara + Pacha Gaddi
 Vari
 Vari
 Pacha Jonna
 Pacha Jonna
 cotton
-cotton
-Oniyan
-cotton
-cotton
+"Ground Nat,Cottan"
+"Oniyan,Ground Nat"
 cotton
 cotton
-groundnut
-cotton
-groundnut
-groundnut
-groundnut
-groundnut
-groundnut
-cotton
-"Cottan,Ground Nat"
-cotton
-cotton
-"Cottan,Ground Nat"
-cotton
-groundnut
-groundnut
-groundnut
-"Cottan,Ground Nat"
 cotton
 cotton
 groundnut
-"Cottan ,Groundnat"
+cotton
+ground nut/groundnut
+ground nut/groundnut
+ground nut/groundnut
+groundnut
+ground nut/groundnut
+cotton
+cottan/groundnut
+cotton
+cotton
+cottan/groundnut
 cotton
 groundnut
-"Cottan,Ground Nat"
+groundnut
+groundnut
+cottan/groundnut
 cotton
 cotton
 groundnut
-"Cottan,Ground Nat"
+cottan/groundnut
+cotton
+groundnut
+cottan/groundnut
+cotton
+cotton
+groundnut
+cottan/groundnut
 "Cottan,"
 groundnut
 cotton
-"Groundnut,Cottan"
-"Groundnut,Cottan"
+cottan/groundnut
+cottan/groundnut
 cotton
-"Ground nut,Cottan"
+cottan/groundnut
 cotton
-cotton
+"Cottan,Castral"
 cotton
 groundnut
 cotton
@@ -2217,7 +2218,7 @@ cotton
 cotton
 groundnut
 groundnut
-groundnut
+"GroundNut,Cotton"
 cotton
 groundnut
 cotton
@@ -2225,20 +2226,20 @@ groundnut
 cotton
 groundnut
 cotton
-vegetable
-castor
-Mirchi
-cotton
+"Cotton,Vegitable"
+"Ground nut,castor"
+"Ground nut ,Mirchi"
+"Cotton,Ground Nut"
 groundnut
 cotton
 groundnut
-castor
+"Cotton,castor"
 cotton
 groundnut
+"Cotton,Ground Nut"
 cotton
 cotton
-cotton
-castor
+"Ground nut,castor"
 cotton
 groundnut
 Unknown
@@ -2246,15 +2247,15 @@ groundnut
 cotton
 cotton
 groundnut
-cotton
+"Ground Nut, Cotton"
 groundnut
-jowar
-cotton
-groundnut
+"Ground Nut,jowar"
 cotton
 groundnut
 cotton
-jowar
+"Ground Nut ,Cotton"
+cotton
+"Ground Nut,jowar"
 Unknown
 Unknown
 groundnut
@@ -2278,15 +2279,15 @@ groundnut
 groundnut
 cotton
 cotton
-Unknown
-cotton
-groundnut
-Clastor
-Unknown
 Unknown
 cotton
 groundnut
 Clastor
+Unknown
+Unknown
+cotton
+groundnut
+Clastor
 cotton
 cotton
 groundnut
@@ -2313,7 +2314,7 @@ cotton
 cotton
 cotton
 cotton
-cotton
+"Cotton,Groundnut"
 cotton
 cotton
 groundnut
@@ -3511,9 +3512,9 @@ Banana/coconut
 Banana/coconut
 Banana/coconut
 Banana/coconut
-maize
-Chilli
-maize
+Maize/paddy
+Chilli Papaya
+Maize/paddy
 maize
 maize
 maize
@@ -3619,14 +3620,14 @@ maize
 maize
 maize
 maize
-maize
-maize
-maize
-maize
-maize
-maize
-maize
-maize
+Paddy Maize
+Maize/Horti
+Cotton/Maize
+Cotton/Maize
+Cotton/Maize
+Paddy Maize
+Paddy Maize
+Paddy Maize
 paddy
 paddy
 paddy
@@ -3637,7 +3638,7 @@ Paddy
 paddy
 maize
 maize
-Unknown
+ 
 maize
 Coconut
 Coconut
@@ -3650,9 +3651,9 @@ Coconut
 Coconut
 Coconut
 Coconut
-sugarcane
-sugarcane
-sugarcane
+Paddy Sugercane
+Paddy Sugercane
+Paddy Sugercane
 Paddy
 Paddy
 Paddy
@@ -3684,23 +3685,23 @@ Cashew
 Paddy
 Paddy
 Paddy
-Ragi
-Ragi
+Paddy/Ragi
+Paddy/Ragi
 Paddy
 Paddy
 Paddy
 Paddy
 Paddy
-Paddy
-Paddy
-Paddy
-Paddy
-Paddy
+Paddy/G.nut
+Paddy/G.nut
+Paddy/G.nut
+Paddy/G.nut
+Paddy/G.nut
 Cashew
 Cashew
 Cashew
 Cashew
-Ragi
+Paddy/Ragi
 Paddy
 Paddy
 Paddy
@@ -3781,31 +3782,31 @@ Paddy/ Sugarcane
 Paddy/ Sugarcane
 Paddy/ Sugarcane
 Paddy/ Sugarcane
-suger cane 
-suger cane 
-suger cane 
-suger cane 
+sugarcane
+sugarcane
+sugarcane
+sugarcane
 paddy
 paddy
-suger cane 
-suger cane 
+sugarcane
+sugarcane
 paddy
 paddy
 paddy
 paddy
-suger cane 
+sugarcane
 paddy
-suger cane 
-suger cane 
-suger cane 
-suger cane 
-suger cane 
-suger cane 
-suger cane 
-suger cane 
-suger cane 
-suger cane 
-suger cane 
+sugarcane
+sugarcane
+sugarcane
+sugarcane
+sugarcane
+sugarcane
+sugarcane
+sugarcane
+sugarcane
+sugarcane
+sugarcane
 sugarcane
 sugarcane
 sugarcane
@@ -4054,11 +4055,11 @@ Unknown
 Ragi
 maize
 Paddy
-Mango(Intercrop Ragi)
+"Mango(Intercrop Ragi,)"
 cashew
 Mango(Intercrop Ragi)
 maize
-Mango(Intercrop Ragi)
+Mango(Inter Crop Ragi)
 redgram
 Mango (Inter Crop Red Gram And Ragi)
 Paddy
@@ -4085,7 +4086,7 @@ Paddy
 maize
 Sesamum
 cashew
-Mango(Intercrop Ragi)
+Mango(Inter Crop Ragi)
 Paddy
 Paddy
 Sesamum
@@ -4320,7 +4321,7 @@ maize
 maize
 Paddy
 maize
-maize
+ Maize
 Paddy
 maize
 Paddy
@@ -4812,6 +4813,4 @@ oilpalm
 maize
 Cashew
 maize
-Paddy
-
 Paddy
