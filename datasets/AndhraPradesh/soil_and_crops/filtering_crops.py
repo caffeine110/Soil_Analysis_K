@@ -1,13 +1,12 @@
-import pandas as pd
-import numpy as np
-
+#or row['Crop_before']==
 import csv
-fieldnames = ['Crop_before']
-writeFile = open('newTry.csv', 'w', newline='')
 
-with open('only_crops.csv') as csvfile:
+fieldnames = ['Crop_before']
+writeFile = open('CROPS.csv', 'w', newline='')
+
+with open('stemed_crops.csv') as csvfile:
     reader = csv.DictReader(csvfile)
-    
+
     writer = csv.DictWriter(writeFile, fieldnames)
     writer.writeheader()
     for row in reader:
@@ -16,13 +15,19 @@ with open('only_crops.csv') as csvfile:
             row['Crop_before']=='GroundNut' or row['Crop_before']=='Ground nut' or
             row['Crop_before']=='Groundnut' or row['Crop_before']=='G.Nut' or
             row['Crop_before']=='Grounat' or row['Crop_before']=='groundnut' or
-            row['Crop_before']=='ground nut' or row['Crop_before']=='Ground Nat'):
+            row['Crop_before']=='ground nut' or row['Crop_before']=='Ground Nat' or
+            row['Crop_before']=='ground nut/groundnut'):
             row['Crop_before'] = 'groundnut'
             writer.writerow(row)
             
             
         elif ( row['Crop_before']=='Cottan,Ground Nat' or row['Crop_before']=='Ground nut,Cottan' or
-              row['Crop_before']=='Cottan ,Groundnat' or row['Crop_before']=='Groundnut,Cottan'):
+              row['Crop_before']=='Cottan ,Groundnat' or row['Crop_before']=='Groundnut,Cottan' or 
+              row['Crop_before']=='Cotton/Ground Nut' or row['Crop_before']=='Cotton/Ground Nut'  or
+              row['Crop_before']=='Cotton/Groundnut'  or row['Crop_before']=='cottan/groundnut' or
+              row['Crop_before']=='Ground Nat/Cottan'  or row['Crop_before']=='Ground Nut /Cotton'  or
+              row['Crop_before']=='Ground Nut/ Cotton' or row['Crop_before']=='GroundNut/Cotton' or
+              row['Crop_before']=='cottan/groundnut'):
             row['Crop_before'] = 'cottan/groundnut'
             writer.writerow(row)
 
@@ -39,7 +44,7 @@ with open('only_crops.csv') as csvfile:
             row['Crop_before'] = 'horsegram'
             writer.writerow(row)
 
-        elif ( row['Crop_before']=='SUGER CANE ' or row['Crop_before']=='Sugar Cane' or
+        elif ( row['Crop_before']=='SUGER CANE ' or row['Crop_before']=='Sugar Cane' or row['Crop_before']== 'Cane' or
               row['Crop_before']=='Sugarcane' or row['Crop_before']=='suger cane' or
               row['Crop_before']=='Sugarcane ' or row['Crop_before']=='Sugercane' or row['Crop_before']=='suger cane '):
               row['Crop_before'] = 'sugarcane'
@@ -50,7 +55,7 @@ with open('only_crops.csv') as csvfile:
             writer.writerow(row)
 
         elif ( row['Crop_before']=='Topioca' or row['Crop_before']=='Topioca  ' or row['Crop_before']== 'Topica'):
-            row['Crop_before'] = 'paddy'
+            row['Crop_before'] = 'Topica'
             writer.writerow(row)
 
         elif ( row['Crop_before']=='Mulbarry' or row['Crop_before']=='Mulberrry  ' or row['Crop_before']== 'Mulberry'):
@@ -70,7 +75,8 @@ with open('only_crops.csv') as csvfile:
             row['Crop_before'] = 'greengram'
             writer.writerow(row)
 
-        elif ( row['Crop_before']=='paddy' or row['Crop_before']=='paddy  '):
+        elif ( row['Crop_before']=='paddy' or row['Crop_before']=='paddy  '  or row['Crop_before']=='Paady' or row['Crop_before']=='Paddy' or 
+            row['Crop_before']=='Paddy ' ):
             row['Crop_before'] = 'paddy'
             writer.writerow(row)
 
@@ -82,6 +88,11 @@ with open('only_crops.csv') as csvfile:
             row['Crop_before'] = 'redgram'
             writer.writerow(row)
 
+        elif ( row['Crop_before']=='Jonna/Senaga' or row['Crop_before']=='Jonna+ sunflower' or row['Crop_before']=='Mahendra Jonna' or
+              row['Crop_before']=='Pacha Jonna' or row['Crop_before']=='Pacha Jonna' or 'Peasara + Pacha Gaddi'):
+            row['Crop_before'] = 'jonna'
+            writer.writerow(row)
+
         elif ( row['Crop_before']=='Vegetable' or row['Crop_before']=='Vegetables' or row['Crop_before']=='Vegitable'):
             row['Crop_before'] = 'vegetable'
             writer.writerow(row)
@@ -89,6 +100,11 @@ with open('only_crops.csv') as csvfile:
         elif ( row['Crop_before']=='JOWAR' or row['Crop_before']=='jowar' or row['Crop_before']=='Jowar'):
             row['Crop_before'] = 'jowar'
             writer.writerow(row)
+
+        elif ( row['Crop_before']=='Paddy/G.nut' or row['Crop_before']=='Paddy/G.gram' or row['Crop_before']=='Paddy/Maize/G.N'):
+            row['Crop_before'] = 'paddy/groundnut'
+            writer.writerow(row)
+
 
         elif ( row['Crop_before']=='Eucaliptus' or row['Crop_before']=='Eucalyptus'):
             row['Crop_before'] = 'eucalyptus'
@@ -99,6 +115,11 @@ with open('only_crops.csv') as csvfile:
             row['Crop_before'] = 'yam'
             writer.writerow(row)
 
+        elif ( row['Crop_before']=='Onian' or row['Crop_before']=='Oniyan'):
+            row['Crop_before'] = 'onion'
+            writer.writerow(row)
+
+
         elif ( row['Crop_before']=='chill' or row['Crop_before']=='Cowpea'):
             row['Crop_before'] = 'cowpea'
             writer.writerow(row)
@@ -108,9 +129,20 @@ with open('only_crops.csv') as csvfile:
             writer.writerow(row)
 
 
-
         elif ( row['Crop_before']=='Oil Palm ' or row['Crop_before']=='Oil Palm'):
             row['Crop_before'] = 'oilpalm'
+            writer.writerow(row)
+
+        elif ( row['Crop_before']=='Turmaric' or row['Crop_before']=='Turmeric'):
+            row['Crop_before'] = 'turmaric'
+            writer.writerow(row)
+
+        elif ( row['Crop_before']=='Sesamum' or row['Crop_before']=='Sesumum'):
+            row['Crop_before'] = 'turmaric'
+            writer.writerow(row)
+
+        elif ( row['Crop_before']=='-' or row['Crop_before']=='Unknown' or row['Crop_before']=='Unknown ' ):
+            row['Crop_before'] = 'unknown'
             writer.writerow(row)
 
 

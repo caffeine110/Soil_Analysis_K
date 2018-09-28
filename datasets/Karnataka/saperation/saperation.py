@@ -46,7 +46,7 @@ def main():
 
     ##########################################################################
     # for complete details
-    filepath = 'datasets/Karnataka/complete.csv'
+    filepath = 'datasets/Karnataka/complete_details.csv'
     df_full = pd.read_csv(filepath)
     
     #print("File << original_details.csv >> not found")
@@ -60,7 +60,7 @@ def main():
 
     ##########################################################################
     ####  For User Details
-    filepath_n = 'datasets/Karnataka/complete.csv'
+    filepath_n = 'datasets/Karnataka/complete_details.csv'
     df_user = pd.read_csv(filepath_n, usecols = ['card_no', 'farmer_number', 'sau',
                                                'state','district', 'taluk','village',
                                                'farmer_name','survey_number', 'soil_type','authority'])
@@ -73,7 +73,7 @@ def main():
 
     ##########################################################################
     ####  For Soil Parametersig
-    filepath_n = 'datasets/Karnataka/complete.csv'
+    filepath_n = 'datasets/Karnataka/complete_details.csv'
     df_soil = pd.read_csv(filepath_n, usecols = ['ph', 'ec', 'oc', 'av_p', 'av_k',
                                           'av_s','av_zn', 'av_b', 'av_fe','av_cu', 'av_mn','crop'])
 
@@ -87,7 +87,7 @@ def main():
 
     ##########################################################################
     ####  For soil types
-    filepath_n = 'datasets/Karnataka/complete.csv'
+    filepath_n = 'datasets/Karnataka/complete_details.csv'
     df_soil = pd.read_csv(filepath_n, usecols = ['soil_type'])
 
 
