@@ -21,15 +21,13 @@ to      :
 
 
 import pandas as pd
-import os
+#import os
 
-
-field_names = ['Sl_no', 'Date', 'Farmer_No', 'Macro/Micro-nutrient', 'Farmer_Name',
+field_names = ['Sl_no', 'Date', 'Farmer_No', 'Macro/Micro_nutrient', 'Farmer_Name',
        'District', 'Mandal', 'Village', 'Latitude', 'Longitude', 'Survey_No',
-       'Soil_type', 'Fathers_Name', 'Extent-AC', 'Crop_before', 'pH', 'EC',
-       'OC', 'Avail-P', 'Exch-K', 'Avail-Ca', 'Avail-Mg', 'Avail-S',
-       'Avail-Zn', 'Avail-B', 'Avail-Fe', 'Avail-Cu', 'Avail-Mn', 'Time']
-
+       'Soil_type', 'Fathers_Name', 'Extent_AC', 'Crop_type', 'pH', 'EC',
+       'OC', 'Avail_P', 'Exch_K', 'Avail_Ca', 'Avail_Mg', 'Avail_S',
+       'Avail_Zn', 'Avail_B', 'Avail_Fe', 'Avail_Cu', 'Avail_Mn', 'Time']
 
 
 class Exctraction(object):
@@ -44,70 +42,47 @@ class Exctraction(object):
 def main():
 
     # for complete details
-    filepath = 'datasets/AndhraPradesh/complete_details_ap.csv'
-    df_full = pd.read_csv(filepath)
-    
+    filepath = 'datasets/AndhraPradesh/down_to_csv/original_details_ap.csv'
+    df_full = pd.read_csv(filepath, delimiter=";")
+
+    df_full.columns    
 
     obj_full = Exctraction(df_full)
     obj_full.removeDuplicate(df_full)
-    filepath_n = 'datasets/AndhraPradesh/complete_details_ap.csv'
+    filepath_n = 'datasets/AndhraPradesh/new_complete_details_ap.csv'
     df_full.to_csv(filepath_n , index = False)
 
 
 
     ###################################################################
     ####  For User Details
-    filepath_n = 'datasets/AndhraPradesh/complete_details_ap.csv'
+    filepath = 'datasets/AndhraPradesh/new_complete_details_ap.csv'
     
-    df_user = pd.read_csv(filepath_n, usecols = ['Sl_no', 'Date', 'Farmer_No',
-                                                 'Macro/Micro-nutrient','Farmer_Name', 
-                                                 'District','Mandal','Village','Latitude', 
-                                                 'Longitude','Survey_No','Fathers_Name','Time','Crop_before'])
+    df_user = pd.read_csv(filepath, usecols = ['Sl_no', 'Date', 'Farmer_No', 'Macro/Micro_nutrient',
+                                               'Farmer_Name','District', 'Mandal', 'Village',
+                                               'Survey_No','Soil_type','Fathers_Name','Crop_type','Time'])
 
 
-    filepath_to_save_user = 'datasets/AndhraPradesh/user_details.csv'
+    filepath_to_save_user = 'datasets/AndhraPradesh/saperation/user_details.csv'
     df_user.to_csv(filepath_to_save_user, index = False)
 
 
 
 
     ###################################################################
-    ####  For Soil Parametersig
+    ####  For Soil Parameters
+    filepath = 'datasets/AndhraPradesh/new_complete_details_ap.csv'
+    df_soil = pd.read_csv(filepath, usecols = ['Latitude', 'Longitude', 'Soil_type', 'Crop_type',
+                                               'pH', 'EC','OC', 'Avail_P', 'Exch_K','Avail_Ca',
+                                               'Avail_Mg', 'Avail_S','Avail_Zn', 'Avail_B',
+                                               'Avail_Fe', 'Avail_Cu', 'Avail_Mn' ])
 
-    filepath_n = 'datasets/AndhraPradesh/complete_details_ap.csv'
-    df_soil = pd.read_csv(filepath_n, usecols = ['Latitude','Longitude','pH', 'EC', 'pH', 'Avail-P',
-                                                 'Exch-K', 'Avail-Ca', 'Avail-Mg', 
-                                                 'Avail-Zn', 'Avail-Fe', 'Avail-Cu', 
-                                                 'Avail-Mn'])
 
-    df_soil['Crop_Label'] = df_user['Crop_before']
-    
-        
-    filepath_to_save_soil_para = 'datasets/AndhraPradesh/soil_parameters.csv'
+    filepath_to_save_soil_para = 'datasets/AndhraPradesh/saperation/soil_parameters.csv'
     df_soil.to_csv(filepath_to_save_soil_para, index = False)
 
 
-    #################################################################################
-    ############################# only crops
-
-    filepath_crops = 'datasets/AndhraPradesh/complete_details_ap.csv'
-    df_crop = pd.read_csv(filepath_crops, usecols = ['Crop_before'])
     
-        
-    filepath_to_save_only_crops = 'datasets/AndhraPradesh/soil_and_crops/only_crops.csv'
-    df_crop.to_csv(filepath_to_save_only_crops, index = False)
-    
-    ################################################################################
-    ############################# only soil types
-
-    filepath_crops = 'datasets/AndhraPradesh/complete_details_ap.csv'
-    df_crop = pd.read_csv(filepath_crops, usecols = ['Soil_type'])
-    
-        
-    filepath_to_save_only_crops = 'datasets/AndhraPradesh/soil_and_crops/only_soil_types.csv'
-    df_crop.to_csv(filepath_to_save_only_crops, index = False)
-    
-    ################################################################################
 
 
 if __name__ == "__main__":

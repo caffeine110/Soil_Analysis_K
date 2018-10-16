@@ -1,14 +1,17 @@
 import csv
 
-fieldnames = ['Soil_type']
-writeFile = open('SOIL.csv', 'w', newline='')
+field_names_soil_para = ['Latitude', 'Longitude', 'Soil_type', 'Crop_type', 'pH', 'EC',
+                         'OC','Avail_P', 'Exch_K', 'Avail_Ca', 'Avail_Mg', 'Avail_S', 
+                         'Avail_Zn','Avail_B', 'Avail_Fe', 'Avail_Cu', 'Avail_Mn']
+
+writeFile = open('datasets/AndhraPradesh/preprocessing/SOIL.csv', 'w', newline='')
 
 
 
-with open('only_soil_types.csv') as csvfile:
+with open('datasets/AndhraPradesh/preprocessing/processed_soil_para.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     
-    writer = csv.DictWriter(writeFile, fieldnames)
+    writer = csv.DictWriter(writeFile, field_names_soil_para)
     writer.writeheader()
     
     for row in reader:
