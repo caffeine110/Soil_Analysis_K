@@ -3,7 +3,15 @@
 """
 Created on Thu Oct 11 16:12:34 2018
 
-@author: gaurav
+
+AIM : to saperate Crops and Soil parameters for analysis
+    : 
+
+
+    INput file : datasets/AndhraPradesh/preprocessing/processed_soil_para.csv
+
+    output file :datasets/AndhraPradesh/soil_and_crops/only_crops.csv
+                datasets/AndhraPradesh/soil_and_crops/only_soil_types.csv
 
 """
 

@@ -1,3 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep 13 23:37:47 2018
+
+@author : gaurav gaurav
+        : caffeine110
+        
+AIM     : Ecctraction of User data and Soil data from processed  data File
+        : To Analyse the soil Data in AndhraPradesh State and its compatibility, fertility,
+          and predict the best fit crop for that soil
+          
+
+
+to      : Input file : datasets/AndhraPradesh/down_to_csv/original_details_ap.csv
+
+        : 2nd INput file:  datasets/AndhraPradesh/new_complete_details_ap.csv
+            
+        : user details : user_details.csv
+        : soil details : soil_parameters.csv
+
+        : 
+"""
+
+
+
 import csv
 
 field_names_soil_para = ['Latitude', 'Longitude', 'Soil_type', 'Crop_type', 'pH', 'EC',

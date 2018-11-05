@@ -1,9 +1,38 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep 13 23:37:47 2018
+
+        
+AIM     : Ecctraction of User data and Soil data from processed  data File
+        : To Analyse the soil Data in AndhraPradesh State and its compatibility, fertility,
+          and predict the best fit crop for that soil
+          
+
+
+to      : Input file : datasets/AndhraPradesh/preprocessing/processed_soil_para.csv'
+
+        : 2nd INput file:  datasets/AndhraPradesh/new_complete_details_ap.csv
+            
+        : user details : datasets/AndhraPradesh/preprocessing/CROPS.csv
+        : soil details : soil_parameters.csv
+
+        : 
+"""
+
+
+
+
+# all parameters form downloaded data
+# all paremeters...
 field_names = ['Sl_no', 'Date', 'Farmer_No', 'Macro/Micro_nutrient', 'Farmer_Name',
        'District', 'Mandal', 'Village', 'Latitude', 'Longitude', 'Survey_No',
        'Soil_type', 'Fathers_Name', 'Extent_AC', 'Crop_type', 'pH', 'EC',
        'OC', 'Avail_P', 'Exch_K', 'Avail_Ca', 'Avail_Mg', 'Avail_S',
        'Avail_Zn', 'Avail_B', 'Avail_Fe', 'Avail_Cu', 'Avail_Mn', 'Time']
 
+
+# only SOil parameters
 field_names_soil_para = ['Latitude', 'Longitude', 'Soil_type', 'Crop_type', 'pH', 'EC',
                          'OC','Avail_P', 'Exch_K', 'Avail_Ca', 'Avail_Mg', 'Avail_S', 
                          'Avail_Zn','Avail_B', 'Avail_Fe', 'Avail_Cu', 'Avail_Mn']
@@ -12,14 +41,27 @@ field_names_soil_para = ['Latitude', 'Longitude', 'Soil_type', 'Crop_type', 'pH'
 
 import csv
 
+# to save Crops in CROPS.csv file
+# write data in writeFIle
 writeFile = open('datasets/AndhraPradesh/preprocessing/CROPS.csv', 'w', newline='')
 
+
+# open file processed_soil_para.ccsv
 with open('datasets/AndhraPradesh/preprocessing/processed_soil_para.csv') as csvfile:
     reader = csv.DictReader(csvfile)
 
+    #create an object writer 
+    # DictWriter is dictionary wirteer
+    # which write row as dict
+    
     writer = csv.DictWriter(writeFile, field_names_soil_para)
     writer.writeheader()
+    
+    # for loop to iterate in file text (reader)
     for row in reader:
+        
+        # for convinience and backup
+        # if any error occurs print original
         original = row        
 
         if ( row['Crop_type']=='GROUND NUT' or row['Crop_type']=='Ground Nut' or 

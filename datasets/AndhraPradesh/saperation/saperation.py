@@ -7,15 +7,19 @@ Created on Thu Sep 13 23:37:47 2018
         : caffeine110
         
 AIM     : Ecctraction of User data and Soil data from processed  data File
-        : To Analyse the soil Data in Karnataka State and its compatibility, fertility,
+        : To Analyse the soil Data in AndhraPradesh State and its compatibility, fertility,
           and predict the best fit crop for that soil
           
 
 
-to      :
+to      : Input file : datasets/AndhraPradesh/down_to_csv/original_details_ap.csv
+
+        : 2nd INput file:  datasets/AndhraPradesh/new_complete_details_ap.csv
+            
         : user details : user_details.csv
         : soil details : soil_parameters.csv
 
+        : 
 """
 
 
@@ -42,27 +46,40 @@ class Exctraction(object):
 def main():
 
     # for complete details
+    # take original_details_ap.csv as input
+    
     filepath = 'datasets/AndhraPradesh/down_to_csv/original_details_ap.csv'
     df_full = pd.read_csv(filepath, delimiter=";")
 
+    # to display columns in data
     df_full.columns    
 
     obj_full = Exctraction(df_full)
     obj_full.removeDuplicate(df_full)
+    
+    # save data to file new_complete_details_ap.csv
+
     filepath_n = 'datasets/AndhraPradesh/new_complete_details_ap.csv'
+
+    # index = False ; not to store index of each row
     df_full.to_csv(filepath_n , index = False)
+    
 
 
 
     ###################################################################
     ####  For User Details
+    
+    # input file : new_complete_details_ap.csv
+    
     filepath = 'datasets/AndhraPradesh/new_complete_details_ap.csv'
     
+    # usecols to open only selected columns
     df_user = pd.read_csv(filepath, usecols = ['Sl_no', 'Date', 'Farmer_No', 'Macro/Micro_nutrient',
                                                'Farmer_Name','District', 'Mandal', 'Village',
                                                'Survey_No','Soil_type','Fathers_Name','Crop_type','Time'])
 
-
+    # save user_details in User_details.csv file
     filepath_to_save_user = 'datasets/AndhraPradesh/saperation/user_details.csv'
     df_user.to_csv(filepath_to_save_user, index = False)
 
@@ -71,13 +88,19 @@ def main():
 
     ###################################################################
     ####  For Soil Parameters
+    
+    #input file: new_complete_details_ap.csv
+    
     filepath = 'datasets/AndhraPradesh/new_complete_details_ap.csv'
+    
+    # usecols to select only soil para
     df_soil = pd.read_csv(filepath, usecols = ['Latitude', 'Longitude', 'Soil_type', 'Crop_type',
                                                'pH', 'EC','OC', 'Avail_P', 'Exch_K','Avail_Ca',
                                                'Avail_Mg', 'Avail_S','Avail_Zn', 'Avail_B',
                                                'Avail_Fe', 'Avail_Cu', 'Avail_Mn' ])
 
 
+    # store soil parameters in Soil_parameters.csv file
     filepath_to_save_soil_para = 'datasets/AndhraPradesh/saperation/soil_parameters.csv'
     df_soil.to_csv(filepath_to_save_soil_para, index = False)
 
@@ -88,3 +111,8 @@ def main():
 if __name__ == "__main__":
     #calling Main function
     main()
+    
+    
+    
+    
+    
