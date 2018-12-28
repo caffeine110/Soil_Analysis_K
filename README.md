@@ -1,6 +1,3 @@
-############################################################################################################################
-
-
 AIM 	: Evaluation of predictive data mining alg orithms in soil data classification for opimized crop recomandation.
 
 
