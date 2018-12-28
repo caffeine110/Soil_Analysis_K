@@ -1,4 +1,5 @@
-AIM 	: Evaluation of predictive data mining alg orithms in soil data classification for opimized crop recomandation.
+## AIM : 
+Evaluation of predictive data mining alg orithms in soil data classification for opimized crop recomandation.
 
 
 ## Introduction
