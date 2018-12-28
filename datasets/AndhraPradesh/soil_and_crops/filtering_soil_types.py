@@ -30,104 +30,103 @@ field_names_soil_para = ['Latitude', 'Longitude', 'Soil_type', 'Crop_type', 'pH'
                          'OC','Avail_P', 'Exch_K', 'Avail_Ca', 'Avail_Mg', 'Avail_S', 
                          'Avail_Zn','Avail_B', 'Avail_Fe', 'Avail_Cu', 'Avail_Mn']
 
-writeFile = open('datasets/AndhraPradesh/preprocessing/SOIL.csv', 'w', newline='')
+writeFile = open('SOIL_filtered.csv', 'w', newline='')
 
 
 
-with open('datasets/AndhraPradesh/preprocessing/processed_soil_para.csv') as csvfile:
+with open('only_soil_types.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     
     writer = csv.DictWriter(writeFile, field_names_soil_para)
     writer.writeheader()
     
     for row in reader:
-        other = row
-        if ( row['Soil_type']=='   Black' or row['Soil_type']==' Black' or row['Soil_type']=='-' or
-            row['Soil_type']=='BLACK' or row['Soil_type']=='Black' or row['Soil_type']=='Black ' or
-            row['Soil_type']=='Black  '  or row['Soil_type']=='black soil' or row['Soil_type']=='black' or
-            row['Soil_type']=='black soil' or row['Soil_type']=='Black Soil' or row['Soil_type']=='Black soil'):
-            row['Soil_type'] = 'black'
-            writer.writerow(row)
+        original = row
+        soil_type = row['Soil_type']
+
+        black = [ '   Black' ' Black' '-','BLACK' 'Black' 'Black ','Black  '  'black soil' 'black',
+                 'black soil' 'Black Soil' 'Black soil' ] 
 
             
-        elif ( row['Soil_type']==' Red'  or row['Soil_type']=='Red' or row['Soil_type']=='RED'  or
-              row['Soil_type']=='Red '  or row['Soil_type']=='Red Soils' or row['Soil_type']=='Red soil' or
-              row['Soil_type']=='Red Soil'  or row['Soil_type']=='Redsoil' or row['Soil_type']=='red soil' or
-              row['Soil_type']=='res soil'  or row['Soil_type']=='red'):
-            row['Soil_type'] = 'redsoil'
-            writer.writerow(row)
+        red = [ ' Red'  'Red' 'RED' ,'Red '  'Red Soils' 'Red soil','Red Soil'  'Redsoil' 'red soil',
+         'res soil'  'red' ]
+        if soil_type in red:
+            soil_type = ''
 
-        elif ( row['Soil_type']=='SAND'  or row['Soil_type']=='Sand' or row['Soil_type']=='Sand +Chowdu'  or
-              row['Soil_type']=='Sand +Ondu'  or row['Soil_type']=='Sand+Ondu+White'  or row['Soil_type']=='Sandi soil' or
-              row['Soil_type']=='Sandy'  or row['Soil_type']=='Sandy ' or row['Soil_type']=='sand' or row['Soil_type']=='Sandy soil'):
-            row['Soil_type'] = 'sandy'
-            writer.writerow(row)
-
-        elif ( row['Soil_type']=='Red Sandy'  or row['Soil_type']=='Red Sandy '  or row['Soil_type']=='Red Sandy Loam'  or
-              row['Soil_type']=='Red sandy'  or row['Soil_type']=='Red sandy loam'  or row['Soil_type']=='Sandy Red' or
-              row['Soil_type']=='red sandy'  or row['Soil_type']=='red sandy\\'  or row['Soil_type']=='sand' or
-              row['Soil_type']=='Red  Sandy'):
-            row['Soil_type'] = 'redsandy'
-            writer.writerow(row)
+    
+        sand =[ 'SAND'  'Sand' 'Sand +Chowdu' ,
+              'Sand +Ondu'  'Sand+Ondu+White'  'Sandi soil',
+              'Sandy'  'Sandy ' 'sand' 'Sandy soil' ] 
+        if soil_type in sand:
+            soil_type = 'sand'
 
 
-        elif( row['Soil_type']=='Chowdu +Nalla regadi'  or row['Soil_type']=='Black, chowdu'  or
-             row['Soil_type']=='Cashewnut'  or row['Soil_type']=='Chowdu'  or row['Soil_type']=='Chowdu + Black' or
-             row['Soil_type']=='Chowdu +Black'  or  row['Soil_type']=='Chowdu +Nalla regadi' or 
-             row['Soil_type']=='Chowdu Sudda'  or row['Soil_type']=='Chowdu+ Nalla regadi' or
-             row['Soil_type']=='Chowdu+ Red'  or row['Soil_type']=='Garuku'  or row['Soil_type']=='Gurugu ' or row['Soil_type']=='Chowdu + Nalla regadi'):
-            row['Soil_type'] = 'chowdu'
-            writer.writerow(row)
+        redsandy = [ 'Red Sandy'  'Red Sandy '  'Red Sandy Loam' ,
+              'Red sandy'  'Red sandy loam'  'Sandy Red',
+              'red sandy'  'red sandy\\'  'sand',
+              'Red  Sandy' ]
+        if soil_type in redsandy:
+            soil_type = 'redsandy'
 
 
-        elif( row['Soil_type']=='Sandy Loam'  or  row['Soil_type']=='Sandy Loam '  or
-            row['Soil_type']=='Sandy loam' or row['Soil_type']=='Sandyloam' or row['Soil_type']=='sandy loam'):
-            row['Soil_type'] = 'sandyloam'
-            writer.writerow(row)
+        chowdu = [ 'Chowdu +Nalla regadi'  'Black, chowdu' ,
+             'Cashewnut'  'Chowdu'  'Chowdu + Black',
+             'Chowdu +Black' ,  'Chowdu +Nalla regadi', 
+             'Chowdu Sudda'  'Chowdu+ Nalla regadi',
+             'Chowdu+ Red'  'Garuku'  'Gurugu ' 'Chowdu + Nalla regadi']
+        if soil_type in chowdu:
+            soil_type = 'chowdu'
 
-        elif( row['Soil_type']=='Nalla regadi'  or  row['Soil_type']=='Red + Nalla regadi'  or
-            row['Soil_type']=='Nalla savudu' or row['Soil_type']=='Nalla regadi + chowdu' ):
-            row['Soil_type'] = 'nalla'
-            writer.writerow(row)
 
-        elif( row['Soil_type']=='black sandy' or row['Soil_type']=='black sandy '  or row['Soil_type']=='blacksandy' or
-             row['Soil_type']=='Black Sandy' ):
-            row['Soil_type'] = 'blacksandy'
-            writer.writerow(row)
+        sandyloam = [ 'Sandy Loam' ,  'Sandy Loam ' ,
+            'Sandy loam' 'Sandyloam' 'sandy loam']
+        if soil_type in sandyloam:
+            soil_type = 'sandyloam'
+
+        nallaregadi = [ 'Nalla regadi' ,  'Red + Nalla regadi' ,
+            'Nalla savudu' 'Nalla regadi + chowdu' ]
+        if soil_type in nallaregadi:
+            soil_type = 'nallaregadi'
+
+        blacksandy = [ 'black sandy' 'black sandy '  'blacksandy',
+             'Black Sandy' ]
+        if soil_type in blacksandy:
+            soil_type = 'blacksandy'
             
-        elif( row['Soil_type']=='Claim' or row['Soil_type']=='Clay'  or row['Soil_type']=='Clay Sandy' or
-             row['Soil_type']=='Black Clay' or row['Soil_type']=='Black Clay ' or row['Soil_type']=='clayey loam'):
-            row['Soil_type'] = 'clay'
-            writer.writerow(row)
+        clay =[ 'Claim', 'Clay'  'Clay Sandy','Black Clay' 'Black Clay ' 'clayey loam']
+        if soil_type in clay:
+            soil_type = 'clay'
 
-        elif( row['Soil_type']=='Brown ' or row['Soil_type']=='Brown Clay'  or row['Soil_type']=='Brown Dark' or
-             row['Soil_type']=='Brown Light' or row['Soil_type']=='Light Broiwn' or row['Soil_type']=='Light Brown' or
-             row['Soil_type']=='Broan Clay'):
-            row['Soil_type'] = 'brown'
-            writer.writerow(row)
+        brown = [ 'Brown ' 'Brown Clay'  'Brown Dark',
+             'Brown Light' 'Light Broiwn' 'Light Brown',
+             'Broan Clay']
+        if soil_type in brown:
+            soil_type = 'brown'
 
-        elif( row['Soil_type']=='Mixed soil' or row['Soil_type']=='Black & Mooru'  or row['Soil_type']=='Black & Red' or
-             row['Soil_type']=='Black + Chowdu' or row['Soil_type']=='Black Clay ' or row['Soil_type']=='Tella masaka' or
-             row['Soil_type']=='Thella kattu' or row['Soil_type']=='Erra maska'):
-            row['Soil_type'] = 'mix'
-            writer.writerow(row)
+        mixed = [ 'Mixed soil' 'Black & Mooru'  'Black & Red',
+             'Black + Chowdu' 'Black Clay ' 'Tella masaka',
+             'Thella kattu' 'Erra maska']
+        if soil_type in mixed:
+            soil_type = 'mixed'
 
-        elif( row['Soil_type']=='Rox Soil'  or row['Soil_type']=='Rock soil'  or row['Soil_type']=='Sowdu'):
-            row['Soil_type'] = 'soudu'
-            writer.writerow(row)
+        rock = [ 'Rox Soil' , 'Rock soil'  ,'Sowdu']
+        if soil_type in rock:
+            soil_type = 'rock'
 
-        elif( row['Soil_type']=='Sudda'  or row['Soil_type']=='Rock soil' ):
-            row['Soil_type'] = 'rock'
-            writer.writerow(row)
+        sudha = [ 'Sudda'  'Rock soil' ]
+        if soil_type in sudha:
+            soil_type = 'sudha'
 
-        elif(['Soil_type']=='Saline Soil' or  row['Soil_type']=='Saline soil'):
-            row['Soil_type'] = 'saline'
-            writer.writerow(row)
+        saline = ['Saline Soil',  'Saline soil']
+        if soil_type in saline:
+            soil_type = 'saline'
 
 
-        elif( row['Soil_type']==''  or row['Soil_type']=='Sudda Neela'  or row['Soil_type']=='Sowdu'):
-            row['Soil_type'] = 'soudu'
-            writer.writerow(row)
-
-        else:
-            writer.writerow(other)
+        sudda = [ '' , 'Sudda Neela'  'Sowdu']
+        if soil_type in sudda:
+            soil_type = 'sudda'
+            
+        
+        new_row = {'Soil_type':soil_type}
+        writer.writerow(new_row)
+        print(new_row)

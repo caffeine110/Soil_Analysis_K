@@ -25,185 +25,174 @@ to      : Input file : datasets/AndhraPradesh/preprocessing/processed_soil_para.
 
 # all parameters form downloaded data
 # all paremeters...
-field_names = ['Sl_no', 'Date', 'Farmer_No', 'Macro/Micro_nutrient', 'Farmer_Name',
-       'District', 'Mandal', 'Village', 'Latitude', 'Longitude', 'Survey_No',
-       'Soil_type', 'Fathers_Name', 'Extent_AC', 'Crop_type', 'pH', 'EC',
-       'OC', 'Avail_P', 'Exch_K', 'Avail_Ca', 'Avail_Mg', 'Avail_S',
-       'Avail_Zn', 'Avail_B', 'Avail_Fe', 'Avail_Cu', 'Avail_Mn', 'Time']
-
-
-# only SOil parameters
-field_names_soil_para = ['Latitude', 'Longitude', 'Soil_type', 'Crop_type', 'pH', 'EC',
-                         'OC','Avail_P', 'Exch_K', 'Avail_Ca', 'Avail_Mg', 'Avail_S', 
-                         'Avail_Zn','Avail_B', 'Avail_Fe', 'Avail_Cu', 'Avail_Mn']
-
-
+field_names_crop_type = ['Crop_type']
 
 import csv
 
 # to save Crops in CROPS.csv file
 # write data in writeFIle
-writeFile = open('datasets/AndhraPradesh/preprocessing/CROPS.csv', 'w', newline='')
+writeFile = open('CROPS_filtered.csv', 'w', newline='')
 
 
 # open file processed_soil_para.ccsv
-with open('datasets/AndhraPradesh/preprocessing/processed_soil_para.csv') as csvfile:
+with open('only_crops.csv') as csvfile:
     reader = csv.DictReader(csvfile)
 
     #create an object writer 
     # DictWriter is dictionary wirteer
     # which write row as dict
     
-    writer = csv.DictWriter(writeFile, field_names_soil_para)
+    writer = csv.DictWriter(writeFile, field_names_crop_type)
     writer.writeheader()
     
     # for loop to iterate in file text (reader)
     for row in reader:
         
         # for convinience and backup
-        # if any error occurs print original
+        # if any error occurs print,iginal
         original = row        
+        crop_type = row['Crop_type']
 
-        if ( row['Crop_type']=='GROUND NUT' or row['Crop_type']=='Ground Nut' or 
-            row['Crop_type']=='GroundNut' or row['Crop_type']=='Ground nut' or
-            row['Crop_type']=='Groundnut' or row['Crop_type']=='G.Nut' or
-            row['Crop_type']=='Grounat' or row['Crop_type']=='groundnut' or
-            row['Crop_type']=='ground nut' or row['Crop_type']=='Ground Nat' or
-            row['Crop_type']=='ground nut/groundnut'):
-            row['Crop_type'] = 'groundnut'
-            writer.writerow(row)
-            
-            
-        elif ( row['Crop_type']=='Cottan,Ground Nat' or row['Crop_type']=='Ground nut,Cottan' or
-              row['Crop_type']=='Cottan ,Groundnat' or row['Crop_type']=='Groundnut,Cottan' or 
-              row['Crop_type']=='Cotton/Ground Nut' or row['Crop_type']=='Cotton/Ground Nut'  or
-              row['Crop_type']=='Cotton/Groundnut'  or row['Crop_type']=='cottan/groundnut' or
-              row['Crop_type']=='Ground Nat/Cottan'  or row['Crop_type']=='Ground Nut /Cotton'  or
-              row['Crop_type']=='Ground Nut/ Cotton' or row['Crop_type']=='GroundNut/Cotton' or
-              row['Crop_type']=='cottan/groundnut'):
-            row['Crop_type'] = 'cottan/groundnut'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='SUNFLOWER' or row['Crop_type']=='Sunflower' or row['Crop_type']=='sunflower'):
-            row['Crop_type'] = 'sunflower'
-            writer.writerow(row)
+        groundnut = [ 'GROUND NUT','Ground Nut','GroundNut','Ground nut','Groundnut','G.Nut',
+            'Grounat','groundnut','ground nut','Ground Nat','ground nut/groundnut' ]
+       
+        if crop_type in groundnut:
+            crop_type='groundnut'
         
+        
+        cotton = [ 'Cottan,Ground Nat','Ground nut,Cottan','Cottan ,Groundnat','Groundnut,Cottan',
+              'Cotton/Ground Nut','Cotton/Ground Nut' ,'Cotton/Groundnut' ,'cottan/groundnut',
+              'Ground Nat/Cottan' ,'Ground Nut /Cotton' ,'Ground Nut/ Cotton','GroundNut/Cotton',
+              'cottan/groundnut' ]
+        if crop_type in cotton:
+            crop_type = 'cotton'
             
-        elif ( row['Crop_type']=='Black Gram' or row['Crop_type']=='Black gram' or row['Crop_type']=='Blackgram'):
-            row['Crop_type'] = 'blackgram'
-            writer.writerow(row)
+        sunflower = ['SUNFLOWER','Sunflower','sunflower']
+        if crop_type in sunflower:
+            crop_type = 'sunflower'
 
-        elif ( row['Crop_type']=='Horsegram' or row['Crop_type']=='Horse gram' or row['Crop_type']=='hoesegram'):
-            row['Crop_type'] = 'horsegram'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='SUGER CANE ' or row['Crop_type']=='Sugar Cane' or row['Crop_type']== 'Cane' or
-              row['Crop_type']=='Sugarcane' or row['Crop_type']=='suger cane' or
-              row['Crop_type']=='Sugarcane ' or row['Crop_type']=='Sugercane' or row['Crop_type']=='suger cane '):
-              row['Crop_type'] = 'sugarcane'
-              writer.writerow(row)
-
-        elif ( row['Crop_type']=='paddy' or row['Crop_type']=='paddy  ' or row['Crop_type']== 'PADDY'):
-            row['Crop_type'] = 'paddy'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Topioca' or row['Crop_type']=='Topioca  ' or row['Crop_type']== 'Topica'):
-            row['Crop_type'] = 'Topica'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Mulbarry' or row['Crop_type']=='Mulberrry  ' or row['Crop_type']== 'Mulberry'):
-            row['Crop_type'] = 'mulberry'
-            writer.writerow(row)
-
-
-        elif ( row['Crop_type']=='maize' or row['Crop_type']=='Maize' or row['Crop_type']== 'Mazi' or row['Crop_type']=='Mc'):
-            row['Crop_type'] = 'maize'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Cottan' or row['Crop_type']=='Cotton' or row['Crop_type']== 'cotton' or row['Crop_type']=='Cotton '):
-            row['Crop_type'] = 'cotton'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Green Gram' or row['Crop_type']=='Green gram'):
-            row['Crop_type'] = 'greengram'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='paddy' or row['Crop_type']=='paddy  '  or row['Crop_type']=='Paady' or row['Crop_type']=='Paddy' or 
-            row['Crop_type']=='Paddy ' ):
-            row['Crop_type'] = 'paddy'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Potatao' or row['Crop_type']=='Potato'):
-            row['Crop_type'] = 'potato'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Red' or row['Crop_type']=='Red Gram'):
-            row['Crop_type'] = 'redgram'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Jonna/Senaga' or row['Crop_type']=='Jonna+ sunflower' or row['Crop_type']=='Mahendra Jonna' or
-              row['Crop_type']=='Pacha Jonna' or row['Crop_type']=='Pacha Jonna' or 'Peasara + Pacha Gaddi'):
-            row['Crop_type'] = 'jonna'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Vegetable' or row['Crop_type']=='Vegetables' or row['Crop_type']=='Vegitable'):
-            row['Crop_type'] = 'vegetable'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='JOWAR' or row['Crop_type']=='jowar' or row['Crop_type']=='Jowar'):
-            row['Crop_type'] = 'jowar'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Paddy/G.nut' or row['Crop_type']=='Paddy/G.gram' or row['Crop_type']=='Paddy/Maize/G.N'):
-            row['Crop_type'] = 'paddy/groundnut'
-            writer.writerow(row)
-
-
-        elif ( row['Crop_type']=='Eucaliptus' or row['Crop_type']=='Eucalyptus'):
-            row['Crop_type'] = 'eucalyptus'
-            writer.writerow(row)
-
-
-        elif ( row['Crop_type']=='yam' or row['Crop_type']=='Yam'):
-            row['Crop_type'] = 'yam'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Onian' or row['Crop_type']=='Oniyan'):
-            row['Crop_type'] = 'onion'
-            writer.writerow(row)
-
-
-        elif ( row['Crop_type']=='chill' or row['Crop_type']=='Cowpea'):
-            row['Crop_type'] = 'cowpea'
-            writer.writerow(row)
-
-
-        elif ( row['Crop_type']=='Oil Palm ' or row['Crop_type']=='Oil Palm'):
-            row['Crop_type'] = 'oilpalm'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Turmaric' or row['Crop_type']=='Turmeric'):
-            row['Crop_type'] = 'turmaric'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='Sesamum' or row['Crop_type']=='Sesumum'):
-            row['Crop_type'] = 'sesamum'
-            writer.writerow(row)
-
-        elif ( row['Crop_type']=='-' or row['Crop_type']=='Unknown' or row['Crop_type']=='Unknown ' ):
-            row['Crop_type'] = 'unknown'
-            writer.writerow(row)
-
-
-        elif ( row['Crop_type']=='Cashew Nut' or row['Crop_type']=='Cashew Raina' or
-              row['Crop_type']=='Cashew+Maize Cashewnut Cashewnut Cashewnut, Mango (Intercrop Maize And Seasamum)' or
-              row['Crop_type']=='Cashewnut, Mango (Intercrop Maize And Seasamum)' or row['Crop_type']=='Cashewnut' or
-              row['Crop_type']=='Cashew+Maize'):
-            row['Crop_type'] = 'cashew'
-            writer.writerow(row)
             
+        blackgram  = [ 'Black Gram','Black gram','Blackgram' ]
+        if crop_type in blackgram:
+            crop_type = 'blackgram'
 
-        else:
-            writer.writerow(original)
-    
-    
+
+        horsegram = [ 'Horsegram','Horse gram','hoesegram' ]
+        if crop_type in horsegram:
+            crop_type = 'hoesegram'
+
+
+        sugarcane = [ 'SUGER CANE ','Sugar Cane', 'Cane','Sugarcane','suger cane',
+              'Sugarcane ','Sugercane','suger cane ' ]
+        if crop_type in sugarcane:
+            crop_type = 'sugercane'
+
+
+        paddy = [ 'paddy','paddy  ', 'PADDY' ]
+        if crop_type in paddy:
+            crop_type = 'paddy'
+
+
+        topica = [ 'Topioca','Topioca  ', 'Topica' ]
+        if crop_type in topica:
+            crop_type = 'topica'
+
+
+        mulbarry = [ 'Mulbarry','Mulberrry  ', 'Mulberry' ]
+        if crop_type in mulbarry:
+            crop_type = 'mulbarry'
+
+
+
+        maize = [ 'maize','Maize', 'Mazi','Mc' ]
+        if crop_type in maize:
+            crop_type = 'maize'
+
+
+        cotton = [ 'Cottan','Cotton', 'cotton','Cotton ' ]
+        if crop_type in cotton:
+            crop_type = 'cotton'
+
+
+        greengram = [ 'Green Gram','Green gram' ]
+        if crop_type in greengram:
+            crop_type = 'greengram'
+
+
+        paddy = [ 'paddy','paddy  ' ,'Paady','Paddy','Paddy ' ]
+        if crop_type in paddy:
+            crop_type = 'paddy'
+
+
+        potato = [ 'Potatao','Potato' ]
+        if crop_type in potato:
+            crop_type = 'potato'
+
+        redgram = [ 'Red','Red Gram' ]
+        if crop_type in redgram:
+            crop_type = 'redgram'
+
+        jonna = [ 'Jonna/Senaga','Jonna+ sunflower','Mahendra Jonna','Pacha Jonna',
+                 'Pacha Jonna','Peasara + Pacha Gaddi' ]
+        if crop_type in jonna:
+            crop_type = 'jonna'
+
+        vegetables = [ 'Vegetable','Vegetables','Vegitable' ]
+        if crop_type in vegetables:
+            crop_type = 'vegetables'
+
+        jowar = [ 'JOWAR','jowar','Jowar' ]
+        if crop_type in jowar:
+            crop_type = 'jowar'
+
+        paddy = [ 'Paddy/G.nut','Paddy/G.gram','Paddy/Maize/G.N' ]
+        if crop_type in paddy:
+            crop_type = 'paddy'
+
+
+        ecalyptus = [ 'Eucaliptus','Eucalyptus' ]
+        if crop_type in ecalyptus:
+            crop_type = 'ecalyptus'
+
+
+        yam = [ 'yam','Yam' ]
+        if crop_type in yam:
+            crop_type = 'yam'
+
+        onion = [ 'Onian','Oniyan' ]
+        if crop_type in onion:
+            crop_type = 'onion'
+
+
+        cowpea = [ 'chill','Cowpea' ]
+        if crop_type in cowpea:
+            crop_type = 'cowpea'
+
+
+        oilpalm = [ 'Oil Palm ','Oil Palm' ]
+        if crop_type in oilpalm:
+            crop_type = 'oilpalm'
+
+        turmaric = [ 'Turmaric','Turmeric' ]
+        if crop_type in turmaric:
+            crop_type = 'turmaric'
+                
+        seasum = [ 'Sesamum','Sesumum' ]
+        if crop_type in seasum:
+            crop_type = 'seasum'
+
+        unknown = [ '-','Unknown','Unknown '  ]
+        if crop_type in unknown:
+            crop_type = 'unknown'
+
+
+        cashew = [ 'Cashew Nut','Cashew Raina',
+                  'Cashew+Maize Cashewnut Cashewnut Cashewnut, Mango (Intercrop Maize And Seasamum)',
+                  'Cashewnut, Mango (Intercrop Maize And Seasamum)','Cashewnut','Cashew+Maize' ]
+        if crop_type in cashew:
+            crop_type = 'cashew'
+        
+        
+        new_row = {'Crop_type':crop_type}
+        writer.writerow(new_row)
+        print(crop_type)

@@ -117,17 +117,17 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 146,01/01/2015,1627,RK2421,U.Adi Narayana/Thippanna,Anantapur,Raptadu,G.Koythapally,42-3,RED,,jowar,01/01/2015
 147,01/01/2015,1628,RK2422,G.Konda Reddy/Thimma Reddy,Anantapur,Raptadu,G.Koythapally,38-1,RED,,cotton,01/01/2015
 149,01/01/2015,1630,RK2424,.Chinna Bal Reddy/Narayana Reddy,Anantapur,Raptadu,G.Koythapally,66,RED,,G.Nut,01/01/2015
-152,01/01/2015,1634,RK2427,G.Konda Reddy/Chenna Reddy,Anantapur,Raptadu,G.Koythapally,240-1,RED,,,01/01/2015
+152,01/01/2015,1634,RK2427,G.Konda Reddy/Chenna Reddy,Anantapur,Raptadu,G.Koythapally,240-1,RED,,groundnut,01/01/2015
 153,01/01/2015,1635,RK2428,G.Ramanaidu/Chinna Chinthalaiah,Anantapur,Raptadu,G.Koythapally,84-2,RED,,G.Nut,01/01/2015
-154,01/01/2015,1636,RK2429,E.Nagendramma/Nagaraju,Anantapur,Raptadu,G.Koythapally,190-2,RED,,,01/01/2015
-158,01/01/2015,1640,RK2433,P.Nallappa/Chinnappa,Anantapur,Raptadu,G.Koythapally,33,RED,,,01/01/2015
+154,01/01/2015,1636,RK2429,E.Nagendramma/Nagaraju,Anantapur,Raptadu,G.Koythapally,190-2,RED,,groundnut,01/01/2015
+158,01/01/2015,1640,RK2433,P.Nallappa/Chinnappa,Anantapur,Raptadu,G.Koythapally,33,RED,,groundnut,01/01/2015
 162,01/01/2015,1665,RK2437,V.Sujatha/Keshava Chary,Anantapur,Raptadu,G.Koythapally,57-1C,RED,,G.Nut,01/01/2015
 163,01/01/2015,1941,RK2438,G.Narayana Swamy/Kistaiah,Anantapur,Raptadu,Gandlaparthi,221/2,RED,,GROUND NUT,01/01/2015
 164,01/01/2015,1942,RK2439,M.Sathyanarayana/Kondappa,Anantapur,Raptadu,Gandlaparthi,298,BLACK,,SUNFLOWER,01/01/2015
 165,01/01/2015,1943,RK2440,G.Surya Narayana/Thimmappa,Anantapur,Raptadu,Gandlaparthi,221/B,RED,,GROUND NUT,01/01/2015
 166,01/01/2015,1944,RK2441,G.Laxmi Narayana/Gopal Naidu,Anantapur,Raptadu,Gandlaparthi,300,BLACK,,PADDY,01/01/2015
 167,01/01/2015,1946,RK2442,G. Chalapathi/Narsimhulu,Anantapur,Raptadu,Gandlaparthi,136/1B,BLACK,,TAMATO,01/01/2015
-168,01/01/2015,1947,RK2443,G.Shankaraiah/Shadabhavi Venkatappa,Anantapur,Raptadu,Gandlaparthi,149/4,BLACK,,,01/01/2015
+168,01/01/2015,1947,RK2443,G.Shankaraiah/Shadabhavi Venkatappa,Anantapur,Raptadu,Gandlaparthi,149/4,BLACK,,groundnut,01/01/2015
 169,01/01/2015,1948,RK2444,G.Narayana Swamy/Laxmi Narayana,Anantapur,Raptadu,Gandlaparthi,218/2B,RED,,GROUND NUT,01/01/2015
 170,01/01/2015,1949,RK2445,A.Chinna Nallappa/Chinna Narsimhulu,Anantapur,Raptadu,Gandlaparthi,171-3C,RED,,GROUND NUT,01/01/2015
 171,01/01/2015,1950,RK2446,B.Chandrappa/Narayanappa,Anantapur,Raptadu,Gandlaparthi,140-1,BLACK,,PADDY,01/01/2015
@@ -143,98 +143,98 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 181,01/01/2015,1982,RK2456,G.Kanthamma/Sathyanarayana,Anantapur,Raptadu,Gandlaparthi,211/A,RED,,GROUND NUT,01/01/2015
 182,01/01/2015,1983,RK2457,E.Ramakrishna/Venkataramulu,Anantapur,Raptadu,Gandlaparthi,217/A,BLACK,,TAMATO,01/01/2015
 183,01/01/2015,1984,RK2458,M.Pothanna/Narayanappa,Anantapur,Raptadu,Gandlaparthi,213,RED,,GROUND NUT,01/01/2015
-206,01/01/2015,1752,RK2481,K.Sangalappa/Mallanna,Anantapur,Raptadu,Gollapalli,88,RED,,,01/01/2015
-207,01/01/2015,1753,RK2482,Erike Savithri/Malli Reddy,Anantapur,Raptadu,Gollapalli,319-2,RED,,,01/01/2015
-208,01/01/2015,1754,RK2483,K.Golla Pallaiah/Mallanna,Anantapur,Raptadu,Gollapalli,88-4,RED,,,01/01/2015
-209,01/01/2015,1755,RK2484,D.Gangadhara/Dandu Musalanna,Anantapur,Raptadu,Gollapalli,205,RED,,,01/01/2015
-210,01/01/2015,1756,RK2485,D.Bhaskar/Musalanna,Anantapur,Raptadu,Gollapalli,247-2,RED,,,01/01/2015
-211,01/01/2015,1757,RK2486,D.Narayanamma/Late Mallanna,Anantapur,Raptadu,Gollapalli,254,RED,,,01/01/2015
-212,01/01/2015,1758,RK2487,Dandu Muthyalappa/Late Bodanna,Anantapur,Raptadu,Gollapalli,137-4,RED,,,01/01/2015
-213,01/01/2015,1759,RK2488,Rosammagari Anjinamma/Mallesh,Anantapur,Raptadu,Gollapalli,333-4,RED,,,01/01/2015
-214,01/01/2015,1760,RK2489,Kamatham Karri Mallaiah/Late Katamaiah,Anantapur,Raptadu,Gollapalli,7-4.,RED,,,01/01/2015
-215,01/01/2015,1761,RK2490,B.Mallikarjuna/Katamaiah,Anantapur,Raptadu,Gollapalli,54-4,RED,,,01/01/2015
-216,01/01/2015,1762,RK2491,Mandhala Narasimhulu/Narasappa,Anantapur,Raptadu,Gollapalli,154-2,RED,,,01/01/2015
-217,01/01/2015,1763,RK2492,Peddinti Kasim/Chinna Bodappa,Anantapur,Raptadu,Gollapalli,89-2,RED,,,01/01/2015
-218,01/01/2015,1764,RK2493,Dabbappagari Narasamma/Muthyalappa Late,Anantapur,Raptadu,Gollapalli,125,RED,,,01/01/2015
-219,01/01/2015,1765,RK2494,Y.Jayamma/Ramanjaneyulu,Anantapur,Raptadu,Gollapalli,154,RED,,,01/01/2015
-220,01/01/2015,1766,RK2495,Sake Ramanjaneyulu/Late Kadiranna,Anantapur,Raptadu,Gollapalli,62-3,RED,,,01/01/2015
-221,01/01/2015,1767,RK2496,Talari Subbarayudu/Late Kashappa,Anantapur,Raptadu,Gollapalli,49,RED,,,01/01/2015
-222,01/01/2015,1768,RK2497,B.Peddaiah/Pedda Naga Bhushanam,Anantapur,Raptadu,Gollapalli,321,RED,,,01/01/2015
-223,01/01/2015,1769,RK2498,T.Penna Obulaishu/Obanna,Anantapur,Raptadu,Gollapalli,94-1/2,RED,,,01/01/2015
-224,01/01/2015,1770,RK2499,T.Laxmi Narayana/Pedda Kashappa,Anantapur,Raptadu,Gollapalli,263-2,BLACK,,,01/01/2015
-225,01/01/2015,1771,RK2500,Balgonda Katamaiah/Chandraiah,Anantapur,Raptadu,Gollapalli,84-1,RED,,,01/01/2015
-226,01/01/2015,1772,RK2501,K.Katamaiah/Katamaiah,Anantapur,Raptadu,Gollapalli,59,RED,,,01/01/2015
-231,01/01/2015,1601,RK2506,S.Obulaishu/Late Pothanna,Anantapur,Raptadu,Palbhavi,644-1,RED,,,01/01/2015
-232,01/01/2015,1602,RK2507,C.Rajaiah/Late Narayana,Anantapur,Raptadu,Palbhavi,641-2,RED,,,01/01/2015
-233,01/01/2015,1603,RK2508,C.Nagaraju/Bommaiah,Anantapur,Raptadu,Palbhavi,1114-3,RED,,,01/01/2015
-234,01/01/2015,1604,RK2509,C.Badi Pullaiah/Pothanna,Anantapur,Raptadu,Palbhavi,462-3,RED,,,01/01/2015
-235,01/01/2015,1605,RK2510,T.Parvathi/Laxmi Narayana,Anantapur,Raptadu,Palbhavi,873-4,RED,,,01/01/2015
-236,01/01/2015,1606,RK2511,C.Shivaiah/Linganna,Anantapur,Raptadu,Palbhavi,404-4,RED,,,01/01/2015
-237,01/01/2015,1607,RK2512,C.Badenna/Laxmappa,Anantapur,Raptadu,Palbhavi,853,RED,,,01/01/2015
-238,01/01/2015,1608,RK2513,C.Manikyamma/Sallaiah,Anantapur,Raptadu,Palbhavi,430-1,RED,,,01/01/2015
-239,01/01/2015,1609,RK2514,C.Pothulaiah/Vala Bajji,Anantapur,Raptadu,Palbhavi,537-1,RED,,,01/01/2015
-240,01/01/2015,1610,RK2515,M.Pothanna/Obaiah,Anantapur,Raptadu,Palbhavi,841-1,RED,,,01/01/2015
-241,01/01/2015,1611,RK2516,C.Laxmi Devi/Ramanna,Anantapur,Raptadu,Palbhavi,880-2,RED,,,01/01/2015
-242,01/01/2015,1612,RK2517,H.Surya Narayana/Late Choudappa,Anantapur,Raptadu,Palbhavi,858-4,RED,,,01/01/2015
-243,01/01/2015,1613,RK2518,M.Akkamma/Yerri Swamy,Anantapur,Raptadu,Palbhavi,866-2,RED,,,01/01/2015
-244,01/01/2015,1614,RK2519,M.Srlaxmi/Sriramulu,Anantapur,Raptadu,Palbhavi,902-1/A1,RED,,,01/01/2015
-245,01/01/2015,1615,RK2520,M.Ramchandra/Chithappa,Anantapur,Raptadu,Palbhavi,60-14,RED,,,01/01/2015
-246,01/01/2015,1616,RK2521,K.Daduluraiah/Pothanna,Anantapur,Raptadu,Palbhavi,392,RED,,,01/01/2015
-247,01/01/2015,1617,RK2522,B.Chinna Ramanna/Obaiah,Anantapur,Raptadu,Palbhavi,844-3,RED,,,01/01/2015
-248,01/01/2015,1618,RK2523,B.Chandra Nayak/Krishna Nayak,Anantapur,Raptadu,Palbhavi,385-3,RED,,,01/01/2015
-249,01/01/2015,1619,RK2524,Chinna Muthyala Nayak/Sampla Nayak,Anantapur,Raptadu,Palbhavi,407,RED,,,01/01/2015
-250,01/01/2015,1620,RK2525,H.Lingamaiah/Choudappa,Anantapur,Raptadu,Palbhavi,903-2.,RED,,,01/01/2015
-251,01/01/2015,1621,RK2526,H.Nallamma/Late Ramappa,Anantapur,Raptadu,Palbhavi,835,RED,,,01/01/2015
-252,01/01/2015,1622,RK2527,H.Adi Laxmi/Narsimlu,Anantapur,Raptadu,Palbhavi,458-2,RED,,,01/01/2015
-253,01/01/2015,1625,RK2528,A.Laxmi Devi/Late Obanna,Anantapur,Raptadu,Palbhavi,397-3,RED,,,01/01/2015
-254,01/01/2015,1626,RK2529,H.Narayana/Laxmanna Late,Anantapur,Raptadu,Palbhavi,401,RED,,,01/01/2015
-255,01/01/2015,1731,RK2530,Devarakonda Alivelamma/Late Vanappa,Anantapur,Raptadu,Pesarakunta,48-3,RED,,,01/01/2015
-256,01/01/2015,1732,RK2531,G.Manohar /Kasappa,Anantapur,Raptadu,Pesarakunta,337/2,RED,,,01/01/2015
-257,01/01/2015,1733,RK2532,G.Shivaiah/Kasappa,Anantapur,Raptadu,Pesarakunta,337/3,RED,,,01/01/2015
-258,01/01/2015,1734,RK2533,S.Chinna Narayana/Ramappa,Anantapur,Raptadu,Pesarakunta,54-3,,,,01/01/2015
-259,01/01/2015,1735,RK2534,Sake Nadipi Narayana/Ramappa,Anantapur,Raptadu,Pesarakunta,37-3,SAND,,,01/01/2015
-260,01/01/2015,1736,RK2535,S.Somashekar/Late Eshwaraiah,Anantapur,Raptadu,Pesarakunta,43-1,RED,,,01/01/2015
-261,01/01/2015,1738,RK2536,Devarakonda Venkata Laxmi/Nayudappa,Anantapur,Raptadu,Pesarakunta,147-3,RED,,,01/01/2015
-262,01/01/2015,1739,RK2537,Devarakonda Nayudappa/Naganna,Anantapur,Raptadu,Pesarakunta,32-1,RED,,,01/01/2015
-263,01/01/2015,1740,RK2538,Devarakonda Anand/Venkatesh,Anantapur,Raptadu,Pesarakunta,39,RED,,,01/01/2015
-264,01/01/2015,1741,RK2539,Devarakonda Eshwaraiah/Veeranna,Anantapur,Raptadu,Pesarakunta,45,SAND,,,01/01/2015
-265,01/01/2015,1742,RK2540,Devarakonda Thirupalu/Pedda Nagirappa,Anantapur,Raptadu,Pesarakunta,576,SAND,,,01/01/2015
-266,01/01/2015,1743,RK2541,Devarakonda Narayana Swamy/Venkata Ramudu,Anantapur,Raptadu,Pesarakunta,,RED,,,01/01/2015
-267,01/01/2015,1745,RK2542,S.Pedda Narayana/Ramappa,Anantapur,Raptadu,Pesarakunta,,RED,,,01/01/2015
-279,01/01/2015,1700,RK2554,M.Naidu/Surya Narayana,Anantapur,Raptadu,Pullalarevu,57,RED,,,01/01/2015
-280,01/01/2015,1701,RK2555,Purna Malli Reddy/Pedda Mallappa,Anantapur,Raptadu,Pullalarevu,26-3,RED,,,01/01/2015
-281,01/01/2015,1702,RK2556,Manabolu Narayana Swamy/Surya Narayana,Anantapur,Raptadu,Pullalarevu,57-AP,RED,,,01/01/2015
-282,01/01/2015,1703,RK2557,Manabolu Sukanya/Pedda Thimmappa,Anantapur,Raptadu,Pullalarevu,199A,RED,,,01/01/2015
-283,01/01/2015,1704,RK2558,Chinthamanu Chandrayudu/Late Vasanthu,Anantapur,Raptadu,Pullalarevu,295-4,RED,,,01/01/2015
-284,01/01/2015,1705,RK2559,Manabolu Venkata Naidu/Kistaiah,Anantapur,Raptadu,Pullalarevu,38/G,RED,,,01/01/2015
-287,01/01/2015,1746,RK2562,B.Kotima Reddy/Narayana Reddy,Anantapur,Raptadu,Pullalarevu,118,RED,,,01/01/2015
-288,01/01/2015,1747,RK2563,K.Janakamma/Rangareddy,Anantapur,Raptadu,Pullalarevu,,RED,,,01/01/2015
-289,01/01/2015,1748,RK2564,B.Laxmi Devi/Venkata Rami Reddy,Anantapur,Raptadu,Pullalarevu,10C,RED,,,01/01/2015
-290,01/01/2015,1749,RK2565,Singamaneni Suresh/Late Subbaiah Naidu,Anantapur,Raptadu,Pullalarevu,253-A,RED,,,01/01/2015
-291,01/01/2015,1750,RK2566,G.Govinda Reddy/Late Keshava Reddy,Anantapur,Raptadu,Pullalarevu,12P,RED,,,01/01/2015
-292,01/01/2015,1751,RK2567,G.Chenna Reddy/Keshava Reddy,Anantapur,Raptadu,Pullalarevu,84-1P,RED,,,01/01/2015
-293,01/01/2015,1706,RK2568,M.Thimmakka/Thirupalu,Anantapur,Raptadu,Raminepally,663.-.,,,,01/01/2015
-294,01/01/2015,1707,RK2569,M.Abbula Peddanna/Nagappa,Anantapur,Raptadu,Raminepally,793-2B,,,,01/01/2015
-295,01/01/2015,1708,RK2570,M.Laxmi Narasamma/Pothulaiah,Anantapur,Raptadu,Raminepally,738-2,,,,01/01/2015
-296,01/01/2015,1709,RK2571,M.Chennaiah/Lingappa,Anantapur,Raptadu,Raminepally,,,,,01/01/2015
-297,01/01/2015,1710,RK2572,M.Linganna/Chinna Pothanna,Anantapur,Raptadu,Raminepally,682-4,,,,01/01/2015
-298,01/01/2015,1712,RK2573,Thalari Pothulaiah/Lakshmanna,Anantapur,Raptadu,Raminepally,681-5B,,,,01/01/2015
-299,01/01/2015,1713,RK2574,Mandala Chinna Anjaneyulu/Lingappa,Anantapur,Raptadu,Raminepally,742/A,,,,01/01/2015
-300,01/01/2015,1714,RK2575,Gorla Anjaneyulu/Lingappa,Anantapur,Raptadu,Raminepally,683-2A,,,,01/01/2015
-301,01/01/2015,1715,RK2576,C.Laxmi Narayana Reddy/Pedda Lingareddy,Anantapur,Raptadu,Raminepally,725-P,,,,01/01/2015
-302,01/01/2015,1716,RK2577,Y.Chinna Krishnamma/Krishna Reddy,Anantapur,Raptadu,Raminepally,742-1,,,,01/01/2015
-303,01/01/2015,1717,RK2578,P.Chandra Shekar Reddy/Chenna Reddy,Anantapur,Raptadu,Raminepally,664-C,,,,01/01/2015
-304,01/01/2015,1719,RK2579,Mannala Salappa/Katla Peddanna,Anantapur,Raptadu,Raminepally,652-13,,,,01/01/2015
-305,01/01/2015,1720,RK2580,Mannala Chinna Venkata Remudu/Venkatesh,Anantapur,Raptadu,Raminepally,697,,,,01/01/2015
-306,01/01/2015,1721,RK2581,Chinthamani Narsimhudu/Peddanna,Anantapur,Raptadu,Raminepally,789-2A,,,,01/01/2015
-307,01/01/2015,1722,RK2582,Sake Kistaiah/Chandrappa,Anantapur,Raptadu,Raminepally,674B,,,,01/01/2015
-309,01/01/2015,1724,RK2584,Balagonda Chinna Linganna/Muthyalappa,Anantapur,Raptadu,Raminepally,701-3,,,,01/01/2015
-310,01/01/2015,1725,RK2585,R.Ramakrishnaiah/Linganna,Anantapur,Raptadu,Raminepally,670,,,,01/01/2015
-311,01/01/2015,1726,RK2586,Chinthapanti Venkatamma/Late Linga Reddy,Anantapur,Raptadu,Raminepally,698,,,,01/01/2015
-312,01/01/2015,1727,RK2587,T.Laxmi Devi/Madhava Reddy,Anantapur,Raptadu,Raminepally,7225/P,,,,01/01/2015
-313,01/01/2015,1728,RK2588,G.Linganna/Peddanna,Anantapur,Raptadu,Raminepally,789-3B,,,,01/01/2015
-314,01/01/2015,1729,RK2589,M.Ramanjaneyulu/Late Kadirappa,Anantapur,Raptadu,Raminepally,732-B1,,,,01/01/2015
-315,01/01/2015,1730,RK2590,M.Pothulaiah/Narayana,Anantapur,Raptadu,Raminepally,674/2,,,,01/01/2015
+206,01/01/2015,1752,RK2481,K.Sangalappa/Mallanna,Anantapur,Raptadu,Gollapalli,88,RED,,groundnut,01/01/2015
+207,01/01/2015,1753,RK2482,Erike Savithri/Malli Reddy,Anantapur,Raptadu,Gollapalli,319-2,RED,,groundnut,01/01/2015
+208,01/01/2015,1754,RK2483,K.Golla Pallaiah/Mallanna,Anantapur,Raptadu,Gollapalli,88-4,RED,,groundnut,01/01/2015
+209,01/01/2015,1755,RK2484,D.Gangadhara/Dandu Musalanna,Anantapur,Raptadu,Gollapalli,205,RED,,groundnut,01/01/2015
+210,01/01/2015,1756,RK2485,D.Bhaskar/Musalanna,Anantapur,Raptadu,Gollapalli,247-2,RED,,groundnut,01/01/2015
+211,01/01/2015,1757,RK2486,D.Narayanamma/Late Mallanna,Anantapur,Raptadu,Gollapalli,254,RED,,groundnut,01/01/2015
+212,01/01/2015,1758,RK2487,Dandu Muthyalappa/Late Bodanna,Anantapur,Raptadu,Gollapalli,137-4,RED,,groundnut,01/01/2015
+213,01/01/2015,1759,RK2488,Rosammagari Anjinamma/Mallesh,Anantapur,Raptadu,Gollapalli,333-4,RED,,groundnut,01/01/2015
+214,01/01/2015,1760,RK2489,Kamatham Karri Mallaiah/Late Katamaiah,Anantapur,Raptadu,Gollapalli,7-4.,RED,,groundnut,01/01/2015
+215,01/01/2015,1761,RK2490,B.Mallikarjuna/Katamaiah,Anantapur,Raptadu,Gollapalli,54-4,RED,,groundnut,01/01/2015
+216,01/01/2015,1762,RK2491,Mandhala Narasimhulu/Narasappa,Anantapur,Raptadu,Gollapalli,154-2,RED,,groundnut,01/01/2015
+217,01/01/2015,1763,RK2492,Peddinti Kasim/Chinna Bodappa,Anantapur,Raptadu,Gollapalli,89-2,RED,,groundnut,01/01/2015
+218,01/01/2015,1764,RK2493,Dabbappagari Narasamma/Muthyalappa Late,Anantapur,Raptadu,Gollapalli,125,RED,,groundnut,01/01/2015
+219,01/01/2015,1765,RK2494,Y.Jayamma/Ramanjaneyulu,Anantapur,Raptadu,Gollapalli,154,RED,,groundnut,01/01/2015
+220,01/01/2015,1766,RK2495,Sake Ramanjaneyulu/Late Kadiranna,Anantapur,Raptadu,Gollapalli,62-3,RED,,groundnut,01/01/2015
+221,01/01/2015,1767,RK2496,Talari Subbarayudu/Late Kashappa,Anantapur,Raptadu,Gollapalli,49,RED,,groundnut,01/01/2015
+222,01/01/2015,1768,RK2497,B.Peddaiah/Pedda Naga Bhushanam,Anantapur,Raptadu,Gollapalli,321,RED,,groundnut,01/01/2015
+223,01/01/2015,1769,RK2498,T.Penna Obulaishu/Obanna,Anantapur,Raptadu,Gollapalli,94-1/2,RED,,groundnut,01/01/2015
+224,01/01/2015,1770,RK2499,T.Laxmi Narayana/Pedda Kashappa,Anantapur,Raptadu,Gollapalli,263-2,BLACK,,groundnut,01/01/2015
+225,01/01/2015,1771,RK2500,Balgonda Katamaiah/Chandraiah,Anantapur,Raptadu,Gollapalli,84-1,RED,,groundnut,01/01/2015
+226,01/01/2015,1772,RK2501,K.Katamaiah/Katamaiah,Anantapur,Raptadu,Gollapalli,59,RED,,groundnut,01/01/2015
+231,01/01/2015,1601,RK2506,S.Obulaishu/Late Pothanna,Anantapur,Raptadu,Palbhavi,644-1,RED,,groundnut,01/01/2015
+232,01/01/2015,1602,RK2507,C.Rajaiah/Late Narayana,Anantapur,Raptadu,Palbhavi,641-2,RED,,groundnut,01/01/2015
+233,01/01/2015,1603,RK2508,C.Nagaraju/Bommaiah,Anantapur,Raptadu,Palbhavi,1114-3,RED,,groundnut,01/01/2015
+234,01/01/2015,1604,RK2509,C.Badi Pullaiah/Pothanna,Anantapur,Raptadu,Palbhavi,462-3,RED,,groundnut,01/01/2015
+235,01/01/2015,1605,RK2510,T.Parvathi/Laxmi Narayana,Anantapur,Raptadu,Palbhavi,873-4,RED,,groundnut,01/01/2015
+236,01/01/2015,1606,RK2511,C.Shivaiah/Linganna,Anantapur,Raptadu,Palbhavi,404-4,RED,,groundnut,01/01/2015
+237,01/01/2015,1607,RK2512,C.Badenna/Laxmappa,Anantapur,Raptadu,Palbhavi,853,RED,,groundnut,01/01/2015
+238,01/01/2015,1608,RK2513,C.Manikyamma/Sallaiah,Anantapur,Raptadu,Palbhavi,430-1,RED,,groundnut,01/01/2015
+239,01/01/2015,1609,RK2514,C.Pothulaiah/Vala Bajji,Anantapur,Raptadu,Palbhavi,537-1,RED,,groundnut,01/01/2015
+240,01/01/2015,1610,RK2515,M.Pothanna/Obaiah,Anantapur,Raptadu,Palbhavi,841-1,RED,,groundnut,01/01/2015
+241,01/01/2015,1611,RK2516,C.Laxmi Devi/Ramanna,Anantapur,Raptadu,Palbhavi,880-2,RED,,groundnut,01/01/2015
+242,01/01/2015,1612,RK2517,H.Surya Narayana/Late Choudappa,Anantapur,Raptadu,Palbhavi,858-4,RED,,groundnut,01/01/2015
+243,01/01/2015,1613,RK2518,M.Akkamma/Yerri Swamy,Anantapur,Raptadu,Palbhavi,866-2,RED,,groundnut,01/01/2015
+244,01/01/2015,1614,RK2519,M.Srlaxmi/Sriramulu,Anantapur,Raptadu,Palbhavi,902-1/A1,RED,,groundnut,01/01/2015
+245,01/01/2015,1615,RK2520,M.Ramchandra/Chithappa,Anantapur,Raptadu,Palbhavi,60-14,RED,,groundnut,01/01/2015
+246,01/01/2015,1616,RK2521,K.Daduluraiah/Pothanna,Anantapur,Raptadu,Palbhavi,392,RED,,groundnut,01/01/2015
+247,01/01/2015,1617,RK2522,B.Chinna Ramanna/Obaiah,Anantapur,Raptadu,Palbhavi,844-3,RED,,groundnut,01/01/2015
+248,01/01/2015,1618,RK2523,B.Chandra Nayak/Krishna Nayak,Anantapur,Raptadu,Palbhavi,385-3,RED,,groundnut,01/01/2015
+249,01/01/2015,1619,RK2524,Chinna Muthyala Nayak/Sampla Nayak,Anantapur,Raptadu,Palbhavi,407,RED,,groundnut,01/01/2015
+250,01/01/2015,1620,RK2525,H.Lingamaiah/Choudappa,Anantapur,Raptadu,Palbhavi,903-2.,RED,,groundnut,01/01/2015
+251,01/01/2015,1621,RK2526,H.Nallamma/Late Ramappa,Anantapur,Raptadu,Palbhavi,835,RED,,groundnut,01/01/2015
+252,01/01/2015,1622,RK2527,H.Adi Laxmi/Narsimlu,Anantapur,Raptadu,Palbhavi,458-2,RED,,groundnut,01/01/2015
+253,01/01/2015,1625,RK2528,A.Laxmi Devi/Late Obanna,Anantapur,Raptadu,Palbhavi,397-3,RED,,groundnut,01/01/2015
+254,01/01/2015,1626,RK2529,H.Narayana/Laxmanna Late,Anantapur,Raptadu,Palbhavi,401,RED,,groundnut,01/01/2015
+255,01/01/2015,1731,RK2530,Devarakonda Alivelamma/Late Vanappa,Anantapur,Raptadu,Pesarakunta,48-3,RED,,groundnut,01/01/2015
+256,01/01/2015,1732,RK2531,G.Manohar /Kasappa,Anantapur,Raptadu,Pesarakunta,337/2,RED,,groundnut,01/01/2015
+257,01/01/2015,1733,RK2532,G.Shivaiah/Kasappa,Anantapur,Raptadu,Pesarakunta,337/3,RED,,groundnut,01/01/2015
+258,01/01/2015,1734,RK2533,S.Chinna Narayana/Ramappa,Anantapur,Raptadu,Pesarakunta,54-3,red,,groundnut,01/01/2015
+259,01/01/2015,1735,RK2534,Sake Nadipi Narayana/Ramappa,Anantapur,Raptadu,Pesarakunta,37-3,SAND,,groundnut,01/01/2015
+260,01/01/2015,1736,RK2535,S.Somashekar/Late Eshwaraiah,Anantapur,Raptadu,Pesarakunta,43-1,RED,,groundnut,01/01/2015
+261,01/01/2015,1738,RK2536,Devarakonda Venkata Laxmi/Nayudappa,Anantapur,Raptadu,Pesarakunta,147-3,RED,,groundnut,01/01/2015
+262,01/01/2015,1739,RK2537,Devarakonda Nayudappa/Naganna,Anantapur,Raptadu,Pesarakunta,32-1,RED,,groundnut,01/01/2015
+263,01/01/2015,1740,RK2538,Devarakonda Anand/Venkatesh,Anantapur,Raptadu,Pesarakunta,39,RED,,groundnut,01/01/2015
+264,01/01/2015,1741,RK2539,Devarakonda Eshwaraiah/Veeranna,Anantapur,Raptadu,Pesarakunta,45,SAND,,groundnut,01/01/2015
+265,01/01/2015,1742,RK2540,Devarakonda Thirupalu/Pedda Nagirappa,Anantapur,Raptadu,Pesarakunta,576,SAND,,groundnut,01/01/2015
+266,01/01/2015,1743,RK2541,Devarakonda Narayana Swamy/Venkata Ramudu,Anantapur,Raptadu,Pesarakunta,,RED,,groundnut,01/01/2015
+267,01/01/2015,1745,RK2542,S.Pedda Narayana/Ramappa,Anantapur,Raptadu,Pesarakunta,,RED,,groundnut,01/01/2015
+279,01/01/2015,1700,RK2554,M.Naidu/Surya Narayana,Anantapur,Raptadu,Pullalarevu,57,RED,,groundnut,01/01/2015
+280,01/01/2015,1701,RK2555,Purna Malli Reddy/Pedda Mallappa,Anantapur,Raptadu,Pullalarevu,26-3,RED,,groundnut,01/01/2015
+281,01/01/2015,1702,RK2556,Manabolu Narayana Swamy/Surya Narayana,Anantapur,Raptadu,Pullalarevu,57-AP,RED,,groundnut,01/01/2015
+282,01/01/2015,1703,RK2557,Manabolu Sukanya/Pedda Thimmappa,Anantapur,Raptadu,Pullalarevu,199A,RED,,groundnut,01/01/2015
+283,01/01/2015,1704,RK2558,Chinthamanu Chandrayudu/Late Vasanthu,Anantapur,Raptadu,Pullalarevu,295-4,RED,,groundnut,01/01/2015
+284,01/01/2015,1705,RK2559,Manabolu Venkata Naidu/Kistaiah,Anantapur,Raptadu,Pullalarevu,38/G,RED,,groundnut,01/01/2015
+287,01/01/2015,1746,RK2562,B.Kotima Reddy/Narayana Reddy,Anantapur,Raptadu,Pullalarevu,118,RED,,groundnut,01/01/2015
+288,01/01/2015,1747,RK2563,K.Janakamma/Rangareddy,Anantapur,Raptadu,Pullalarevu,,RED,,groundnut,01/01/2015
+289,01/01/2015,1748,RK2564,B.Laxmi Devi/Venkata Rami Reddy,Anantapur,Raptadu,Pullalarevu,10C,RED,,groundnut,01/01/2015
+290,01/01/2015,1749,RK2565,Singamaneni Suresh/Late Subbaiah Naidu,Anantapur,Raptadu,Pullalarevu,253-A,RED,,groundnut,01/01/2015
+291,01/01/2015,1750,RK2566,G.Govinda Reddy/Late Keshava Reddy,Anantapur,Raptadu,Pullalarevu,12P,RED,,groundnut,01/01/2015
+292,01/01/2015,1751,RK2567,G.Chenna Reddy/Keshava Reddy,Anantapur,Raptadu,Pullalarevu,84-1P,RED,,groundnut,01/01/2015
+293,01/01/2015,1706,RK2568,M.Thimmakka/Thirupalu,Anantapur,Raptadu,Raminepally,663.-.,red,,groundnut,01/01/2015
+294,01/01/2015,1707,RK2569,M.Abbula Peddanna/Nagappa,Anantapur,Raptadu,Raminepally,793-2B,red,,groundnut,01/01/2015
+295,01/01/2015,1708,RK2570,M.Laxmi Narasamma/Pothulaiah,Anantapur,Raptadu,Raminepally,738-2,red,,groundnut,01/01/2015
+296,01/01/2015,1709,RK2571,M.Chennaiah/Lingappa,Anantapur,Raptadu,Raminepally,,red,,groundnut,01/01/2015
+297,01/01/2015,1710,RK2572,M.Linganna/Chinna Pothanna,Anantapur,Raptadu,Raminepally,682-4,red,,groundnut,01/01/2015
+298,01/01/2015,1712,RK2573,Thalari Pothulaiah/Lakshmanna,Anantapur,Raptadu,Raminepally,681-5B,red,,groundnut,01/01/2015
+299,01/01/2015,1713,RK2574,Mandala Chinna Anjaneyulu/Lingappa,Anantapur,Raptadu,Raminepally,742/A,red,,groundnut,01/01/2015
+300,01/01/2015,1714,RK2575,Gorla Anjaneyulu/Lingappa,Anantapur,Raptadu,Raminepally,683-2A,red,,groundnut,01/01/2015
+301,01/01/2015,1715,RK2576,C.Laxmi Narayana Reddy/Pedda Lingareddy,Anantapur,Raptadu,Raminepally,725-P,red,,groundnut,01/01/2015
+302,01/01/2015,1716,RK2577,Y.Chinna Krishnamma/Krishna Reddy,Anantapur,Raptadu,Raminepally,742-1,red,,groundnut,01/01/2015
+303,01/01/2015,1717,RK2578,P.Chandra Shekar Reddy/Chenna Reddy,Anantapur,Raptadu,Raminepally,664-C,red,,groundnut,01/01/2015
+304,01/01/2015,1719,RK2579,Mannala Salappa/Katla Peddanna,Anantapur,Raptadu,Raminepally,652-13,red,,groundnut,01/01/2015
+305,01/01/2015,1720,RK2580,Mannala Chinna Venkata Remudu/Venkatesh,Anantapur,Raptadu,Raminepally,697,red,,groundnut,01/01/2015
+306,01/01/2015,1721,RK2581,Chinthamani Narsimhudu/Peddanna,Anantapur,Raptadu,Raminepally,789-2A,red,,groundnut,01/01/2015
+307,01/01/2015,1722,RK2582,Sake Kistaiah/Chandrappa,Anantapur,Raptadu,Raminepally,674B,red,,groundnut,01/01/2015
+309,01/01/2015,1724,RK2584,Balagonda Chinna Linganna/Muthyalappa,Anantapur,Raptadu,Raminepally,701-3,red,,groundnut,01/01/2015
+310,01/01/2015,1725,RK2585,R.Ramakrishnaiah/Linganna,Anantapur,Raptadu,Raminepally,670,red,,groundnut,01/01/2015
+311,01/01/2015,1726,RK2586,Chinthapanti Venkatamma/Late Linga Reddy,Anantapur,Raptadu,Raminepally,698,red,,groundnut,01/01/2015
+312,01/01/2015,1727,RK2587,T.Laxmi Devi/Madhava Reddy,Anantapur,Raptadu,Raminepally,7225/P,red,,groundnut,01/01/2015
+313,01/01/2015,1728,RK2588,G.Linganna/Peddanna,Anantapur,Raptadu,Raminepally,789-3B,red,,groundnut,01/01/2015
+314,01/01/2015,1729,RK2589,M.Ramanjaneyulu/Late Kadirappa,Anantapur,Raptadu,Raminepally,732-B1,red,,groundnut,01/01/2015
+315,01/01/2015,1730,RK2590,M.Pothulaiah/Narayana,Anantapur,Raptadu,Raminepally,674/2,red,,groundnut,01/01/2015
 1,01/01/2015,2101,RK2591,BN.Subramanyam Reddy,Chittoor,Santipuram,121.Pedduru,82-1,Red,,Tomato,01/01/2015
 2,01/01/2015,2102,RK2592,B.Narayana Reddy,Chittoor,Santipuram,121.Pedduru,91-8,Black,,Tomato,01/01/2015
 3,01/01/2015,2103,RK2593,B.Gopal Reddy,Chittoor,Santipuram,121.Pedduru,82-1,Red,,Sweetcorn,01/01/2015
@@ -383,7 +383,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 146,01/01/2015,2389,RK2736,Munaswami,Chittoor,Santipuram,Kadapalle,8/2C,Black,,Tomato,01/01/2015
 147,01/01/2015,2390,RK2737,Lakshmappa,Chittoor,Santipuram,Kadapalle,6/42,Red,,Tomato,01/01/2015
 148,01/01/2015,2391,RK2738,B. Lakshmappa,Chittoor,Santipuram,Kadapalle,5-1A,Red,,Groundnut,01/01/2015
-149,01/01/2015,2392,RK2739,G. Syamappa,Chittoor,Santipuram,Kadapalle,69/5,,,Groundnut,01/01/2015
+149,01/01/2015,2392,RK2739,G. Syamappa,Chittoor,Santipuram,Kadapalle,69/5,red,,Groundnut,01/01/2015
 150,01/01/2015,2393,RK2740,Munemma,Chittoor,Santipuram,Kadapalle,75-1A,Black,,Groundnut,01/01/2015
 151,01/01/2015,2395,RK2741,K. Muneppa,Chittoor,Santipuram,Kadapalle,48-8,Rock soil,,Jowar,01/01/2015
 152,01/01/2015,2396,RK2742,Ganesh,Chittoor,Santipuram,Kadapalle,77,Red,,Beans,01/01/2015
@@ -494,12 +494,12 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 257,01/01/2015,2252,RK2847,Akyamma,Chittoor,Santipuram,Sonneganipalle,5/6B,Red,,Mango,01/01/2015
 258,01/01/2015,2253,RK2848,G. Bhagyamma,Chittoor,Santipuram,Sonneganipalle,18/10C,Red,,Cabbage,01/01/2015
 259,01/01/2015,2254,RK2849,V. Srinivasa Reddy,Chittoor,Santipuram,Sonneganipalle,1/B,Red,,Cabbage,01/01/2015
-260,01/01/2015,2255,RK2850,No sample,Chittoor,Santipuram,Sonneganipalle,11/B,,,,01/01/2015
+260,01/01/2015,2255,RK2850,No sample,Chittoor,Santipuram,Sonneganipalle,11/B,red,,groundnut,01/01/2015
 261,01/01/2015,2256,RK2851,N. Gunabhushana,Chittoor,Santipuram,Sonneganipalle,13/4,Red,,Groundnut,01/01/2015
 262,01/01/2015,2257,RK2852,B. Amaranath Reddy,Chittoor,Santipuram,Sonneganipalle,28/1,Red,,Groundnut,01/01/2015
 263,01/01/2015,2258,RK2853,D. Hanumantha Reddy,Chittoor,Santipuram,Sonneganipalle,31/2,Red,,Groundnut,01/01/2015
 264,01/01/2015,2259,RK2854,D. Manjunadha Reddy,Chittoor,Santipuram,Sonneganipalle,18/7,Red,,Flowers,01/01/2015
-265,01/01/2015,2260,RK2855,I. V. Krishna Reddy,Chittoor,Santipuram,Sonneganipalle,18/5,Red,,,01/01/2015
+265,01/01/2015,2260,RK2855,I. V. Krishna Reddy,Chittoor,Santipuram,Sonneganipalle,18/5,Red,,groundnut,01/01/2015
 266,01/01/2015,2151,RK2856,P.Ramayyaa,Chittoor,Santipuram,Vadagandlapalle,160-3,Black,,Groundnut,01/01/2015
 267,01/01/2015,2152,RK2857,G.K.Ganesh,Chittoor,Santipuram,Vadagandlapalle,42-F,Red,,Potato,01/01/2015
 268,01/01/2015,2153,RK2858,Krishanappa,Chittoor,Santipuram,Vadagandlapalle,40-B2,Red,,Tomato,01/01/2015
@@ -670,26 +670,26 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 433,01/01/2015,2428,RK3023,K Devaraju,Chittoor,V.Kota,Papepalli,9-3,Red,,Flowers,01/01/2015
 434,01/01/2015,2429,RK3024,Ramamma,Chittoor,V.Kota,Papepalli,9-22,Red,,Tomato,01/01/2015
 435,01/01/2015,2430,RK3025,V M Jayaram Raju,Chittoor,V.Kota,Papepalli,17-1,Red,,Mulberry,01/01/2015
-436,01/01/2015,2581,RK3026,G N Venkataramireddy,Chittoor,V.Kota,Peddabarinepalle,103/2,,,Tomato,01/01/2015
-437,01/01/2015,2582,RK3027,PH Kesava Reddy,Chittoor,V.Kota,Peddabarinepalle,92/1,,,Beans,01/01/2015
-438,01/01/2015,2583,RK3028,S Pakruddin,Chittoor,V.Kota,Peddabarinepalle,03/Oct,,,Potato,01/01/2015
-439,01/01/2015,2584,RK3029,A Jayappa,Chittoor,V.Kota,Peddabarinepalle,148-3,,,Potato,01/01/2015
-440,01/01/2015,2585,RK3030,S Farid Basha,Chittoor,V.Kota,Peddabarinepalle,112-1B,,,Potato,01/01/2015
-441,01/01/2015,2586,RK3031,K Subrahmanyam,Chittoor,V.Kota,Peddabarinepalle,250,,,Groundnut,01/01/2015
-442,01/01/2015,2587,RK3032,Subrahmanyam,Chittoor,V.Kota,Peddabarinepalle,332-2B,,,Groundnut,01/01/2015
-443,01/01/2015,2588,RK3033,Kumara Swamy,Chittoor,V.Kota,Peddabarinepalle,300,,,Groundnut,01/01/2015
-444,01/01/2015,2589,RK3034,Sugunamma,Chittoor,V.Kota,Peddabarinepalle,556/1B,,,,01/01/2015
-445,01/01/2015,2590,RK3035,Narayanappa,Chittoor,V.Kota,Peddabarinepalle,311-1E,,,Maize,01/01/2015
-446,01/01/2015,2591,RK3036,Papamma,Chittoor,V.Kota,Peddabarinepalle,294-B,,,Potato,01/01/2015
-447,01/01/2015,2592,RK3037,Murali,Chittoor,V.Kota,Peddabarinepalle,300-2,,,Mulberry,01/01/2015
-448,01/01/2015,2593,RK3038,S Prabhakara Reddy,Chittoor,V.Kota,Peddabarinepalle,12-13A,,,Beans,01/01/2015
-449,01/01/2015,2594,RK3039,K Somasekhara Reddy,Chittoor,V.Kota,Peddabarinepalle,68,,,Potato,01/01/2015
-450,01/01/2015,2595,RK3040,CR Rami Reddy,Chittoor,V.Kota,Peddabarinepalle,68,,,Tomato,01/01/2015
-451,01/01/2015,2596,RK3041,K Ramamma,Chittoor,V.Kota,Peddabarinepalle,93/A,,,Mulberry,01/01/2015
-452,01/01/2015,2597,RK3042,G Muniswamy Reddy,Chittoor,V.Kota,Peddabarinepalle,90,,,Mulberry,01/01/2015
-453,01/01/2015,2598,RK3043,Padmamma,Chittoor,V.Kota,Peddabarinepalle,485/2A,,,Groundnut,01/01/2015
-454,01/01/2015,2599,RK3044,Sumitramma,Chittoor,V.Kota,Peddabarinepalle,470,,,Groundnut,01/01/2015
-455,01/01/2015,2600,RK3045,Munivenkatamma,Chittoor,V.Kota,Peddabarinepalle,400,,,Groundnut,01/01/2015
+436,01/01/2015,2581,RK3026,G N Venkataramireddy,Chittoor,V.Kota,Peddabarinepalle,103/2,red,,Tomato,01/01/2015
+437,01/01/2015,2582,RK3027,PH Kesava Reddy,Chittoor,V.Kota,Peddabarinepalle,92/1,red,,Beans,01/01/2015
+438,01/01/2015,2583,RK3028,S Pakruddin,Chittoor,V.Kota,Peddabarinepalle,03/Oct,red,,Potato,01/01/2015
+439,01/01/2015,2584,RK3029,A Jayappa,Chittoor,V.Kota,Peddabarinepalle,148-3,red,,Potato,01/01/2015
+440,01/01/2015,2585,RK3030,S Farid Basha,Chittoor,V.Kota,Peddabarinepalle,112-1B,red,,Potato,01/01/2015
+441,01/01/2015,2586,RK3031,K Subrahmanyam,Chittoor,V.Kota,Peddabarinepalle,250,red,,Groundnut,01/01/2015
+442,01/01/2015,2587,RK3032,Subrahmanyam,Chittoor,V.Kota,Peddabarinepalle,332-2B,red,,Groundnut,01/01/2015
+443,01/01/2015,2588,RK3033,Kumara Swamy,Chittoor,V.Kota,Peddabarinepalle,300,red,,Groundnut,01/01/2015
+444,01/01/2015,2589,RK3034,Sugunamma,Chittoor,V.Kota,Peddabarinepalle,556/1B,red,,groundnut,01/01/2015
+445,01/01/2015,2590,RK3035,Narayanappa,Chittoor,V.Kota,Peddabarinepalle,311-1E,red,,Maize,01/01/2015
+446,01/01/2015,2591,RK3036,Papamma,Chittoor,V.Kota,Peddabarinepalle,294-B,red,,Potato,01/01/2015
+447,01/01/2015,2592,RK3037,Murali,Chittoor,V.Kota,Peddabarinepalle,300-2,red,,Mulberry,01/01/2015
+448,01/01/2015,2593,RK3038,S Prabhakara Reddy,Chittoor,V.Kota,Peddabarinepalle,12-13A,red,,Beans,01/01/2015
+449,01/01/2015,2594,RK3039,K Somasekhara Reddy,Chittoor,V.Kota,Peddabarinepalle,68,red,,Potato,01/01/2015
+450,01/01/2015,2595,RK3040,CR Rami Reddy,Chittoor,V.Kota,Peddabarinepalle,68,red,,Tomato,01/01/2015
+451,01/01/2015,2596,RK3041,K Ramamma,Chittoor,V.Kota,Peddabarinepalle,93/A,red,,Mulberry,01/01/2015
+452,01/01/2015,2597,RK3042,G Muniswamy Reddy,Chittoor,V.Kota,Peddabarinepalle,90,red,,Mulberry,01/01/2015
+453,01/01/2015,2598,RK3043,Padmamma,Chittoor,V.Kota,Peddabarinepalle,485/2A,red,,Groundnut,01/01/2015
+454,01/01/2015,2599,RK3044,Sumitramma,Chittoor,V.Kota,Peddabarinepalle,470,red,,Groundnut,01/01/2015
+455,01/01/2015,2600,RK3045,Munivenkatamma,Chittoor,V.Kota,Peddabarinepalle,400,red,,Groundnut,01/01/2015
 456,01/01/2015,2451,RK3046,S Seenappa,Chittoor,V.Kota,Timmarajupuram,421/2,Red,,Groundnut,01/01/2015
 457,01/01/2015,2452,RK3047,S D Durgappa,Chittoor,V.Kota,Timmarajupuram,102/50,Black,,Beans,01/01/2015
 458,01/01/2015,2453,RK3048,C Vijaya Gopal,Chittoor,V.Kota,Timmarajupuram,92-1,Red,,Sweetcorn,01/01/2015
@@ -732,90 +732,90 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 495,01/01/2015,2450,RK3085,K Munivel Kotappa,Chittoor,V.Kota,Yerrinagipalle,99-3,Black,,Flowers,01/01/2015
 29,01/01/2015,2861,RK1932,Kongala Pandamma,East Godavari,Gangavaram,Gangavaram,31,Red Soils,,Topioca  ,01/01/2015
 30,01/01/2015,2862,RK1933,Madakam Somalamma,East Godavari,Gangavaram,Gangavaram,19/2,Red Soils,,"Topioca, Cashew",01/01/2015
-31,01/01/2015,2863,RK1934,Kunjam Busamma,East Godavari,Gangavaram,Gangavaram,88/1,Red Soils,,,01/01/2015
+31,01/01/2015,2863,RK1934,Kunjam Busamma,East Godavari,Gangavaram,Gangavaram,88/1,Red Soils,,groundnut,01/01/2015
 32,01/01/2015,2864,RK1935,Sarapu Abbai dora,East Godavari,Gangavaram,Gangavaram,,Red Soils,,Paddy,01/01/2015
 35,01/01/2015,2868,RK1938,Chavalam Prasad dora,East Godavari,Gangavaram,Gangavaram,203,Red Soils,,Paddy,01/01/2015
-37,01/01/2015,2874,RK1940,Pilla Chinna Sankaraiah,East Godavari,Gangavaram,Gangavaram,164,Red Soils,,,01/01/2015
+37,01/01/2015,2874,RK1940,Pilla Chinna Sankaraiah,East Godavari,Gangavaram,Gangavaram,164,Red Soils,,groundnut,01/01/2015
 38,01/01/2015,2878,RK1941,Pusam Subbanna dora,East Godavari,Gangavaram,Gangavaram,84,Red Soils,,"Topica, Paddy",01/01/2015
 39,01/01/2015,2879,RK1942,Katram Kumari,East Godavari,Gangavaram,Gangavaram,46/1D,Red Soils,,Topioca,01/01/2015
-40,01/01/2015,2879,RK1943,Madakam Abbai dora,East Godavari,Gangavaram,Gangavaram,,Red Soils,,,01/01/2015
+40,01/01/2015,2879,RK1943,Madakam Abbai dora,East Godavari,Gangavaram,Gangavaram,,Red Soils,,groundnut,01/01/2015
 42,01/01/2015,2882,RK1945,Kalumula Paparao,East Godavari,Gangavaram,Gangavaram,67/4,Red Soils,,Paddy,01/01/2015
 43,01/01/2015,2885,RK1946,Kunjam Balamma,East Godavari,Gangavaram,Gangavaram,,Red Soils,,"Cashew, Mango",01/01/2015
-46,01/01/2015,2889,RK1949,Katram Jaya,East Godavari,Gangavaram,Gangavaram,,Red Soils,,,01/01/2015
+46,01/01/2015,2889,RK1949,Katram Jaya,East Godavari,Gangavaram,Gangavaram,,Red Soils,,groundnut,01/01/2015
 48,01/01/2015,2891,RK1951,Kunjam Laxmi,East Godavari,Gangavaram,Gangavaram,273,Red Soils,,Paddy,01/01/2015
-51,01/01/2015,2898,RK1954,Katram Abbai dora,East Godavari,Gangavaram,Gangavaram,,Red Soils,,,01/01/2015
-54,01/01/2015,3061,RK1957,Kalumula Venkataramana,East Godavari,Gangavaram,Gangavaram,46,Red Soils,,,01/01/2015
-55,01/01/2015,3062,RK1958,Kalumula Akkamma,East Godavari,Gangavaram,Gangavaram,31/1,Red Soils,,,01/01/2015
-56,01/01/2015,3063,RK1959,Pusam Chinnalu dora,East Godavari,Gangavaram,Gangavaram,81/2,Red Soils,,,01/01/2015
+51,01/01/2015,2898,RK1954,Katram Abbai dora,East Godavari,Gangavaram,Gangavaram,,Red Soils,,groundnut,01/01/2015
+54,01/01/2015,3061,RK1957,Kalumula Venkataramana,East Godavari,Gangavaram,Gangavaram,46,Red Soils,,groundnut,01/01/2015
+55,01/01/2015,3062,RK1958,Kalumula Akkamma,East Godavari,Gangavaram,Gangavaram,31/1,Red Soils,,groundnut,01/01/2015
+56,01/01/2015,3063,RK1959,Pusam Chinnalu dora,East Godavari,Gangavaram,Gangavaram,81/2,Red Soils,,groundnut,01/01/2015
 57,01/01/2015,3064,RK1960,Katram Pandu dora,East Godavari,Gangavaram,Gangavaram,113/5,Red Soils,,Paddy,01/01/2015
-58,01/01/2015,3068,RK1961,Katram Ramarao,East Godavari,Gangavaram,Gangavaram,113/5,Red Soils,,,01/01/2015
-59,01/01/2015,3069,RK1962,Kangala Potaraju,East Godavari,Gangavaram,Gangavaram,47/7,Red Soils,,,01/01/2015
-61,01/01/2015,3071,RK1964,Katram Ramarao,East Godavari,Gangavaram,Gangavaram,53/4,Red Soils,,,01/01/2015
-62,01/01/2015,3072,RK1965,Pusam Samaraju dora,East Godavari,Gangavaram,Gangavaram,58/2,Red Soils,,,01/01/2015
+58,01/01/2015,3068,RK1961,Katram Ramarao,East Godavari,Gangavaram,Gangavaram,113/5,Red Soils,,groundnut,01/01/2015
+59,01/01/2015,3069,RK1962,Kangala Potaraju,East Godavari,Gangavaram,Gangavaram,47/7,Red Soils,,groundnut,01/01/2015
+61,01/01/2015,3071,RK1964,Katram Ramarao,East Godavari,Gangavaram,Gangavaram,53/4,Red Soils,,groundnut,01/01/2015
+62,01/01/2015,3072,RK1965,Pusam Samaraju dora,East Godavari,Gangavaram,Gangavaram,58/2,Red Soils,,groundnut,01/01/2015
 63,01/01/2015,2709,RK1966,Parlapati Sriramurthi,East Godavari,Gangavaram,Goragommi,8/10,Red sandy loam,,Topioca (Sample-2),01/01/2015
 64,01/01/2015,2732,RK1967,Kosuri Mangapathi Reddy,East Godavari,Gangavaram,Goragommi,47,Red sandy loam,,Paddy,01/01/2015
 65,01/01/2015,2733,RK1968,Parlapati Sriramurthi,East Godavari,Gangavaram,Goragommi,8/10,Red sandy loam,,Topioca (Sample-1),01/01/2015
 66,01/01/2015,2738,RK1969,Lotha Raja Reddy,East Godavari,Gangavaram,Goragommi,30/3,Red sandy loam,,Paddy (Sample-2),01/01/2015
-67,01/01/2015,2742,RK1970,Ondoma Sriramulu Reddy,East Godavari,Gangavaram,Goragommi,58/1A,Red sandy loam,,,01/01/2015
-68,01/01/2015,2753,RK1971,Kosuri Satyavathi,East Godavari,Gangavaram,Goragommi,47,Red sandy loam,,,01/01/2015
+67,01/01/2015,2742,RK1970,Ondoma Sriramulu Reddy,East Godavari,Gangavaram,Goragommi,58/1A,Red sandy loam,,groundnut,01/01/2015
+68,01/01/2015,2753,RK1971,Kosuri Satyavathi,East Godavari,Gangavaram,Goragommi,47,Red sandy loam,,groundnut,01/01/2015
 69,01/01/2015,2755,RK1972,Kondroju Rajeshwari,East Godavari,Gangavaram,Goragommi,133/1,Red sandy loam,,Topioca,01/01/2015
 70,01/01/2015,2756,RK1973,Kosuri Chandramohan Reddy,East Godavari,Gangavaram,Goragommi,47,Red sandy loam,,Paddy,01/01/2015
 71,01/01/2015,2758,RK1974,Kosuri Chandramohan Reddy,East Godavari,Gangavaram,Goragommi,47,Red sandy loam,,Topioca,01/01/2015
 72,01/01/2015,2759,RK1975,Lotha Laxmi,East Godavari,Gangavaram,Goragommi,11/2,Red sandy loam,,Paddy (Sample-2),01/01/2015
 73,01/01/2015,2760,RK1976,Lotha Laxmi,East Godavari,Gangavaram,Goragommi,11/2,Red sandy loam,,Cotton (Sample-1),01/01/2015
-74,01/01/2015,2762,RK1977,Kosuri Yedukondalu Reddy,East Godavari,Gangavaram,Goragommi,11/1B,Red sandy loam,,,01/01/2015
+74,01/01/2015,2762,RK1977,Kosuri Yedukondalu Reddy,East Godavari,Gangavaram,Goragommi,11/1B,Red sandy loam,,groundnut,01/01/2015
 75,01/01/2015,2763,RK1978,Lotha Raja Reddy,East Godavari,Gangavaram,Goragommi,30/3,Red sandy loam,,Cotton (Sample-1),01/01/2015
 76,01/01/2015,2764,RK1979,Lotha Venkat Reddy,East Godavari,Gangavaram,Goragommi,30/3,Red sandy loam,,Paddy,01/01/2015
 77,01/01/2015,2765,RK1980,Kosuri Indiramma,East Godavari,Gangavaram,Goragommi,58,Red sandy loam,,Paddy,01/01/2015
-78,01/01/2015,2766,RK1981,Kosuri Purushottam Reddy,East Godavari,Gangavaram,Goragommi,58,Red sandy loam,,,01/01/2015
+78,01/01/2015,2766,RK1981,Kosuri Purushottam Reddy,East Godavari,Gangavaram,Goragommi,58,Red sandy loam,,groundnut,01/01/2015
 79,01/01/2015,2781,RK1982,Guragunta Subbarao,East Godavari,Gangavaram,Goragommi,31/1,Red sandy loam,,Paddy,01/01/2015
-80,01/01/2015,2851,RK1983,Tam Prasad dora,East Godavari,Gangavaram,Kusumarai,16/2,clayey loam,,,01/01/2015
-81,01/01/2015,2853,RK1984,Chavalam Bulli dora,East Godavari,Gangavaram,Kusumarai,32/12,clayey loam,,,01/01/2015
-82,01/01/2015,2860,RK1985,Chavalam Chinna Rajulanna,East Godavari,Gangavaram,Kusumarai,50/1B,clayey loam,,,01/01/2015
-83,01/01/2015,2969,RK1986,Tam Rajanna,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-84,01/01/2015,2970,RK1987,Tam Laxmanna,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-85,01/01/2015,2971,RK1988,Parisika Abbulu dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-86,01/01/2015,2972,RK1989,Karam Ramanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-87,01/01/2015,2973,RK1990,Karam Ganganna,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-88,01/01/2015,2974,RK1991,Payam Thammanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-89,01/01/2015,2975,RK1992,Payam Bheemanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-90,01/01/2015,2976,RK1993,Payam Rajanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-91,01/01/2015,2977,RK1994,P Thammanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-92,01/01/2015,2978,RK1995,Karam Thammanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-93,01/01/2015,2979,RK1996,Tam Chellanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-94,01/01/2015,2980,RK1997,Chavalam Borrannadora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-95,01/01/2015,2981,RK1998,Chavalam Bapiraju dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-96,01/01/2015,2996,RK1999,Tam Bulliyamma,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-97,01/01/2015,2997,RK2000,Karam Abbaidora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
-98,01/01/2015,2998,RK2001,Tam Bhushanam,East Godavari,Gangavaram,Kusumarai,107,clayey loam,,,01/01/2015
-99,01/01/2015,3000,RK2002,Golla Venkataratnam,East Godavari,Gangavaram,Kusumarai,,clayey loam,,,01/01/2015
+80,01/01/2015,2851,RK1983,Tam Prasad dora,East Godavari,Gangavaram,Kusumarai,16/2,clayey loam,,groundnut,01/01/2015
+81,01/01/2015,2853,RK1984,Chavalam Bulli dora,East Godavari,Gangavaram,Kusumarai,32/12,clayey loam,,groundnut,01/01/2015
+82,01/01/2015,2860,RK1985,Chavalam Chinna Rajulanna,East Godavari,Gangavaram,Kusumarai,50/1B,clayey loam,,groundnut,01/01/2015
+83,01/01/2015,2969,RK1986,Tam Rajanna,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+84,01/01/2015,2970,RK1987,Tam Laxmanna,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+85,01/01/2015,2971,RK1988,Parisika Abbulu dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+86,01/01/2015,2972,RK1989,Karam Ramanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+87,01/01/2015,2973,RK1990,Karam Ganganna,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+88,01/01/2015,2974,RK1991,Payam Thammanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+89,01/01/2015,2975,RK1992,Payam Bheemanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+90,01/01/2015,2976,RK1993,Payam Rajanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+91,01/01/2015,2977,RK1994,P Thammanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+92,01/01/2015,2978,RK1995,Karam Thammanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+93,01/01/2015,2979,RK1996,Tam Chellanna dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+94,01/01/2015,2980,RK1997,Chavalam Borrannadora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+95,01/01/2015,2981,RK1998,Chavalam Bapiraju dora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+96,01/01/2015,2996,RK1999,Tam Bulliyamma,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+97,01/01/2015,2997,RK2000,Karam Abbaidora,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
+98,01/01/2015,2998,RK2001,Tam Bhushanam,East Godavari,Gangavaram,Kusumarai,107,clayey loam,,groundnut,01/01/2015
+99,01/01/2015,3000,RK2002,Golla Venkataratnam,East Godavari,Gangavaram,Kusumarai,,clayey loam,,groundnut,01/01/2015
 101,01/01/2015,2623,RK2004,Yatla Somi Reddy,East Godavari,Gangavaram,Lakkonda,37/117,Red Soils,,Paddy,01/01/2015
 103,01/01/2015,2625,RK2006,Yatla Nagamani,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,Cotton ,01/01/2015
-104,01/01/2015,2642,RK2007,Yatla Venkatramana Reddy,East Godavari,Gangavaram,Lakkonda,16/5,Red Soils,,,01/01/2015
-105,01/01/2015,2643,RK2008,Yatla Mangayamma,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,,01/01/2015
-106,01/01/2015,2644,RK2009,Ramulukonda Gopal Reddy,East Godavari,Gangavaram,Lakkonda,04/Feb,Red Soils,,,01/01/2015
-109,01/01/2015,2647,RK2012,Yatla Pentamma,East Godavari,Gangavaram,Lakkonda,52/1,Red Soils,,,01/01/2015
+104,01/01/2015,2642,RK2007,Yatla Venkatramana Reddy,East Godavari,Gangavaram,Lakkonda,16/5,Red Soils,,groundnut,01/01/2015
+105,01/01/2015,2643,RK2008,Yatla Mangayamma,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,groundnut,01/01/2015
+106,01/01/2015,2644,RK2009,Ramulukonda Gopal Reddy,East Godavari,Gangavaram,Lakkonda,04/Feb,Red Soils,,groundnut,01/01/2015
+109,01/01/2015,2647,RK2012,Yatla Pentamma,East Godavari,Gangavaram,Lakkonda,52/1,Red Soils,,groundnut,01/01/2015
 111,01/01/2015,2710,RK2014,Sedala Appanna Reddy,East Godavari,Gangavaram,Lakkonda,77,Red Soils,,Cotton,01/01/2015
 112,01/01/2015,2711,RK2015,Olem Kannapu Reddy,East Godavari,Gangavaram,Lakkonda,36,Red Soils,,Paddy,01/01/2015
 113,01/01/2015,2714,RK2016,Annika Chinnammi,East Godavari,Gangavaram,Lakkonda,92/18,Red Soils,,"Cotton, Topioca",01/01/2015
 115,01/01/2015,2718,RK2018,Yatla Sanyasi Reddy,East Godavari,Gangavaram,Lakkonda,53/1,Red Soils,,Topioca,01/01/2015
-118,01/01/2015,2724,RK2021,Loladdi Devanandam,East Godavari,Gangavaram,Lakkonda,91/2,Red Soils,,,01/01/2015
-121,01/01/2015,2739,RK2024,Chedala Chinna Ramulu Reddy,East Godavari,Gangavaram,Lakkonda,,Red Soils,,,01/01/2015
+118,01/01/2015,2724,RK2021,Loladdi Devanandam,East Godavari,Gangavaram,Lakkonda,91/2,Red Soils,,groundnut,01/01/2015
+121,01/01/2015,2739,RK2024,Chedala Chinna Ramulu Reddy,East Godavari,Gangavaram,Lakkonda,,Red Soils,,groundnut,01/01/2015
 124,01/01/2015,2745,RK2027,Yatla Kommi Reddy,East Godavari,Gangavaram,Lakkonda,29,Red Soils,,Paddy,01/01/2015
-125,01/01/2015,2746,RK2028,Reddy Apparao,East Godavari,Gangavaram,Lakkonda,43/1B,Red Soils,,,01/01/2015
+125,01/01/2015,2746,RK2028,Reddy Apparao,East Godavari,Gangavaram,Lakkonda,43/1B,Red Soils,,groundnut,01/01/2015
 126,01/01/2015,2782,RK2029,Reddy Nukalamma,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,Cotton,01/01/2015
 127,01/01/2015,2783,RK2030,Reddy Bapanamma,East Godavari,Gangavaram,Lakkonda,24/1,Red Soils,,Paddy,01/01/2015
 128,01/01/2015,2784,RK2031,Morla Chittibabu Reddy,East Godavari,Gangavaram,Lakkonda,40/5,Red Soils,,Paddy,01/01/2015
 129,01/01/2015,2785,RK2032,Reddy Jogi Reddy,East Godavari,Gangavaram,Lakkonda,42,Red Soils,,Cotton,01/01/2015
-130,01/01/2015,2787,RK2033,Yatla Chilkamma,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,,01/01/2015
-131,01/01/2015,2788,RK2034,Yatla Nagi Reddy,East Godavari,Gangavaram,Lakkonda,9,Red Soils,,,01/01/2015
+130,01/01/2015,2787,RK2033,Yatla Chilkamma,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,groundnut,01/01/2015
+131,01/01/2015,2788,RK2034,Yatla Nagi Reddy,East Godavari,Gangavaram,Lakkonda,9,Red Soils,,groundnut,01/01/2015
 132,01/01/2015,2790,RK2035,Yatla Venkateshwar Reddy,East Godavari,Gangavaram,Lakkonda,16/4,Red Soils,,Paddy,01/01/2015
-133,01/01/2015,2791,RK2036,Yatla Ammaji,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,,01/01/2015
-134,01/01/2015,2792,RK2037,Yatla Eshwari,East Godavari,Gangavaram,Lakkonda,39/1,Red Soils,,,01/01/2015
-135,01/01/2015,2793,RK2038,Yatla Rajeshwari,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,,01/01/2015
-136,01/01/2015,2794,RK2039,Yatla Ram Reddy,East Godavari,Gangavaram,Lakkonda,16/6,Red Soils,,,01/01/2015
-137,01/01/2015,2795,RK2040,Yatla Kommi Reddy,East Godavari,Gangavaram,Lakkonda,16/3,Red Soils,,,01/01/2015
-138,01/01/2015,2796,RK2041,Yatla Nagi Reddy,East Godavari,Gangavaram,Lakkonda,192/1,Red Soils,,,01/01/2015
+133,01/01/2015,2791,RK2036,Yatla Ammaji,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,groundnut,01/01/2015
+134,01/01/2015,2792,RK2037,Yatla Eshwari,East Godavari,Gangavaram,Lakkonda,39/1,Red Soils,,groundnut,01/01/2015
+135,01/01/2015,2793,RK2038,Yatla Rajeshwari,East Godavari,Gangavaram,Lakkonda,1,Red Soils,,groundnut,01/01/2015
+136,01/01/2015,2794,RK2039,Yatla Ram Reddy,East Godavari,Gangavaram,Lakkonda,16/6,Red Soils,,groundnut,01/01/2015
+137,01/01/2015,2795,RK2040,Yatla Kommi Reddy,East Godavari,Gangavaram,Lakkonda,16/3,Red Soils,,groundnut,01/01/2015
+138,01/01/2015,2796,RK2041,Yatla Nagi Reddy,East Godavari,Gangavaram,Lakkonda,192/1,Red Soils,,groundnut,01/01/2015
 140,01/01/2015,2799,RK2043,Yatla Mangi Reddy,East Godavari,Gangavaram,Lakkonda,154,Red Soils,,Cotton,01/01/2015
 146,01/01/2015,2908,RK2049,Annika Mallamma,East Godavari,Gangavaram,Lakkonda,91/3,Red Soils,,"Paddy, Brinjal",01/01/2015
 147,01/01/2015,2909,RK2050,Annika Bhuchamma,East Godavari,Gangavaram,Lakkonda,49/P,Red Soils,,Paddy,01/01/2015
@@ -823,51 +823,51 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 150,01/01/2015,2913,RK2053,Yelugula Laxmi,East Godavari,Gangavaram,Lakkonda,60,Red Soils,,Paddy,01/01/2015
 151,01/01/2015,2914,RK2054,Pamarthi Sitamma,East Godavari,Gangavaram,Lakkonda,49/P,Red Soils,,"Cotton, Redgram",01/01/2015
 159,01/01/2015,2922,RK2062,Murla Bal Reddy,East Godavari,Gangavaram,Lakkonda,162/1,Red Soils,,Paddy,01/01/2015
-160,01/01/2015,2923,RK2063,Murla Ram Reddy,East Godavari,Gangavaram,Lakkonda,162/1,Red Soils,,,01/01/2015
+160,01/01/2015,2923,RK2063,Murla Ram Reddy,East Godavari,Gangavaram,Lakkonda,162/1,Red Soils,,groundnut,01/01/2015
 162,01/01/2015,2925,RK2065,Yelugula Swami Reddy,East Godavari,Gangavaram,Lakkonda,52/2,Red Soils,,Paddy,01/01/2015
 163,01/01/2015,2926,RK2066,Yelugula Raja Reddy,East Godavari,Gangavaram,Lakkonda,71,Red Soils,,Paddy (Sample-1),01/01/2015
-165,01/01/2015,2703,RK2068,Panda Chinnabbai dora,East Godavari,Gangavaram,Pandrapottipalem,70/1,Red Soils,,,01/01/2015
-166,01/01/2015,2704,RK2069,Sikkam Bapurao,East Godavari,Gangavaram,Pandrapottipalem,40/2,Red Soils,,,01/01/2015
-167,01/01/2015,2705,RK2070,Panda Kannaiah dora,East Godavari,Gangavaram,Pandrapottipalem,55/3,Red Soils,,,01/01/2015
-168,01/01/2015,2706,RK2071,Jerta Bujji dora,East Godavari,Gangavaram,Pandrapottipalem,38,Red Soils,,,01/01/2015
-169,01/01/2015,2726,RK2072,Chodi Kamayamma,East Godavari,Gangavaram,Pandrapottipalem,42/6,Red Soils,,,01/01/2015
-170,01/01/2015,2728,RK2073,Jarta Balu dora,East Godavari,Gangavaram,Pandrapottipalem,70/2,Red Soils,,,01/01/2015
-171,01/01/2015,2744,RK2074,Jarta Suryakumari,East Godavari,Gangavaram,Pandrapottipalem,45/3,Red Soils,,,01/01/2015
-172,01/01/2015,2747,RK2075,Jarta Chinnalu dora,East Godavari,Gangavaram,Pandrapottipalem,33,Red Soils,,,01/01/2015
-173,01/01/2015,2748,RK2076,Panda Badram,East Godavari,Gangavaram,Pandrapottipalem,53/1,Red Soils,,,01/01/2015
-174,01/01/2015,2749,RK2077,Panda Mangayamma,East Godavari,Gangavaram,Pandrapottipalem,38,Red Soils,,,01/01/2015
-175,01/01/2015,2750,RK2078,Jarta Suryakantham,East Godavari,Gangavaram,Pandrapottipalem,33/3,Red Soils,,,01/01/2015
-176,01/01/2015,2772,RK2079,Jarta Subbalaxmi,East Godavari,Gangavaram,Pandrapottipalem,33/1,Red Soils,,,01/01/2015
-177,01/01/2015,2773,RK2080,Jartha Laxmi,East Godavari,Gangavaram,Pandrapottipalem,38,Red Soils,,,01/01/2015
-178,01/01/2015,2774,RK2081,Panda Mangayamma,East Godavari,Gangavaram,Pandrapottipalem,149/4,Red Soils,,,01/01/2015
-179,01/01/2015,2775,RK2082,Panda Veeramani,East Godavari,Gangavaram,Pandrapottipalem,149/7,Red Soils,,,01/01/2015
-180,01/01/2015,2777,RK2083,Jarta Suryakumari,East Godavari,Gangavaram,Pandrapottipalem,38,Red Soils,,,01/01/2015
-181,01/01/2015,2780,RK2084,Panda Bapanna dora,East Godavari,Gangavaram,Pandrapottipalem,,Red Soils,,,01/01/2015
-182,01/01/2015,2716,RK2085,Kottam Satyanarayana,East Godavari,Gangavaram,Pandrapottipalem,39,Red Soils,,,01/01/2015
-183,01/01/2015,2601,RK2086,Kalumula Bulli dora,East Godavari,Gangavaram,Rajampalem,40/1,Red Soils,,,01/01/2015
-184,01/01/2015,2602,RK2087,Panda  Venkanna,East Godavari,Gangavaram,Rajampalem,51,Red Soils,,,01/01/2015
-185,01/01/2015,2603,RK2088,Kosu Buli dora,East Godavari,Gangavaram,Rajampalem,32/3,Red Soils,,,01/01/2015
-186,01/01/2015,2604,RK2089,Panda Chinnalu dora,East Godavari,Gangavaram,Rajampalem,"20/2 , 35/3",Red Soils,,,01/01/2015
-187,01/01/2015,2605,RK2090,Kosu Balamma,East Godavari,Gangavaram,Rajampalem,40,Red Soils,,,01/01/2015
-188,01/01/2015,2606,RK2091,Panda Venkanna dora,East Godavari,Gangavaram,Rajampalem,30/1,Red Soils,,,01/01/2015
-189,01/01/2015,2607,RK2092,Panda Buli dora,East Godavari,Gangavaram,Rajampalem,23/1,Red Soils,,,01/01/2015
-190,01/01/2015,2608,RK2093,Chodhi Chalayamma,East Godavari,Gangavaram,Rajampalem,7/1,Red Soils,,,01/01/2015
-191,01/01/2015,2609,RK2094,Panda Abbai dora,East Godavari,Gangavaram,Rajampalem,45,Red Soils,,,01/01/2015
-192,01/01/2015,2610,RK2095,Kalumula Chinnalu dora,East Godavari,Gangavaram,Rajampalem,30/1,Red Soils,,,01/01/2015
-193,01/01/2015,2611,RK2096,Kalumula Chinnalaxmi,East Godavari,Gangavaram,Rajampalem,39/1,Red Soils,,,01/01/2015
-194,01/01/2015,2612,RK2097,Kosu Veerababu dora,East Godavari,Gangavaram,Rajampalem,32/3,Red Soils,,,01/01/2015
-195,01/01/2015,2613,RK2098,Kalumula Komanna,East Godavari,Gangavaram,Rajampalem,17/3,Red Soils,,,01/01/2015
-196,01/01/2015,2614,RK2099,Kunjam Jogamma,East Godavari,Gangavaram,Rajampalem,55,Red Soils,,,01/01/2015
-197,01/01/2015,2615,RK2100,Panda Bapanna dora,East Godavari,Gangavaram,Rajampalem,30/1,Red Soils,,,01/01/2015
-198,01/01/2015,2616,RK2101,Kalumula Thammanna,East Godavari,Gangavaram,Rajampalem,21,Red Soils,,,01/01/2015
-199,01/01/2015,2617,RK2102,Parada Chandramma,East Godavari,Gangavaram,Rajampalem,52,Red Soils,,,01/01/2015
-200,01/01/2015,2618,RK2103,Panda Krishnaveni,East Godavari,Gangavaram,Rajampalem,41/2,Red Soils,,,01/01/2015
-201,01/01/2015,2619,RK2104,Kalumula Bapanna dora,East Godavari,Gangavaram,Rajampalem,23/2,Red Soils,,,01/01/2015
-202,01/01/2015,2620,RK2105,Parada Srihari,East Godavari,Gangavaram,Rajampalem,7/3,Red Soils,,,01/01/2015
-203,01/01/2015,2621,RK2106,Kalumula Baludora,East Godavari,Gangavaram,Rajampalem,18/2,Red Soils,,,01/01/2015
-204,01/01/2015,2957,RK2107,Kalumula Venkatesh dora,East Godavari,Gangavaram,Rajampalem,39/3,Red Soils,,,01/01/2015
-205,01/01/2015,2958,RK2108,Kalumula Chinnabblu,East Godavari,Gangavaram,Rajampalem,53,Red Soils,,,01/01/2015
-206,01/01/2015,2959,RK2109,Kalumula Bapiraju,East Godavari,Gangavaram,Rajampalem,39/3,Red Soils,,,01/01/2015
+165,01/01/2015,2703,RK2068,Panda Chinnabbai dora,East Godavari,Gangavaram,Pandrapottipalem,70/1,Red Soils,,groundnut,01/01/2015
+166,01/01/2015,2704,RK2069,Sikkam Bapurao,East Godavari,Gangavaram,Pandrapottipalem,40/2,Red Soils,,groundnut,01/01/2015
+167,01/01/2015,2705,RK2070,Panda Kannaiah dora,East Godavari,Gangavaram,Pandrapottipalem,55/3,Red Soils,,groundnut,01/01/2015
+168,01/01/2015,2706,RK2071,Jerta Bujji dora,East Godavari,Gangavaram,Pandrapottipalem,38,Red Soils,,groundnut,01/01/2015
+169,01/01/2015,2726,RK2072,Chodi Kamayamma,East Godavari,Gangavaram,Pandrapottipalem,42/6,Red Soils,,groundnut,01/01/2015
+170,01/01/2015,2728,RK2073,Jarta Balu dora,East Godavari,Gangavaram,Pandrapottipalem,70/2,Red Soils,,groundnut,01/01/2015
+171,01/01/2015,2744,RK2074,Jarta Suryakumari,East Godavari,Gangavaram,Pandrapottipalem,45/3,Red Soils,,groundnut,01/01/2015
+172,01/01/2015,2747,RK2075,Jarta Chinnalu dora,East Godavari,Gangavaram,Pandrapottipalem,33,Red Soils,,groundnut,01/01/2015
+173,01/01/2015,2748,RK2076,Panda Badram,East Godavari,Gangavaram,Pandrapottipalem,53/1,Red Soils,,groundnut,01/01/2015
+174,01/01/2015,2749,RK2077,Panda Mangayamma,East Godavari,Gangavaram,Pandrapottipalem,38,Red Soils,,groundnut,01/01/2015
+175,01/01/2015,2750,RK2078,Jarta Suryakantham,East Godavari,Gangavaram,Pandrapottipalem,33/3,Red Soils,,groundnut,01/01/2015
+176,01/01/2015,2772,RK2079,Jarta Subbalaxmi,East Godavari,Gangavaram,Pandrapottipalem,33/1,Red Soils,,groundnut,01/01/2015
+177,01/01/2015,2773,RK2080,Jartha Laxmi,East Godavari,Gangavaram,Pandrapottipalem,38,Red Soils,,groundnut,01/01/2015
+178,01/01/2015,2774,RK2081,Panda Mangayamma,East Godavari,Gangavaram,Pandrapottipalem,149/4,Red Soils,,groundnut,01/01/2015
+179,01/01/2015,2775,RK2082,Panda Veeramani,East Godavari,Gangavaram,Pandrapottipalem,149/7,Red Soils,,groundnut,01/01/2015
+180,01/01/2015,2777,RK2083,Jarta Suryakumari,East Godavari,Gangavaram,Pandrapottipalem,38,Red Soils,,groundnut,01/01/2015
+181,01/01/2015,2780,RK2084,Panda Bapanna dora,East Godavari,Gangavaram,Pandrapottipalem,,Red Soils,,groundnut,01/01/2015
+182,01/01/2015,2716,RK2085,Kottam Satyanarayana,East Godavari,Gangavaram,Pandrapottipalem,39,Red Soils,,groundnut,01/01/2015
+183,01/01/2015,2601,RK2086,Kalumula Bulli dora,East Godavari,Gangavaram,Rajampalem,40/1,Red Soils,,groundnut,01/01/2015
+184,01/01/2015,2602,RK2087,Panda  Venkanna,East Godavari,Gangavaram,Rajampalem,51,Red Soils,,groundnut,01/01/2015
+185,01/01/2015,2603,RK2088,Kosu Buli dora,East Godavari,Gangavaram,Rajampalem,32/3,Red Soils,,groundnut,01/01/2015
+186,01/01/2015,2604,RK2089,Panda Chinnalu dora,East Godavari,Gangavaram,Rajampalem,"20/2 , 35/3",Red Soils,,groundnut,01/01/2015
+187,01/01/2015,2605,RK2090,Kosu Balamma,East Godavari,Gangavaram,Rajampalem,40,Red Soils,,groundnut,01/01/2015
+188,01/01/2015,2606,RK2091,Panda Venkanna dora,East Godavari,Gangavaram,Rajampalem,30/1,Red Soils,,groundnut,01/01/2015
+189,01/01/2015,2607,RK2092,Panda Buli dora,East Godavari,Gangavaram,Rajampalem,23/1,Red Soils,,groundnut,01/01/2015
+190,01/01/2015,2608,RK2093,Chodhi Chalayamma,East Godavari,Gangavaram,Rajampalem,7/1,Red Soils,,groundnut,01/01/2015
+191,01/01/2015,2609,RK2094,Panda Abbai dora,East Godavari,Gangavaram,Rajampalem,45,Red Soils,,groundnut,01/01/2015
+192,01/01/2015,2610,RK2095,Kalumula Chinnalu dora,East Godavari,Gangavaram,Rajampalem,30/1,Red Soils,,groundnut,01/01/2015
+193,01/01/2015,2611,RK2096,Kalumula Chinnalaxmi,East Godavari,Gangavaram,Rajampalem,39/1,Red Soils,,groundnut,01/01/2015
+194,01/01/2015,2612,RK2097,Kosu Veerababu dora,East Godavari,Gangavaram,Rajampalem,32/3,Red Soils,,groundnut,01/01/2015
+195,01/01/2015,2613,RK2098,Kalumula Komanna,East Godavari,Gangavaram,Rajampalem,17/3,Red Soils,,groundnut,01/01/2015
+196,01/01/2015,2614,RK2099,Kunjam Jogamma,East Godavari,Gangavaram,Rajampalem,55,Red Soils,,groundnut,01/01/2015
+197,01/01/2015,2615,RK2100,Panda Bapanna dora,East Godavari,Gangavaram,Rajampalem,30/1,Red Soils,,groundnut,01/01/2015
+198,01/01/2015,2616,RK2101,Kalumula Thammanna,East Godavari,Gangavaram,Rajampalem,21,Red Soils,,groundnut,01/01/2015
+199,01/01/2015,2617,RK2102,Parada Chandramma,East Godavari,Gangavaram,Rajampalem,52,Red Soils,,groundnut,01/01/2015
+200,01/01/2015,2618,RK2103,Panda Krishnaveni,East Godavari,Gangavaram,Rajampalem,41/2,Red Soils,,groundnut,01/01/2015
+201,01/01/2015,2619,RK2104,Kalumula Bapanna dora,East Godavari,Gangavaram,Rajampalem,23/2,Red Soils,,groundnut,01/01/2015
+202,01/01/2015,2620,RK2105,Parada Srihari,East Godavari,Gangavaram,Rajampalem,7/3,Red Soils,,groundnut,01/01/2015
+203,01/01/2015,2621,RK2106,Kalumula Baludora,East Godavari,Gangavaram,Rajampalem,18/2,Red Soils,,groundnut,01/01/2015
+204,01/01/2015,2957,RK2107,Kalumula Venkatesh dora,East Godavari,Gangavaram,Rajampalem,39/3,Red Soils,,groundnut,01/01/2015
+205,01/01/2015,2958,RK2108,Kalumula Chinnabblu,East Godavari,Gangavaram,Rajampalem,53,Red Soils,,groundnut,01/01/2015
+206,01/01/2015,2959,RK2109,Kalumula Bapiraju,East Godavari,Gangavaram,Rajampalem,39/3,Red Soils,,groundnut,01/01/2015
 1,01/01/2015,251,RK1,K Venkata Ratnam,Guntur,Kollur,Chilumuru,127,Black soil,,Turmeric,01/01/2015
 2,01/01/2015,252,RK2,M Ramakoteswara Rao,Guntur,Kollur,Chilumuru,9/3-,Black soil,,Turmeric,01/01/2015
 3,01/01/2015,253,RK3,Malabandi Kondal Rao,Guntur,Kollur,Chilumuru,36-3,Black soil,,Turmeric,01/01/2015
@@ -1926,12 +1926,12 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 8,01/01/2015,3858,RK3532,D. Rajasekhar Reddy,Kurnool,Banaganpalli,Applapuram,14/1,Black,,Coriandam,01/01/2015
 9,01/01/2015,3859,RK3533,D. Subba Reddy,Kurnool,Banaganpalli,Applapuram,159,Black,,Jowar,01/01/2015
 10,01/01/2015,3860,RK3534,M. Thahar Hussain,Kurnool,Banaganpalli,Applapuram,34,Black,,Blackgram,01/01/2015
-11,01/01/2015,3861,RK3535,Syed Ghouse,Kurnool,Banaganpalli,Applapuram,144,,,Jowar,01/01/2015
+11,01/01/2015,3861,RK3535,Syed Ghouse,Kurnool,Banaganpalli,Applapuram,144,red,,Jowar,01/01/2015
 12,01/01/2015,3862,RK3536,S. Venkat Ramana,Kurnool,Banaganpalli,Applapuram,193,Black,,Blackgram,01/01/2015
-13,01/01/2015,3863,RK3537,K. Thirupam Reddy,Kurnool,Banaganpalli,Applapuram,188,,,Jowar,01/01/2015
-14,01/01/2015,3864,RK3538,O. Venkat Ramana,Kurnool,Banaganpalli,Applapuram,310,,,Coriandam,01/01/2015
+13,01/01/2015,3863,RK3537,K. Thirupam Reddy,Kurnool,Banaganpalli,Applapuram,188,red,,Jowar,01/01/2015
+14,01/01/2015,3864,RK3538,O. Venkat Ramana,Kurnool,Banaganpalli,Applapuram,310,red,,Coriandam,01/01/2015
 15,01/01/2015,3865,RK3539,K. Malle Basha,Kurnool,Banaganpalli,Applapuram,232,Black,,Bengalgram,01/01/2015
-16,01/01/2015,3866,RK3540,Ashok Reddy,Kurnool,Banaganpalli,Applapuram,,,,,01/01/2015
+16,01/01/2015,3866,RK3540,Ashok Reddy,Kurnool,Banaganpalli,Applapuram,,red,,groundnut,01/01/2015
 17,01/01/2015,3867,RK3541,Bhaskar Reddy,Kurnool,Banaganpalli,Applapuram,17,Black,,Jowar,01/01/2015
 18,01/01/2015,3868,RK3542,K. Bala raju,Kurnool,Banaganpalli,Applapuram,22/3,Black,,Redgram,01/01/2015
 19,01/01/2015,3869,RK3543,K. Pullamma,Kurnool,Banaganpalli,Applapuram,222,Black,,Bengalgram,01/01/2015
@@ -1941,11 +1941,11 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 23,01/01/2015,3873,RK3547,S. Manohar reddy,Kurnool,Banaganpalli,Applapuram,132/2/A,Black,,Jowar,01/01/2015
 24,01/01/2015,3874,RK3548,O. Bala Subbanna,Kurnool,Banaganpalli,Applapuram,88/1,Black,,Jowar,01/01/2015
 25,01/01/2015,3875,RK3549,G. Pedda Pulaiah,Kurnool,Banaganpalli,Applapuram,89,Black,,Bengalgram,01/01/2015
-26,01/01/2015,3876,RK3550,Narayanamma,Kurnool,Banaganpalli,Applapuram,,,,,01/01/2015
+26,01/01/2015,3876,RK3550,Narayanamma,Kurnool,Banaganpalli,Applapuram,,red,,groundnut,01/01/2015
 27,01/01/2015,3877,RK3551,Bala Eswar Reddy,Kurnool,Banaganpalli,Applapuram,280/2/A,Black,,Bengalgram,01/01/2015
 28,01/01/2015,3878,RK3552,D. Nagamma,Kurnool,Banaganpalli,Applapuram,2.89,Black,,Jowar,01/01/2015
 29,01/01/2015,3879,RK3553,D. Lakshmi reddy,Kurnool,Banaganpalli,Applapuram,209,Black,,Bengalgram,01/01/2015
-30,01/01/2015,3880,RK3554,Ankalu,Kurnool,Banaganpalli,Applapuram,,,,,01/01/2015
+30,01/01/2015,3880,RK3554,Ankalu,Kurnool,Banaganpalli,Applapuram,,red,,groundnut,01/01/2015
 31,01/01/2015,3881,RK3555,K. Rama krishna,Kurnool,Banaganpalli,Applapuram,214/A,Black,,Bengalgram,01/01/2015
 32,01/01/2015,3882,RK3556,B. Madhava reddy,Kurnool,Banaganpalli,Applapuram,36,Black,,Coriandam,01/01/2015
 33,01/01/2015,3883,RK3557,G. Kabamma,Kurnool,Banaganpalli,Applapuram,114,Black,,Redgram,01/01/2015
@@ -1972,7 +1972,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 54,01/01/2015,3961,RK3578,Sadula venkata ramana reddy,Kurnool,Banaganpalli,Kypa,7/19/117/2C,Nalla regadi,,Vari,01/01/2015
 55,01/01/2015,3958,RK3579,Samala Prasada reddy,Kurnool,Banaganpalli,Kypa,214,Nalla regadi,,Jonna,01/01/2015
 56,01/01/2015,3963,RK3580,Ayithe ramakrishna,Kurnool,Banaganpalli,Kypa,206/2B/16,Nalla regadi,,Jonna,01/01/2015
-57,01/01/2015,3966,RK3581,Sodaiah,Kurnool,Banaganpalli,Kypa,,,,,01/01/2015
+57,01/01/2015,3966,RK3581,Sodaiah,Kurnool,Banaganpalli,Kypa,,red,,groundnut,01/01/2015
 58,01/01/2015,3968,RK3582,M. Subba rami reddy,Kurnool,Banaganpalli,Kypa,122/2,Nalla regadi,,Vari,01/01/2015
 59,01/01/2015,3969,RK3583,M. Subba rami reddy,Kurnool,Banaganpalli,Kypa,118/1B,Nalla regadi,,Vari,01/01/2015
 60,01/01/2015,3970,RK3584,M. Subba rami reddy,Kurnool,Banaganpalli,Kypa,250/2,Nalla regadi,,Jonna,01/01/2015
@@ -2040,8 +2040,8 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 122,01/01/2015,4029,RK3646,U. Venkata ramaiah,Kurnool,Banaganpalli,Pandlapuram,90,Chowdu +Nalla regadi,,Jonna,01/01/2015
 123,01/01/2015,4030,RK3647,U. Venkata ramaiah,Kurnool,Banaganpalli,Pandlapuram,29,Black,,Dhanyalu,01/01/2015
 124,01/01/2015,4031,RK3648,J. Sriramulu,Kurnool,Banaganpalli,Pandlapuram,79/2,Chowdu,,Vari,01/01/2015
-125,01/01/2015,4032,RK3649,A. Venkata rangaiah,Kurnool,Banaganpalli,Pandlapuram,,,,,01/01/2015
-126,01/01/2015,4033,RK3650,A. Chinnamma,Kurnool,Banaganpalli,Pandlapuram,,,,,01/01/2015
+125,01/01/2015,4032,RK3649,A. Venkata rangaiah,Kurnool,Banaganpalli,Pandlapuram,,red,,groundnut,01/01/2015
+126,01/01/2015,4033,RK3650,A. Chinnamma,Kurnool,Banaganpalli,Pandlapuram,,red,,groundnut,01/01/2015
 127,01/01/2015,4034,RK3651,T. Yellappa,Kurnool,Banaganpalli,Pandlapuram,11/2,Sand+Ondu+White,,Vari,01/01/2015
 128,01/01/2015,4035,RK3652,T. Sahadevudu,Kurnool,Banaganpalli,Pandlapuram,,Sudda Neela,,Vari,01/01/2015
 129,01/01/2015,4036,RK3653,Pulamma,Kurnool,Banaganpalli,Pandlapuram,18,Sand +Ondu,,Vari,01/01/2015
@@ -2067,7 +2067,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 149,01/01/2015,4056,RK3673,G. Srikanth,Kurnool,Banaganpalli,Pandlapuram,65/1B,Sudda Neela,,Vari,01/01/2015
 150,01/01/2015,4057,RK3674,S. Jagadehswar reddy,Kurnool,Banaganpalli,Pandlapuram,01/Apr,Tella masaka,,Jonna,01/01/2015
 151,01/01/2015,4058,RK3675,S. Babul reddy,Kurnool,Banaganpalli,Pandlapuram,165/2,Chowdu + Nalla regadi,,Vari,01/01/2015
-152,01/01/2015,4059,RK3676,Asheiah,Kurnool,Banaganpalli,Pandlapuram,,,,,01/01/2015
+152,01/01/2015,4059,RK3676,Asheiah,Kurnool,Banaganpalli,Pandlapuram,,red,,groundnut,01/01/2015
 153,01/01/2015,4060,RK3677,P. Venkateshwarlu,Kurnool,Banaganpalli,Pandlapuram,43,Black,,Bengalgram,01/01/2015
 154,01/01/2015,4061,RK3678,P. Venkata ramana,Kurnool,Banaganpalli,Pandlapuram,37/1,Black,,Bengalgram,01/01/2015
 155,01/01/2015,4062,RK3679,D Karunamma,Kurnool,Banaganpalli,Pandlapuram,41/1,Black,,Paddy,01/01/2015
@@ -2083,9 +2083,9 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 165,01/01/2015,3978,RK3689,G. Nageshwar reddy,Kurnool,Banaganpalli,Venkata puram,19,Black,,Paddy,01/01/2015
 166,01/01/2015,3979,RK3690,P. Madhu,Kurnool,Banaganpalli,Venkata puram,290,Chowdu,,Jonna,01/01/2015
 167,01/01/2015,3980,RK3691,S. Mahaboob Basha,Kurnool,Banaganpalli,Venkata puram,100,Chowdu,,Vari,01/01/2015
-168,01/01/2015,3981,RK3692,Chenna Reddy,Kurnool,Banaganpalli,Venkata puram,,,,,01/01/2015
+168,01/01/2015,3981,RK3692,Chenna Reddy,Kurnool,Banaganpalli,Venkata puram,,red,,groundnut,01/01/2015
 169,01/01/2015,3982,RK3693,Goundla ramaiah,Kurnool,Banaganpalli,Venkata puram,124,Regadi,,Senaga,01/01/2015
-170,01/01/2015,3983,RK3694,K. Nagasetti,Kurnool,Banaganpalli,Venkata puram,,,,,01/01/2015
+170,01/01/2015,3983,RK3694,K. Nagasetti,Kurnool,Banaganpalli,Venkata puram,,red,,groundnut,01/01/2015
 171,01/01/2015,3984,RK3695,D. Chitti nagi reddy,Kurnool,Banaganpalli,Venkata puram,146,Chowdu,,Vari,01/01/2015
 172,01/01/2015,3985,RK3696,P. Sambaiah,Kurnool,Banaganpalli,Venkata puram,417,Nalla regadi,,Mahendra Jonna,01/01/2015
 173,01/01/2015,3986,RK3697,Goundla jayamma,Kurnool,Banaganpalli,Venkata puram,96/1,Chowdu,,Vari,01/01/2015
@@ -2105,7 +2105,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 187,01/01/2015,4000,RK3711,Poosala Chinnamma,Kurnool,Banaganpalli,Venkata puram,104/1,"Black, chowdu",,Sunflower,01/01/2015
 188,01/01/2015,4001,RK3712,G. Chinna reddy,Kurnool,Banaganpalli,Venkata puram,176,Black,,Vari,01/01/2015
 189,01/01/2015,4002,RK3713,G. Subba lakshmamma,Kurnool,Banaganpalli,Venkata puram,"50/6,51/1",Chowdu,,Jonna,01/01/2015
-190,01/01/2015,4003,RK3714,G. Venkata subba reddy,Kurnool,Banaganpalli,Venkata puram,,,,,01/01/2015
+190,01/01/2015,4003,RK3714,G. Venkata subba reddy,Kurnool,Banaganpalli,Venkata puram,,red,,groundnut,01/01/2015
 191,01/01/2015,4004,RK3715,G. Narasimha reddy,Kurnool,Banaganpalli,Venkata puram,99,Chowdu,,Mahendra Jonna,01/01/2015
 192,01/01/2015,4005,RK3716,C. Lakshmi devi,Kurnool,Banaganpalli,Venkata puram,259,Chowdu,,Jonna,01/01/2015
 193,01/01/2015,4006,RK3717,Kukutla Srinivasulu,Kurnool,Banaganpalli,Venkata puram,250,Chowdu,,Pacha Jonna,01/01/2015
@@ -2114,9 +2114,9 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 196,01/01/2015,4009,RK3720,P. Rama subba reddy,Kurnool,Banaganpalli,Venkata puram,321,Chowdu,,Senaga,01/01/2015
 197,01/01/2015,4010,RK3721,Aluru nageshwar reddy,Kurnool,Banaganpalli,Venkata puram,229,Nalla regadi,,Erra senaga,01/01/2015
 198,01/01/2015,4011,RK3722,Aluru nageshwar reddy,Kurnool,Banaganpalli,Venkata puram,334,Chowdu+ Red,,Sunflower,01/01/2015
-199,01/01/2015,4012,RK3723,Pedda ashwathagari nageshwar reddy,Kurnool,Banaganpalli,Venkata puram,,,,,01/01/2015
+199,01/01/2015,4012,RK3723,Pedda ashwathagari nageshwar reddy,Kurnool,Banaganpalli,Venkata puram,,red,,groundnut,01/01/2015
 200,01/01/2015,4013,RK3724,M. Devaraju (midhuthuru),Kurnool,Banaganpalli,Venkata puram,210,Chowdu +Black,,Jonna,01/01/2015
-201,01/01/2015,4014,RK3725,D. Obulesh,Kurnool,Banaganpalli,Venkata puram,02/Nov,Red + Nalla regadi,,,01/01/2015
+201,01/01/2015,4014,RK3725,D. Obulesh,Kurnool,Banaganpalli,Venkata puram,02/Nov,Red + Nalla regadi,,groundnut,01/01/2015
 202,01/01/2015,4015,RK3726,Sunkesula mahesh,Kurnool,Banaganpalli,Venkata puram,,Chowdu,,Sunflower,01/01/2015
 203,01/01/2015,4016,RK3727,Dasari ramadasu,Kurnool,Banaganpalli,Venkata puram,215/1,Nalla regadi,,Erra Jonna,01/01/2015
 204,01/01/2015,4017,RK3728,C. Vishwanath reddy,Kurnool,Banaganpalli,Venkata puram,4.84,Nalla regadi,,"Veru senaga, Jonna",01/01/2015
@@ -2243,7 +2243,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 325,01/01/2015,3693,RK3849,G Pandu Rangau,Kurnool,Devanakonda,Kukatikonda,538,Red,,"Ground nut,castor",01/01/2015
 326,01/01/2015,3694,RK3850,G Ramaiah,Kurnool,Devanakonda,Kukatikonda,162,Alkhaline,,Cotton,01/01/2015
 327,01/01/2015,3695,RK3851,G Eswaraiah,Kurnool,Devanakonda,Kukatikonda,131,Red,,Ground Nut,01/01/2015
-328,01/01/2015,3696,RK3852,K Rangadu,Kurnool,Devanakonda,Kukatikonda,,,,,01/01/2015
+328,01/01/2015,3696,RK3852,K Rangadu,Kurnool,Devanakonda,Kukatikonda,,red,,groundnut,01/01/2015
 329,01/01/2015,3697,RK3853,H Lakshmi,Kurnool,Devanakonda,Kukatikonda,290,Red,,Ground Nut,01/01/2015
 330,01/01/2015,3698,RK3854,G Kowlanna,Kurnool,Devanakonda,Kukatikonda,220 / 3,Alkhaline,,Cotton,01/01/2015
 331,01/01/2015,3699,RK3855,G Chandrasekhar,Kurnool,Devanakonda,Kukatikonda,220 / 2,Alkhaline,,Cotton,01/01/2015
@@ -2257,8 +2257,8 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 339,01/01/2015,3707,RK3863,U Nagamma,Kurnool,Devanakonda,Kukatikonda,337,Red,,"Ground Nut ,Cotton",01/01/2015
 340,01/01/2015,3708,RK3864,U Pedda Rangaswami,Kurnool,Devanakonda,Kukatikonda,353,Alkhaline,,Cotton,01/01/2015
 341,01/01/2015,3709,RK3865,B Kowlutla,Kurnool,Devanakonda,Kukatikonda,343,Red,,"Ground Nut,jowar",01/01/2015
-342,01/01/2015,3710,RK3866,Pedda Rangaswamy,Kurnool,Devanakonda,Kukatikonda,,,,,01/01/2015
-343,01/01/2015,3711,RK3867,Rangadu K,Kurnool,Devanakonda,Kukatikonda,,,,,01/01/2015
+342,01/01/2015,3710,RK3866,Pedda Rangaswamy,Kurnool,Devanakonda,Kukatikonda,,red,,groundnut,01/01/2015
+343,01/01/2015,3711,RK3867,Rangadu K,Kurnool,Devanakonda,Kukatikonda,,red,,groundnut,01/01/2015
 344,01/01/2015,3712,RK3868,B Chinna Thimmaiah,Kurnool,Devanakonda,Kukatikonda,343,Red,,Ground Nut,01/01/2015
 345,01/01/2015,3713,RK3869,U Chinna Rangaswamy,Kurnool,Devanakonda,Kukatikonda,354 / 2B,Alkhaline,,Cotton,01/01/2015
 346,01/01/2015,3714,RK3870,T. Manavandi,Kurnool,Devanakonda,Kukatikonda,280,Black,,Cotton,01/01/2015
@@ -2280,12 +2280,12 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 362,01/01/2015,3730,RK3886,K Prasad,Kurnool,Devanakonda,Nelathalamarri,672 / 1,Red,,Groundnut,01/01/2015
 363,01/01/2015,3731,RK3887,G Nagi Reddy,Kurnool,Devanakonda,Nelathalamarri,706,Black,,Cotton,01/01/2015
 364,01/01/2015,3732,RK3888,G sanjeeva,Kurnool,Devanakonda,Nelathalamarri,701,Black,,Cotton,01/01/2015
-365,01/01/2015,3733,RK3889,E Bajri,Kurnool,Devanakonda,Nelathalamarri,,,,,01/01/2015
+365,01/01/2015,3733,RK3889,E Bajri,Kurnool,Devanakonda,Nelathalamarri,,red,,groundnut,01/01/2015
 366,01/01/2015,3734,RK3890,E Rangaswamy,Kurnool,Devanakonda,Nelathalamarri,716 / 1,Red,,Cotton,01/01/2015
 367,01/01/2015,3735,RK3891,M Veerapakshi,Kurnool,Devanakonda,Nelathalamarri,671,Red,,Groundnut,01/01/2015
 368,01/01/2015,3736,RK3892,K ramachandra,Kurnool,Devanakonda,Nelathalamarri,613,Red,,Clastor,01/01/2015
-369,01/01/2015,3737,RK3893,Taka Reddy,Kurnool,Devanakonda,Nelathalamarri,,,,,01/01/2015
-370,01/01/2015,3738,RK3894,Ramanna T,Kurnool,Devanakonda,Nelathalamarri,,,,,01/01/2015
+369,01/01/2015,3737,RK3893,Taka Reddy,Kurnool,Devanakonda,Nelathalamarri,,red,,groundnut,01/01/2015
+370,01/01/2015,3738,RK3894,Ramanna T,Kurnool,Devanakonda,Nelathalamarri,,red,,groundnut,01/01/2015
 371,01/01/2015,3739,RK3895,H Parasuramudu,Kurnool,Devanakonda,Nelathalamarri,721,Red,,Cotton,01/01/2015
 372,01/01/2015,3740,RK3896,G Narasappa,Kurnool,Devanakonda,Nelathalamarri,621,Red,,Groundnut,01/01/2015
 373,01/01/2015,3741,RK3897,B Maddilebi,Kurnool,Devanakonda,Nelathalamarri,729,Red,,Clastor,01/01/2015
@@ -3262,7 +3262,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 466,01/01/2015,4612,RK834,Chunchu Raghavaiah/Mugaiah,Prakasam,Ongole,Boddulurivaripalem,39,Black,,Paddy,01/01/2015
 467,01/01/2015,4613,RK835,C.Venkata Subbaiah/Subbaiah,Prakasam,Ongole,Boddulurivaripalem,29,Black,,Tobacco,01/01/2015
 468,01/01/2015,4614,RK836,Chunchu Punnaiah/Ankaiah,Prakasam,Ongole,Boddulurivaripalem,52-1,Black,,Paddy,01/01/2015
-469,01/01/2015,4615,RK837,,Prakasam,Ongole,Boddulurivaripalem,72,Red,,Paddy,01/01/2015
+469,01/01/2015,4615,RK837,Unknown,Prakasam,Ongole,Boddulurivaripalem,72,Red,,Paddy,01/01/2015
 470,01/01/2015,4616,RK838,Chunchu Peraiah/Guravaiah,Prakasam,Ongole,Devaram Padu,64-2,Black,,chickpea,01/01/2015
 471,01/01/2015,4617,RK839,Chunchu Hari Babu/Balaguravaiah,Prakasam,Ongole,Devaram Padu,154,Black,,Tobacco,01/01/2015
 472,01/01/2015,4618,RK840,M.Kondaiah/Guravaiah,Prakasam,Ongole,Devaram Padu,101,Red,,Tobacco,01/01/2015
@@ -4019,7 +4019,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 16,01/01/2015,APS6019,RK3983,Kolaka Polayya/Kolaka Ganagayya,Vizianagaram,Parvathipuram,Challam Valasa,305-1,Red,,Paddy,01/01/2015
 17,01/01/2015,APS6020,RK3984,Chitikila Tammi Naidu/Chitikila Gumpaswamy,Vizianagaram,Parvathipuram,Challam Valasa,167-4,Sandy,,Paddy,01/01/2015
 18,01/01/2015,APS6021,RK3985,Balusu China Chinnayya/Balusu Bangari,Vizianagaram,Parvathipuram,Challam Valasa,78-2,Sandy,,Paddy,01/01/2015
-19,01/01/2015,APS6022,RK3986,Dhora Cheruvu,Vizianagaram,Parvathipuram,Challam Valasa,,Black,,,01/01/2015
+19,01/01/2015,APS6022,RK3986,Dhora Cheruvu,Vizianagaram,Parvathipuram,Challam Valasa,,Black,,groundnut,01/01/2015
 20,01/01/2015,APS6023,RK3987,Balusu Nageswara Rao/Balusu Appalaswamy,Vizianagaram,Parvathipuram,Challam Valasa,132-21,Black,,Paddy,01/01/2015
 21,01/01/2015,APS6024,RK3988,Chinatala Seetamma/W/O Chintala Lakshmu Naidu,Vizianagaram,Parvathipuram,Challam Valasa,132-9,Sandy,,Paddy,01/01/2015
 22,01/01/2015,APS 5931,RK3989,Akkena Bala Krishna/Akkena Chinnam Naidu,Vizianagaram,Parvathipuram,D.Mulaga,38-5,Sandy Loam,,Paddy,01/01/2015
@@ -4052,7 +4052,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 49,01/01/2015,APS6035,RK4016,Nandivada Anasuyamma/Nandhivada Satyam,Vizianagaram,Parvathipuram,Dokiseela,249-5,Black,,Maize,01/01/2015
 50,01/01/2015,APS6036,RK4017,Guttalakshmi /Guttha Venkati,Vizianagaram,Parvathipuram,Dokiseela,270-6,Black,,Sesamum,01/01/2015
 51,01/01/2015,APS6037,RK4018,Vanjila Kishore/Datti Ganapathi,Vizianagaram,Parvathipuram,Dokiseela,28-7,White,,Paddy,01/01/2015
-52,01/01/2015,APS6038,RK4019,Ura Cheruvu,Vizianagaram,Parvathipuram,Dokiseela,,Black,,,01/01/2015
+52,01/01/2015,APS6038,RK4019,Ura Cheruvu,Vizianagaram,Parvathipuram,Dokiseela,,Black,,groundnut,01/01/2015
 53,01/01/2015,APS6039,RK4020,Dumbadhora Ramayya/Dumbadhora Tavitayya,Vizianagaram,Parvathipuram,Dokiseela,10-2.,Red,,Ragi,01/01/2015
 54,01/01/2015,APS6040,RK4021,Kondagorre Yerakamma/Kondigorri Rajayya,Vizianagaram,Parvathipuram,Dokiseela,331-1.,Red,,Maize,01/01/2015
 55,01/01/2015,APS6041,RK4022,Mandangi Narasamma/W/O Mamdangi Somayya,Vizianagaram,Parvathipuram,Dokiseela,329-7.,Sandy,,Paddy,01/01/2015
@@ -4110,7 +4110,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 107,01/01/2015,APS 5893,RK4074,Rompalli Ramudamma/Romapalli Jogi Naidu,Vizianagaram,Parvathipuram,Gangapuram,13-10.,Sandy Loam,,Sesamum,01/01/2015
 108,01/01/2015,APS 5894,RK4075,Ramudi Ramana/Ramudi Sivvu Naidu,Vizianagaram,Parvathipuram,Gangapuram,24-10.,Sandy Loam,,Sesamum,01/01/2015
 109,01/01/2015,APS 5895,RK4076,Sigidala Swamy/Sidigila Appayya,Vizianagaram,Parvathipuram,Gangapuram,17-26,Sandy Loam,,Sesamum,01/01/2015
-110,01/01/2015,APS 5896,RK4077,Gangayamma Cheruvu,Vizianagaram,Parvathipuram,Gangapuram,,Sandy Loam,,,01/01/2015
+110,01/01/2015,APS 5896,RK4077,Gangayamma Cheruvu,Vizianagaram,Parvathipuram,Gangapuram,,Sandy Loam,,groundnut,01/01/2015
 111,01/01/2015,APS 5897,RK4078,Komarapalli Krishna/Komarapalli Gangayya,Vizianagaram,Parvathipuram,Gangapuram,65-32,Loam,,Sesamum,01/01/2015
 112,01/01/2015,APS 5898,RK4079,Ramudri Ramu/Ramudi Balaram,Vizianagaram,Parvathipuram,Gangapuram,1-1.,Sandy Loam,,Sesamum,01/01/2015
 113,01/01/2015,APS 5899,RK4080,Vangapandu Krishna/Vangapandu Gangayya,Vizianagaram,Parvathipuram,Gangapuram,1-1.,Loam,,Sesamum,01/01/2015
@@ -4134,7 +4134,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 131,01/01/2015,APS 6087,RK4098,Udayani Sarojini/W/O Udayani Chinnam Naidu,Vizianagaram,Parvathipuram,Gochekka,66-3,Sandy Loam,,Paddy,01/01/2015
 132,01/01/2015,APS 6088,RK4099,Gajibilli Saraswathy/W/O Gajibilli Sadanadhachowdary,Vizianagaram,Parvathipuram,Gochekka,72,Black,,Blackgram,01/01/2015
 133,01/01/2015,APS 6089,RK4100,Mahapatro Rajulu/Mahapatro Ganesh,Vizianagaram,Parvathipuram,Gochekka,86-1,Black,,Paddy,01/01/2015
-134,01/01/2015,APS 6090,RK4101,Erra Bandha,Vizianagaram,Parvathipuram,Gochekka,,Black,,,01/01/2015
+134,01/01/2015,APS 6090,RK4101,Erra Bandha,Vizianagaram,Parvathipuram,Gochekka,,Black,,groundnut,01/01/2015
 135,01/01/2015,APS 6091,RK4102,Mahapatro Adhinarayana/Mahapatro Gopinatham,Vizianagaram,Parvathipuram,Gochekka,114-7,Sandy,,Paddy,01/01/2015
 136,01/01/2015,APS 6092,RK4103,Savukari Prakash/Savukari Krishna Murthy,Vizianagaram,Parvathipuram,Gochekka,120-2,Sandy,,Paddy,01/01/2015
 137,01/01/2015,APS 6093,RK4104,Majji Krishna/Majji Narayana Rao,Vizianagaram,Parvathipuram,Gochekka,69-2,Sandy,,Paddy,01/01/2015
@@ -4211,7 +4211,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 208,01/01/2015,APS 5962,RK4175,Guntreddi Surya Narayana/Guntreddi Sivvunaidu,Vizianagaram,Parvathipuram,Mulaga,77-2.,Sandy Loam,,Paddy,01/01/2015
 209,01/01/2015,APS 5963,RK4176,Thella  Gowri Naidu/Thella Appalaswamy,Vizianagaram,Parvathipuram,Mulaga,17-2.,Sandy Loam,,Paddy,01/01/2015
 210,01/01/2015,APS 5964,RK4177,Sagarapu Narayana/Sagarapu Somanna Dhora,Vizianagaram,Parvathipuram,Mulaga,76-1.,Sandy Loam,,Paddy,01/01/2015
-211,01/01/2015,APS 5965,RK4178,Udakala Bhandha,Vizianagaram,Parvathipuram,Mulaga,,Sandy Loam,,,01/01/2015
+211,01/01/2015,APS 5965,RK4178,Udakala Bhandha,Vizianagaram,Parvathipuram,Mulaga,,Sandy Loam,,groundnut,01/01/2015
 212,01/01/2015,APS 5966,RK4179,Chowdary Poli Naidu/Chowdary Seetam Naidu,Vizianagaram,Parvathipuram,Mulaga,17-3.,Sandy Loam,,Paddy,01/01/2015
 213,01/01/2015,APS 5967,RK4180,Gulipalli  Lakshmu Naidu /Gulapalli Pari Naidu,Vizianagaram,Parvathipuram,Mulaga,63-5.,Sandy Loam,,Paddy,01/01/2015
 214,01/01/2015,APS 5968,RK4181,Dhoddi  Lakshmu Naidu/Dhoddi Gangui Naidu,Vizianagaram,Parvathipuram,Mulaga,18-6.,Sandy Loam,,Paddy,01/01/2015
@@ -4228,7 +4228,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 225,01/01/2015,APS 5979,RK4192,Allu  Narayana/Allu Kurimi Anidu,Vizianagaram,Parvathipuram,Mulaga,85-8,Sandy Loam,,Paddy,01/01/2015
 226,01/01/2015,APS 5980,RK4193,Kondagorri Malayya/Kondagorri Ramayya,Vizianagaram,Parvathipuram,Mulaga,235-4,Sandy Loam,,Mango,01/01/2015
 227,01/01/2015,APS 5981,RK4194,Bankapalli Rami Naidu/Bankapalli China Appala Naidu,Vizianagaram,Parvathipuram,Mulaga,121-10,Sandy Loam,,Mesta,01/01/2015
-228,01/01/2015,APS 5982,RK4195,Guttha  Geddam Dhora/Guttha Bemmannadhora,Vizianagaram,Parvathipuram,Mulaga,2-3..,Red,,,01/01/2015
+228,01/01/2015,APS 5982,RK4195,Guttha  Geddam Dhora/Guttha Bemmannadhora,Vizianagaram,Parvathipuram,Mulaga,2-3..,Red,,groundnut,01/01/2015
 229,01/01/2015,APS 5983,RK4196,Bankapalli  Pakeeru Naidu/Bankapalli Rami Naidu,Vizianagaram,Parvathipuram,Mulaga,124-7,Sandy Loam,,Paddy,01/01/2015
 230,01/01/2015,APS 5984,RK4197,Gadi  Gouramma/W/O Gadi Chinnam Naidu,Vizianagaram,Parvathipuram,Mulaga,309-5,Sandy Loam,,Paddy,01/01/2015
 231,01/01/2015,APS 5985,RK4198,Allu  Gandhi/Allu Narayana ,Vizianagaram,Parvathipuram,Mulaga,137-5,Sandy,,Paddy,01/01/2015
@@ -4239,7 +4239,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 236,01/01/2015,APS 5990,RK4203,Bankappali  Sriram Naidu/Bankapalli Narasam Naidu,Vizianagaram,Parvathipuram,Mulaga,59-9,Sandy,,Sesamum,01/01/2015
 237,01/01/2015,APS 5991,RK4204,Bankapalli  Janardhana Rao/Bankapalli Rami Naidu,Vizianagaram,Parvathipuram,Mulaga,106-13,Sandy,,Paddy,01/01/2015
 238,01/01/2015,APS 5992,RK4205,Bankapalli  Rama Krishna/Bankapalli Appalaswamy,Vizianagaram,Parvathipuram,Mulaga,139-6,Sandy,,Paddy,01/01/2015
-239,01/01/2015,APS 5993,RK4206,Karanala Cheruvu/,Vizianagaram,Parvathipuram,Mulaga,,Sandy Loam,,,01/01/2015
+239,01/01/2015,APS 5993,RK4206,Karanala Cheruvu/,Vizianagaram,Parvathipuram,Mulaga,,Sandy Loam,,groundnut,01/01/2015
 240,01/01/2015,APS 5994,RK4207,Tentu  Adhi Narayana/Tentu Kurimi Naidu,Vizianagaram,Parvathipuram,Mulaga,106-5,Sandy Loam,,Paddy,01/01/2015
 241,01/01/2015,APS 5995,RK4208,Padala  Simhachalam/Padala Narayana,Vizianagaram,Parvathipuram,Mulaga,125-4,Black,,Paddy,01/01/2015
 242,01/01/2015,APS 5996,RK4209,Chappa  Mahalakshmi/W/O Chappa Sanyasi Naidu,Vizianagaram,Parvathipuram,Mulaga,160-31,Sandy,,Maize,01/01/2015
@@ -4355,7 +4355,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 352,01/01/2015,APS 5719,RK4319,Jakkampudi Apparao/ Pentayya,Vizianagaram,Pusapatirega,Kollayyavalasa,32-3.,Red,,Maize,01/01/2015
 353,01/01/2015,APS 5720,RK4320,Alla Ramasuri/ Alla Thotaya,Vizianagaram,Pusapatirega,Kollayyavalasa,60-23,Red,,Coconut,01/01/2015
 354,01/01/2015,APS 5721,RK4321,Neelapu Apparamulu/Neelapu Bangarappadu,Vizianagaram,Pusapatirega,Kollayyavalasa,72-34,Red,,Maize,01/01/2015
-355,01/01/2015,APS 5722,RK4322,Chakali Cheruvu,Vizianagaram,Pusapatirega,Kollayyavalasa,57,Red,,,01/01/2015
+355,01/01/2015,APS 5722,RK4322,Chakali Cheruvu,Vizianagaram,Pusapatirega,Kollayyavalasa,57,Red,,groundnut,01/01/2015
 356,01/01/2015,APS 5823,RK4323,Mungam Janardhana Rao/Mungam Apparao,Vizianagaram,Pusapatirega,Konayyapalem,10-.17,Red,,Maize,01/01/2015
 357,01/01/2015,APS 5824,RK4324,Pasupuleti Satyam /Pasupileti Chinnayya,Vizianagaram,Pusapatirega,Konayyapalem,9-.15,Sandy,,Maize,01/01/2015
 358,01/01/2015,APS 5825,RK4325,Pasupeleti Kannayya/Pasupulei Appanna,Vizianagaram,Pusapatirega,Konayyapalem,4.-8,Black ,,Maize,01/01/2015
@@ -4684,7 +4684,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 188,01/01/2015,6629,RK1758,Yerra Prasad,West Godavari,Kamavarau Kota,Kkota,1217/3,Red,,Cashew,01/01/2015
 189,01/01/2015,6630,RK1759,Ballu Ravi,West Godavari,Kamavarau Kota,Kkota,1242/5,Black,,Maize,01/01/2015
 190,01/01/2015,6631,RK1760,Palakaluri Ashirwada,West Godavari,Kamavarau Kota,Kkota,,Black,,Maize,01/01/2015
-191,01/01/2015,6632,RK1761,Maturi Nagarjuna,West Godavari,Kamavarau Kota,Kkota,,,,Banana,01/01/2015
+191,01/01/2015,6632,RK1761,Maturi Nagarjuna,West Godavari,Kamavarau Kota,Kkota,,red,,Banana,01/01/2015
 192,01/01/2015,6633,RK1762,Bandi Arjun Rao,West Godavari,Kamavarau Kota,Kkota,1179/5,Red,,Maize,01/01/2015
 193,01/01/2015,6634,RK1763,Karipati Ramulu,West Godavari,Kamavarau Kota,Kkota,1179/5,Sandy,,Cashew,01/01/2015
 194,01/01/2015,6635,RK1764,Yerra Narayan Rao,West Godavari,Kamavarau Kota,Kkota,291,Clay Sandy,,Oil Palm,01/01/2015
@@ -4802,7 +4802,7 @@ Sl_no,Date,Farmer_No,Macro/Micro_nutrient,Farmer_Name,District,Mandal,Village,Su
 318,01/01/2015,6740,RK1888,Bommaganti Suryaramakrishna,West Godavari,Kamavarau Kota,Yedavalli,231/4,Red Sandy,,Oil Palm,01/01/2015
 319,01/01/2015,6741,RK1889,Sunganadu Yesudasu,West Godavari,Kamavarau Kota,Yedavalli,217/1,Black,,Maize,01/01/2015
 320,01/01/2015,6742,RK1890,Narini Bullemma,West Godavari,Kamavarau Kota,Yedavalli,109/4,Black,,Cane,01/01/2015
-321,01/01/2015,6743,RK1891,Mullapudi Satyanarayana,West Godavari,Kamavarau Kota,Yedavalli,10,Sandy Loam,,,01/01/2015
+321,01/01/2015,6743,RK1891,Mullapudi Satyanarayana,West Godavari,Kamavarau Kota,Yedavalli,10,Sandy Loam,,groundnut,01/01/2015
 322,01/01/2015,6744,RK1892,Mullapudi Nirmala,West Godavari,Kamavarau Kota,Yedavalli,29/4,Light Brown,,Oil Palm,01/01/2015
 323,01/01/2015,6745,RK1893,Maridu Srinivas,West Godavari,Kamavarau Kota,Yedavalli,186/2,Black,,Banana,01/01/2015
 324,01/01/2015,6746,RK1894,Rasugarla Rambabu,West Godavari,Kamavarau Kota,Yedavalli,48,Light Brown,,Oil Palm,01/01/2015

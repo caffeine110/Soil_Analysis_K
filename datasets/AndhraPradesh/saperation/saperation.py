@@ -46,33 +46,15 @@ class Exctraction(object):
 def main():
 
     # for complete details
-    # take original_details_ap.csv as input
+    # take preprocessed.csv as input
     
-    filepath = 'datasets/AndhraPradesh/down_to_csv/original_details_ap.csv'
-    df_full = pd.read_csv(filepath, delimiter=";")
-
-    # to display columns in data
-    df_full.columns    
-
-    obj_full = Exctraction(df_full)
-    obj_full.removeDuplicate(df_full)
-    
-    # save data to file new_complete_details_ap.csv
-
-    filepath_n = 'datasets/AndhraPradesh/new_complete_details_ap.csv'
-
-    # index = False ; not to store index of each row
-    df_full.to_csv(filepath_n , index = False)
-    
-
-
 
     ###################################################################
     ####  For User Details
     
-    # input file : new_complete_details_ap.csv
+    # input file :  preprocessed.csv
     
-    filepath = 'datasets/AndhraPradesh/new_complete_details_ap.csv'
+    filepath = 'preprocessing/preprocessed.csv'
     
     # usecols to open only selected columns
     df_user = pd.read_csv(filepath, usecols = ['Sl_no', 'Date', 'Farmer_No', 'Macro/Micro_nutrient',
@@ -80,18 +62,18 @@ def main():
                                                'Survey_No','Soil_type','Fathers_Name','Crop_type','Time'])
 
     # save user_details in User_details.csv file
-    filepath_to_save_user = 'datasets/AndhraPradesh/saperation/user_details.csv'
+    filepath_to_save_user = 'saperation/user_details.csv'
     df_user.to_csv(filepath_to_save_user, index = False)
 
 
 
 
     ###################################################################
-    ####  For Soil Parameters
+    ####  For Soil Parametersdatasets/AndhraPradesh/preprocessing/processed_soil_para
     
     #input file: new_complete_details_ap.csv
     
-    filepath = 'datasets/AndhraPradesh/new_complete_details_ap.csv'
+    filepath = 'preprocessing/preprocessed.csv'
     
     # usecols to select only soil para
     df_soil = pd.read_csv(filepath, usecols = ['Latitude', 'Longitude', 'Soil_type', 'Crop_type',
@@ -101,7 +83,7 @@ def main():
 
 
     # store soil parameters in Soil_parameters.csv file
-    filepath_to_save_soil_para = 'datasets/AndhraPradesh/saperation/soil_parameters.csv'
+    filepath_to_save_soil_para = 'saperation/soil_parameters.csv'
     df_soil.to_csv(filepath_to_save_soil_para, index = False)
 
 

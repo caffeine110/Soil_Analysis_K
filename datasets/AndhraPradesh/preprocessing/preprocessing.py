@@ -56,6 +56,19 @@ class PreProcessor(object):
 
     def remove_NaN(self,df):
 
+        ### user details
+        df['Sl_no'].fillna('Unknown', inplace=True)
+        df['Date'].fillna('Unknown', inplace=True)
+        df['Farmer_No'].fillna('Unknown', inplace=True)
+        df['Macro/Micro_nutrient'].fillna('Unknown', inplace=True)
+        df['Farmer_Name'].fillna('Unknown', inplace=True)
+        df['District'].fillna('Unknown', inplace=True)
+        df['Mandal'].fillna('Unknown', inplace=True)
+        df['Village'].fillna('Unknown', inplace=True)
+
+        
+
+        ### soil parameters
         
         mean = df['Latitude'].mean()
         df['Latitude'].fillna(mean, inplace=True)
@@ -140,15 +153,15 @@ class PreProcessor(object):
 
 
     def new_CSV(self,df):
-        newFilePath = 'datasets/AndhraPradesh/preprocessing/processed_soil_para.csv'
+        newFilePath = 'preprocessing/preprocessed.csv'
         df.to_csv(newFilePath,index= False)
 
 
 # main Function
 def main():
 
-    filepath = 'datasets/AndhraPradesh/saperation/soil_parameters.csv'
-    df = pd.read_csv(filepath, delimiter=',')
+    filepath = 'down_to_csv/original_details_ap.csv'
+    df = pd.read_csv(filepath, delimiter=';')
     df.columns
 
     #initialising object
