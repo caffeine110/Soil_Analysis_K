@@ -27,13 +27,16 @@ def build_Model():
     from keras.models import Sequential
     from keras.layers import Dense
 
-    #initialisation of ANN model
+    #initialisation of DNN model
     clf_model = Sequential()
 
     #Adding input layer and one Hiden layer 
     clf_model.add(Dense(output_dim = 15, init = 'uniform', activation= 'relu', input_dim = 15))
 
     #Adding the second hidden layer
+    clf_model.add(Dense(output_dim = 15, init = 'uniform', activation='relu'))
+
+    #Adding the third hidden layer
     clf_model.add(Dense(output_dim = 15, init = 'uniform', activation='relu'))
 
     #Adding the output layer

@@ -39,7 +39,7 @@ new_column_names = ['Latitude', 'Longitude', 'Avail_Cu', 'Avail_Mn' ,'pH', 'EC',
 
 ###############################################################################
 ### importing datasets
-filePath = 'final_dataset/final.csv'
+filePath = 'dataset/final.csv'
 df = pd.read_csv(filePath, usecols = new_column_names)
 df.info
 df.columns
