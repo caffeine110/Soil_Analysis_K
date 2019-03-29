@@ -1,0 +1,4816 @@
+,Soil_type
+0,Mixed soil
+1,Redsoil
+2,Mixed soil
+3,Sandi soil
+4,Mixed soil
+5,Redsoil
+6,Mixed soil
+7,Red soil
+8,Black Soil
+9,Mixed soil
+10,Sandi soil
+11,Sandi soil
+12,Red soil
+13,Sandi soil
+14,Mixed soil
+15,Red soil
+16,Mixed soil
+17,Black Soil
+18,Red soil
+19,Black Soil
+20,Sandi soil
+21,Mixed soil
+22,Mixed soil
+23,Red soil
+24,Red soil
+25,Red soil
+26,Mixed soil
+27,Red soil
+28,Redsoil
+29,Redsoil
+30,Redsoil
+31,Redsoil
+32,Redsoil
+33,Redsoil
+34,Redsoil
+35,Redsoil
+36,Redsoil
+37,Redsoil
+38,Redsoil
+39,Redsoil
+40,Redsoil
+41,Redsoil
+42,Redsoil
+43,Redsoil
+44,Redsoil
+45,Redsoil
+46,Redsoil
+47,Redsoil
+48,Redsoil
+49,Redsoil
+50,Redsoil
+51,Redsoil
+52,Redsoil
+53,Redsoil
+54,Redsoil
+55,Redsoil
+56,Redsoil
+57,Redsoil
+58,Redsoil
+59,Redsoil
+60,Redsoil
+61,Redsoil
+62,Redsoil
+63,Redsoil
+64,Redsoil
+65,Redsoil
+66,Redsoil
+67,Redsoil
+68,Redsoil
+69,Redsoil
+70,Redsoil
+71,Redsoil
+72,Redsoil
+73,Redsoil
+74,Redsoil
+75,Redsoil
+76,Redsoil
+77,Redsoil
+78,Mixed soil
+79,Redsoil
+80,Redsoil
+81,Redsoil
+82,Redsoil
+83,Redsoil
+84,Redsoil
+85,Mixed soil
+86,Redsoil
+87,Redsoil
+88,Sandy soil
+89,Redsoil
+90,Redsoil
+91,Redsoil
+92,Redsoil
+93,Redsoil
+94,Redsoil
+95,Redsoil
+96,Redsoil
+97,Redsoil
+98,Redsoil
+99,Redsoil
+100,Redsoil
+101,Redsoil
+102,Redsoil
+103,Redsoil
+104,Redsoil
+105,Redsoil
+106,Redsoil
+107,Redsoil
+108,Redsoil
+109,Redsoil
+110,Redsoil
+111,Redsoil
+112,Redsoil
+113,Redsoil
+114,Redsoil
+115,RED
+116,RED
+117,RED
+118,RED
+119,RED
+120,RED
+121,RED
+122,RED
+123,RED
+124,BLACK
+125,RED
+126,BLACK
+127,BLACK
+128,BLACK
+129,RED
+130,RED
+131,BLACK
+132,BLACK
+133,RED
+134,RED
+135,BLACK
+136,RED
+137,RED
+138,RED
+139,RED
+140,RED
+141,RED
+142,BLACK
+143,RED
+144,RED
+145,RED
+146,RED
+147,RED
+148,RED
+149,RED
+150,RED
+151,RED
+152,RED
+153,RED
+154,RED
+155,RED
+156,RED
+157,RED
+158,RED
+159,RED
+160,RED
+161,RED
+162,BLACK
+163,RED
+164,RED
+165,RED
+166,RED
+167,RED
+168,RED
+169,RED
+170,RED
+171,RED
+172,RED
+173,RED
+174,RED
+175,RED
+176,RED
+177,RED
+178,RED
+179,RED
+180,RED
+181,RED
+182,RED
+183,RED
+184,RED
+185,RED
+186,RED
+187,RED
+188,RED
+189,RED
+190,RED
+191,RED
+192,red
+193,SAND
+194,RED
+195,RED
+196,RED
+197,RED
+198,SAND
+199,SAND
+200,RED
+201,RED
+202,RED
+203,RED
+204,RED
+205,RED
+206,RED
+207,RED
+208,RED
+209,RED
+210,RED
+211,RED
+212,RED
+213,RED
+214,red
+215,red
+216,red
+217,red
+218,red
+219,red
+220,red
+221,red
+222,red
+223,red
+224,red
+225,red
+226,red
+227,red
+228,red
+229,red
+230,red
+231,red
+232,red
+233,red
+234,red
+235,red
+236,Red
+237,Black
+238,Red
+239,Black
+240,Black
+241,Black
+242,Black
+243,Red
+244,Red
+245,Red
+246,Black
+247,red
+248,Red
+249,Black
+250,Black
+251,Black
+252,Black
+253,Red
+254,Black
+255,Red
+256,Red
+257,Red
+258,Black
+259,Black
+260,Red
+261,Red
+262,Red
+263,Red
+264,Black
+265,Black
+266,Red
+267,Red
+268,Red
+269,Black
+270,Black
+271,Red
+272,Red
+273,Red
+274,Red
+275,Red
+276,Red
+277,Red
+278,Black
+279,Red
+280,Red
+281,Black
+282,Red
+283,Red
+284,Black
+285,Black
+286,Red
+287,Red
+288,Black
+289,Black
+290,Black
+291,Red
+292,Black
+293,Red
+294,Red
+295,Black
+296,Red
+297,Black
+298,Red
+299,Red
+300,Red
+301,Black
+302,Black
+303,Red
+304,Red
+305,Red
+306,Red
+307,Red
+308,Black
+309,Red
+310,Red
+311,Red
+312,Black
+313,Red
+314,Red
+315,Red
+316,Red
+317,Black
+318,Red
+319,Red
+320,Black
+321,Red
+322,Red
+323,Red
+324,Red
+325,Red
+326,Black
+327,Red
+328,Black
+329,Red
+330,Red
+331,Red
+332,Red
+333,Red
+334,Rock soil
+335,Red
+336,Red
+337,Red
+338,Black
+339,Red
+340,Red
+341,Black
+342,Black
+343,Black
+344,Rock soil
+345,Black
+346,Red
+347,Black
+348,Red
+349,Red
+350,Red
+351,Red
+352,Red
+353,Red
+354,Red
+355,Black
+356,-
+357,Black
+358,Red
+359,Red
+360,Red
+361,Red
+362,Red
+363,Red
+364,Red
+365,Black
+366,Red
+367,Red
+368,Red
+369,Rock soil
+370,Red
+371,Rock soil
+372,Red
+373,Rock soil
+374,Red
+375,Red
+376,Rock soil
+377,Black
+378,Red
+379,Rock soil
+380,Black
+381,Black
+382,Red
+383,Red
+384,red
+385,Black
+386,Rock soil
+387,Red
+388,Red
+389,Red
+390,Black
+391,Black
+392,Black
+393,red
+394,Black
+395,Red
+396,Black
+397,Red
+398,Red
+399,Red
+400,Black
+401,Red
+402,Red
+403,Red
+404,Red
+405,Black
+406,Black
+407,Black
+408,Red
+409,Black
+410,Red
+411,Black
+412,Black
+413,Black
+414,Black
+415,Red
+416,Black
+417,Black
+418,Sandy Red
+419,Sandy Red
+420,Red Sandy
+421,Red
+422,Red Sandy
+423,Sandy
+424,Black Sandy
+425,Black
+426,Red Sandy
+427,Sandy
+428,Red
+429,Sandy
+430,Red
+431,Black
+432,Sandy
+433,Black
+434,Red
+435,Black
+436,Black
+437,Sandy
+438,Black
+439,Red
+440,Red
+441,Red
+442,Red
+443,Red
+444,Red
+445,Red
+446,Red
+447,Red
+448,Red
+449,Red
+450,Red
+451,Rock soil
+452,Red
+453,Red
+454,Red
+455,Red
+456,Black
+457,Black
+458,Red
+459,Black
+460,Black
+461,Red
+462,Red
+463,Red
+464,Red
+465,Black
+466,Black
+467,Red
+468,Red
+469,Red
+470,Red
+471,Black
+472,Red
+473,Red
+474,Black
+475,Black
+476,Red
+477,Red
+478,Red
+479,Red
+480,Red
+481,Black
+482,Red
+483,Red
+484,Red
+485,Red
+486,Red
+487,Red
+488,Red
+489,Red
+490,Red
+491,Red
+492,Red
+493,Red
+494,Red
+495,red
+496,Red
+497,Red
+498,Red
+499,Red
+500,Red
+501,Black
+502,Red
+503,Red
+504,Red
+505,Red
+506,Red
+507,Red
+508,Red
+509,Black
+510,Red
+511,Red
+512,Red
+513,Black
+514,Red
+515,Red
+516,Red
+517,Red
+518,Red
+519,Red
+520,Red
+521,Red
+522,Red
+523,Red
+524,Red
+525,Black
+526,Red
+527,Red
+528,Red
+529,Red
+530,Red
+531,Black
+532,Claim
+533,red
+534,red
+535,Black
+536,Black
+537,Red
+538,red
+539,Black
+540,Red
+541,Red
+542,Red
+543,Black
+544,Black
+545,Black
+546,Red
+547,Red
+548,Red
+549,Red
+550,Red
+551,Black
+552,Red
+553,Red
+554,Red
+555,Red
+556,Black
+557,Red
+558,Red
+559,Sandy
+560,Red
+561,Rox Soil
+562,Red
+563,Red
+564,Red
+565,Red
+566,Black
+567,Red
+568,Red
+569,Red
+570,Red
+571,Red
+572,Red
+573,Red
+574,Red
+575,Red
+576,Red
+577,Red
+578,Red
+579,Red
+580,Red
+581,Black
+582,Sandy
+583,Black
+584,Red
+585,Black
+586,Black
+587,Black
+588,Red
+589,Black
+590,Red
+591,Red
+592,Black
+593,Black
+594,Black
+595,Red
+596,Black
+597,Black
+598,Red
+599,Red
+600,Red
+601,Red
+602,Red
+603,Red
+604,Black
+605,Black
+606,Black
+607,Red
+608,Red
+609,Black
+610,Red
+611,Rox Soil
+612,Red
+613,Red
+614,Red
+615,Red
+616,Black
+617,Black
+618,Claim
+619,Red
+620,Red
+621,Red
+622,Red
+623,Red
+624,Red
+625,Rox Soil
+626,Rox Soil
+627,Rox Soil
+628,Red
+629,Black
+630,Rox Soil
+631,Red
+632,Red
+633,Red
+634,Red
+635,Red
+636,Red
+637,Red
+638,Red
+639,Black
+640,Black
+641,Black
+642,Black
+643,Red
+644,Red
+645,Black
+646,Black
+647,Black
+648,Black
+649,Red
+650,Black
+651,Rox Soil
+652,Red
+653,Black
+654,Red
+655,Rox Soil
+656,Red
+657,Black
+658,Rox Soil
+659,Rox Soil
+660,Red
+661,Red
+662,Rox Soil
+663,Red
+664,Red
+665,Red
+666,Red
+667,Red
+668,Red
+669,Red
+670,Red
+671,red
+672,red
+673,red
+674,red
+675,red
+676,red
+677,red
+678,red
+679,red
+680,red
+681,red
+682,red
+683,red
+684,red
+685,red
+686,red
+687,red
+688,red
+689,red
+690,red
+691,Red
+692,Black
+693,Red
+694,Red
+695,Red
+696,Black
+697,Red
+698,Red
+699,Black
+700,Black
+701,Black
+702,Red
+703,Red
+704,Red
+705,Black
+706,Red
+707,Red
+708,Red
+709,Red
+710,Red
+711,Red
+712,Black
+713,Red
+714,Black
+715,Black
+716,Red
+717,Black
+718,Red
+719,Red
+720,Black
+721,Red
+722,Black
+723,Red
+724,Red
+725,Red
+726,Red
+727,Black
+728,Black
+729,Red
+730,Black
+731,Red Soils
+732,Red Soils
+733,Red Soils
+734,Red Soils
+735,Red Soils
+736,Red Soils
+737,Red Soils
+738,Red Soils
+739,Red Soils
+740,Red Soils
+741,Red Soils
+742,Red Soils
+743,Red Soils
+744,Red Soils
+745,Red Soils
+746,Red Soils
+747,Red Soils
+748,Red Soils
+749,Red Soils
+750,Red Soils
+751,Red Soils
+752,Red Soils
+753,Red sandy loam
+754,Red sandy loam
+755,Red sandy loam
+756,Red sandy loam
+757,Red sandy loam
+758,Red sandy loam
+759,Red sandy loam
+760,Red sandy loam
+761,Red sandy loam
+762,Red sandy loam
+763,Red sandy loam
+764,Red sandy loam
+765,Red sandy loam
+766,Red sandy loam
+767,Red sandy loam
+768,Red sandy loam
+769,Red sandy loam
+770,clayey loam
+771,clayey loam
+772,clayey loam
+773,clayey loam
+774,clayey loam
+775,clayey loam
+776,clayey loam
+777,clayey loam
+778,clayey loam
+779,clayey loam
+780,clayey loam
+781,clayey loam
+782,clayey loam
+783,clayey loam
+784,clayey loam
+785,clayey loam
+786,clayey loam
+787,clayey loam
+788,clayey loam
+789,clayey loam
+790,Red Soils
+791,Red Soils
+792,Red Soils
+793,Red Soils
+794,Red Soils
+795,Red Soils
+796,Red Soils
+797,Red Soils
+798,Red Soils
+799,Red Soils
+800,Red Soils
+801,Red Soils
+802,Red Soils
+803,Red Soils
+804,Red Soils
+805,Red Soils
+806,Red Soils
+807,Red Soils
+808,Red Soils
+809,Red Soils
+810,Red Soils
+811,Red Soils
+812,Red Soils
+813,Red Soils
+814,Red Soils
+815,Red Soils
+816,Red Soils
+817,Red Soils
+818,Red Soils
+819,Red Soils
+820,Red Soils
+821,Red Soils
+822,Red Soils
+823,Red Soils
+824,Red Soils
+825,Red Soils
+826,Red Soils
+827,Red Soils
+828,Red Soils
+829,Red Soils
+830,Red Soils
+831,Red Soils
+832,Red Soils
+833,Red Soils
+834,Red Soils
+835,Red Soils
+836,Red Soils
+837,Red Soils
+838,Red Soils
+839,Red Soils
+840,Red Soils
+841,Red Soils
+842,Red Soils
+843,Red Soils
+844,Red Soils
+845,Red Soils
+846,Red Soils
+847,Red Soils
+848,Red Soils
+849,Red Soils
+850,Red Soils
+851,Red Soils
+852,Red Soils
+853,Red Soils
+854,Red Soils
+855,Red Soils
+856,Red Soils
+857,Red Soils
+858,Red Soils
+859,Red Soils
+860,Red Soils
+861,Red Soils
+862,Red Soils
+863,Red Soils
+864,Red Soils
+865,Red Soils
+866,Red Soils
+867,Red Soils
+868,Red Soils
+869,Black soil
+870,Black soil
+871,Black soil
+872,Black soil
+873,Black soil
+874,Black soil
+875,Black soil
+876,Black soil
+877,Black soil
+878,Black soil
+879,Black soil
+880,Black soil
+881,Black soil
+882,Black soil
+883,Black soil
+884,Black soil
+885,Black soil
+886,Black soil
+887,Black soil
+888,Black soil
+889,Black soil
+890,Black soil
+891,Black soil
+892,Black soil
+893,Black soil
+894,Black soil
+895,Black soil
+896,Black soil
+897,Black soil
+898,Black soil
+899,Black soil
+900,Black soil
+901,Black soil
+902,Black soil
+903,Black soil
+904,Black soil
+905,Black soil
+906,Black soil
+907,Black soil
+908,Black soil
+909,Black soil
+910,Black soil
+911,Black soil
+912,Black soil
+913,Black soil
+914,Black soil
+915,Black soil
+916,Black soil
+917,Black soil
+918,Black soil
+919,Black soil
+920,Black soil
+921,Black soil
+922,Black soil
+923,Black soil
+924,Black soil
+925,Black soil
+926,Black soil
+927,Black soil
+928,Black soil
+929,Black soil
+930,Black soil
+931,Black soil
+932,Black soil
+933,Black soil
+934,Black soil
+935,Black soil
+936,Black soil
+937,Black soil
+938,Black soil
+939,Black soil
+940,Black soil
+941,Black soil
+942,Black soil
+943,Black soil
+944,Black soil
+945,Black soil
+946,Black soil
+947,Black soil
+948,Black soil
+949,Black soil
+950,Black soil
+951,Black soil
+952,Black soil
+953,Black soil
+954,Black soil
+955,Black soil
+956,Black soil
+957,Black soil
+958,Black soil
+959,Black soil
+960,Black soil
+961,Black soil
+962,Black soil
+963,Black soil
+964,Black soil
+965,Black soil
+966,Black soil
+967,Black soil
+968,Black soil
+969,Black soil
+970,Black soil
+971,Black soil
+972,Black soil
+973,Black soil
+974,Black soil
+975,Black soil
+976,Black soil
+977,Black soil
+978,Black soil
+979,Black soil
+980,Black soil
+981,Black soil
+982,Black soil
+983,Black soil
+984,Black soil
+985,Black soil
+986,Black soil
+987,Black soil
+988,Black soil
+989,Black soil
+990,Black soil
+991,Black soil
+992,Black soil
+993,Black soil
+994,Black soil
+995,Black soil
+996,Black soil
+997,Black soil
+998,Black soil
+999,Black soil
+1000,Black soil
+1001,Black soil
+1002,Black soil
+1003,Black soil
+1004,Black soil
+1005,Black soil
+1006,Black soil
+1007,Black soil
+1008,Black soil
+1009,Black soil
+1010,Black soil
+1011,Black soil
+1012,Black soil
+1013,Black soil
+1014,Black soil
+1015,Black soil
+1016,Black soil
+1017,Black soil
+1018,Black soil
+1019,Black soil
+1020,Black soil
+1021,Black soil
+1022,Black soil
+1023,Black soil
+1024,Black soil
+1025,Black soil
+1026,Black soil
+1027,Black soil
+1028,Black soil
+1029,Black soil
+1030,Black soil
+1031,Black soil
+1032,Black soil
+1033,Black soil
+1034,Black soil
+1035,Black soil
+1036,Black soil
+1037,Black soil
+1038,Black soil
+1039,Black soil
+1040,Black soil
+1041,Black soil
+1042,Black soil
+1043,Black soil
+1044,Black soil
+1045,Black soil
+1046,Black soil
+1047,Black soil
+1048,Black soil
+1049,Black soil
+1050,Black soil
+1051,Black soil
+1052,Black soil
+1053,Black soil
+1054,Black soil
+1055,Black soil
+1056,Black soil
+1057,Black soil
+1058,Black soil
+1059,Black soil
+1060,Black soil
+1061,Black soil
+1062,Black soil
+1063,Black soil
+1064,Black soil
+1065,Black soil
+1066,Black soil
+1067,Black soil
+1068,Black soil
+1069,Black soil
+1070,Black soil
+1071,Black soil
+1072,Black soil
+1073,Black soil
+1074,Black soil
+1075,Black soil
+1076,Black soil
+1077,Black soil
+1078,Black soil
+1079,Black soil
+1080,Black soil
+1081,Black soil
+1082,Black soil
+1083,Black soil
+1084,Black soil
+1085,Black soil
+1086,Black soil
+1087,Black soil
+1088,Black soil
+1089,Black soil
+1090,Black soil
+1091,Black soil
+1092,Black soil
+1093,Black soil
+1094,Black soil
+1095,Black soil
+1096,Black soil
+1097,Black soil
+1098,Black soil
+1099,Black soil
+1100,Black soil
+1101,Black soil
+1102,Black soil
+1103,Black soil
+1104,Black soil
+1105,Black soil
+1106,Black soil
+1107,Black soil
+1108,Black soil
+1109,Black soil
+1110,Black soil
+1111,Black soil
+1112,Black soil
+1113,Black soil
+1114,Black soil
+1115,Black soil
+1116,Black soil
+1117,Black soil
+1118,Black soil
+1119,Black soil
+1120,Black soil
+1121,Black soil
+1122,Black soil
+1123,Black soil
+1124,Black soil
+1125,Black soil
+1126,Black soil
+1127,Black soil
+1128,Black soil
+1129,Black soil
+1130,Black soil
+1131,Black soil
+1132,Black soil
+1133,Black soil
+1134,Black soil
+1135,Black soil
+1136,Black soil
+1137,Black soil
+1138,Black soil
+1139,Black soil
+1140,Black soil
+1141,Black soil
+1142,Black soil
+1143,Black soil
+1144,Black soil
+1145,Black soil
+1146,Black soil
+1147,Black soil
+1148,Black soil
+1149,Black soil
+1150,Black soil
+1151,Black soil
+1152,Black soil
+1153,Black soil
+1154,Black soil
+1155,Black soil
+1156,Black soil
+1157,Black soil
+1158,Black soil
+1159,Black soil
+1160,Black soil
+1161,Black soil
+1162,Black soil
+1163,Black soil
+1164,Black soil
+1165,Black soil
+1166,Black soil
+1167,Black soil
+1168,Black soil
+1169,Black soil
+1170,Black soil
+1171,Black soil
+1172,Black soil
+1173,Black soil
+1174,Black soil
+1175,Black soil
+1176,Black soil
+1177,Black soil
+1178,Black soil
+1179,Black soil
+1180,Black soil
+1181,Black soil
+1182,Black soil
+1183,Black soil
+1184,Black soil
+1185,Black soil
+1186,Black soil
+1187,Black soil
+1188,Black soil
+1189,Black soil
+1190,Black soil
+1191,Black soil
+1192,Black soil
+1193,Black soil
+1194,Black soil
+1195,Black soil
+1196,Black soil
+1197,Black soil
+1198,Black soil
+1199,Black soil
+1200,Black soil
+1201,Black soil
+1202,Black soil
+1203,Black soil
+1204,Black soil
+1205,Black soil
+1206,Black soil
+1207,Black soil
+1208,Black soil
+1209,Black
+1210,Black
+1211,Black
+1212,Black
+1213,Black
+1214,Black
+1215,Black
+1216,Black
+1217,Black
+1218,Black
+1219,Black
+1220,Black
+1221,Black
+1222,Black
+1223,Black
+1224,Black
+1225,Black
+1226,Black
+1227,Black
+1228,Black
+1229,Black
+1230,Black
+1231,Black
+1232,Black
+1233,Black
+1234,Black
+1235,Black
+1236,Black
+1237,Black
+1238,Black
+1239,Black
+1240,Black
+1241,Black
+1242,Black
+1243,Black
+1244,Black
+1245,Black
+1246,Black
+1247,Black
+1248,Black
+1249,Red
+1250,Red
+1251,Red
+1252,Red
+1253,Red
+1254,Red
+1255,Red
+1256,Red
+1257,Red
+1258,Red
+1259,Red
+1260,Red
+1261,Red
+1262,Red
+1263,Red
+1264,Red
+1265,Red
+1266,Red
+1267,Red
+1268,Red
+1269,Red
+1270,Red
+1271,Red
+1272,Red
+1273,Red
+1274,Black
+1275,Black
+1276,Black
+1277,Black
+1278,Black
+1279,Black
+1280,Black
+1281,Black
+1282,Black
+1283,Black
+1284,Black
+1285,Black
+1286,Black
+1287,Black
+1288,Black
+1289,Black
+1290,Black
+1291,Black
+1292,Black
+1293,Black
+1294,Red Sandy
+1295,Black
+1296,Black
+1297,Black
+1298,Black
+1299,Black
+1300,Black
+1301,Black
+1302,Red Sandy
+1303,Black
+1304,Black
+1305,Black
+1306,Black
+1307,Black
+1308,Black
+1309,Black
+1310,Black
+1311,Black
+1312,Black
+1313,Black
+1314,Black
+1315,Black
+1316,Black
+1317,Black
+1318,Black
+1319,Black
+1320,Black
+1321,Black
+1322,Black
+1323,Black
+1324,Black
+1325,Black
+1326,Black
+1327,Black
+1328,Black
+1329,Black
+1330,Black
+1331,Black
+1332,Black
+1333,Black
+1334,Black
+1335,Black
+1336,Black
+1337,Black
+1338,Black
+1339,Black
+1340,Black
+1341,Black
+1342,Red
+1343,Red
+1344,Red
+1345,Red
+1346,Red
+1347,Sandy
+1348,Red
+1349,Red
+1350,Red
+1351,Sandy
+1352,Sandy
+1353,Red
+1354,Sandy
+1355,Red
+1356,Red
+1357,Red
+1358,Red
+1359,Red
+1360,Red
+1361,Red
+1362,Red
+1363,Red
+1364,Red
+1365,Red
+1366,Red
+1367,Red
+1368,Red
+1369,Red
+1370,Red
+1371,Red
+1372,Red
+1373,Red
+1374,Red
+1375,Red
+1376,Red
+1377,Red
+1378,Red
+1379,Red
+1380,Red
+1381,Red
+1382,Red
+1383,Red
+1384,Red
+1385,Red
+1386,Red
+1387,Red
+1388,Red
+1389,Red
+1390,Red
+1391,Red
+1392,Red
+1393,Red
+1394,Red
+1395,Red
+1396,Red
+1397,Red
+1398,Red
+1399,Red
+1400,Red
+1401,Red
+1402,Red
+1403,Red
+1404,Red
+1405,Red
+1406,Red
+1407,Red
+1408,Red
+1409,Red
+1410,Red
+1411,Red
+1412,Red
+1413,Red
+1414,Red
+1415,Red
+1416,Red
+1417,Red
+1418,Red
+1419,Red
+1420,Red
+1421,Red
+1422,Red
+1423,Red
+1424,Red
+1425,Red
+1426,Red
+1427,Red
+1428,Red
+1429,Red
+1430,Red
+1431,Red
+1432,Red
+1433,Red
+1434,Red
+1435,Red
+1436,Red
+1437,Red
+1438,Red
+1439,Red
+1440,Red
+1441,Red
+1442,Red
+1443,Red
+1444,Red
+1445,Red
+1446,Red
+1447,Red
+1448,Red
+1449,Red
+1450,Red
+1451,Red
+1452,Sandy
+1453,Black
+1454,Black
+1455,Black
+1456,Black
+1457,Black
+1458,Black
+1459,Black
+1460,Black
+1461,Black
+1462,Red
+1463,Red
+1464,Red
+1465,Red
+1466,Red
+1467,Red
+1468,Red
+1469,Red
+1470,Red
+1471,Red
+1472,Red
+1473,Red
+1474,Red
+1475,Red
+1476,Red
+1477,Red
+1478,Red
+1479,Red
+1480,Red
+1481,Red
+1482,Red
+1483,Red
+1484,Red
+1485,Red
+1486,Red
+1487,Red
+1488,Red
+1489,Red
+1490,Red
+1491,Red
+1492,Red
+1493,Red
+1494,Red
+1495,Red
+1496,Red
+1497,Red
+1498,Red
+1499,Red
+1500,Red
+1501,Red
+1502,Red
+1503,Red
+1504,Red
+1505,Red
+1506,Red
+1507,Red
+1508,Red
+1509,Red
+1510,Red
+1511,Red
+1512,Red
+1513,Red
+1514,Red
+1515,Red
+1516,Red
+1517,Red
+1518,Red
+1519,Red
+1520,Red
+1521,Red
+1522,Red
+1523,Red
+1524,Red
+1525,Red
+1526,Red
+1527,Red
+1528,Red
+1529,Red
+1530,Red
+1531,Black
+1532,Red
+1533,Red
+1534,Red
+1535,Red
+1536,Red
+1537,Red
+1538,Red
+1539,Red
+1540,Black
+1541,Red
+1542,Red
+1543,Red
+1544,Red
+1545,Red
+1546,Red
+1547,Red
+1548,Red
+1549,Red
+1550,Red
+1551,Red
+1552,Red
+1553,Red
+1554,Red
+1555,Red
+1556,Red
+1557,Red
+1558,Red
+1559,Red
+1560,Red
+1561,Red
+1562,Red
+1563,Red
+1564,Red
+1565,Red
+1566,Red
+1567,Red
+1568,Red
+1569,Red
+1570,Red
+1571,Red
+1572,Red
+1573,Red
+1574,Red
+1575,Red
+1576,Red
+1577,Red
+1578,Red
+1579,Red
+1580,Red
+1581,Red
+1582,Red
+1583,Red
+1584,Red
+1585,Red
+1586,Red
+1587,Red
+1588,Red
+1589,Red
+1590,Red
+1591,Red
+1592,Red
+1593,Red
+1594,Red
+1595,Red
+1596,Red
+1597,Red
+1598,Red
+1599,Red
+1600,Red
+1601,Red
+1602,Red
+1603,Red
+1604,Red
+1605,Red
+1606,Red
+1607,Red
+1608,Red
+1609,Red
+1610,Red
+1611,Red
+1612,Red
+1613,Red
+1614,red
+1615,red
+1616,red
+1617,red
+1618,Red
+1619,Red
+1620,Red
+1621,Red
+1622,Red
+1623,Red
+1624,Red
+1625,Red
+1626,Red
+1627,Red
+1628,Red
+1629,Red
+1630,Red
+1631,Red
+1632,Red
+1633,Red
+1634,Red
+1635,Red
+1636,Red
+1637,Red
+1638,Red
+1639,Red
+1640,Red
+1641,Red
+1642,Red
+1643,Red
+1644,Red
+1645,Red
+1646,Red
+1647,Red
+1648,Black
+1649,Black
+1650,Black
+1651,Black
+1652,Black
+1653,Black
+1654,Black
+1655,Black
+1656,Black
+1657,Black
+1658,Black
+1659,Black
+1660,Black
+1661,Black
+1662,Black
+1663,Black
+1664,Black
+1665,Black
+1666,Black
+1667,Black
+1668,Black
+1669,Black
+1670,Black
+1671,Black
+1672,Black
+1673,Black
+1674,Black
+1675,Black
+1676,Black
+1677,Black
+1678,Black
+1679,Black
+1680,Black
+1681,Red
+1682,Red
+1683,Red
+1684,Red
+1685,Red
+1686,Red
+1687,Red
+1688,Red
+1689,Red
+1690,Red
+1691,Red
+1692,Red
+1693,Black
+1694,Black
+1695,Black
+1696,Black
+1697,Black
+1698,Black
+1699,Black
+1700,Black
+1701,Black
+1702,Black
+1703,Black
+1704,Black
+1705,Black
+1706,Black
+1707,Black
+1708,Black
+1709,Black
+1710,Black
+1711,Black
+1712,Black
+1713,Red
+1714,Red
+1715,Red
+1716,Red
+1717,Black
+1718,Black
+1719,Black
+1720,Black
+1721,Black
+1722,Black
+1723,Black
+1724,Black
+1725,Black
+1726,Black
+1727,Black
+1728,Black
+1729,Black
+1730,Black
+1731,Black
+1732,Black
+1733,Black
+1734,Black
+1735,Black
+1736,Black
+1737,Black
+1738,Black
+1739,Black
+1740,Black
+1741,Black
+1742,Black
+1743,Black
+1744,Black
+1745,Black
+1746,Black
+1747,Black
+1748,Black
+1749,Black
+1750,Black
+1751,Black
+1752,Black
+1753,Black
+1754,Black
+1755,Black
+1756,Black
+1757,Black
+1758,Black
+1759,Black
+1760,Black
+1761,Black
+1762,Black
+1763,Black
+1764,Black
+1765,Black
+1766,Black
+1767,Black
+1768,Black
+1769,Black
+1770,Black
+1771,Black
+1772,Black
+1773,Black
+1774,Black
+1775,Black
+1776,Black
+1777,Black
+1778,Black
+1779,Black
+1780,Black
+1781,Black
+1782,Black
+1783,Black
+1784,Black
+1785,Black
+1786,Black
+1787,Black
+1788,BLACK
+1789,BLACK
+1790,BLACK
+1791,BLACK
+1792,BLACK
+1793,BLACK
+1794,BLACK
+1795,BLACK
+1796,BLACK
+1797,BLACK
+1798,BLACK
+1799,BLACK
+1800,BLACK
+1801,BLACK
+1802,BLACK
+1803,BLACK
+1804,BLACK
+1805,Black
+1806,Black
+1807,Black
+1808,Black
+1809,Black
+1810,Black
+1811,Black
+1812,Black
+1813,Black
+1814,Black
+1815,Black
+1816,Black
+1817,Black
+1818,Black
+1819,Black
+1820,Black
+1821,Black
+1822,Black
+1823,Black
+1824,Black
+1825,Black
+1826,Black
+1827,Black
+1828,Black
+1829,Black
+1830,Black
+1831,Black
+1832,Black
+1833,Black
+1834,Black
+1835,Black
+1836,Black
+1837,Black
+1838,BLACK
+1839,BLACK
+1840,BLACK
+1841,BLACK
+1842,BLACK
+1843,BLACK
+1844,BLACK
+1845,BLACK
+1846,BLACK
+1847,BLACK
+1848,BLACK
+1849,BLACK
+1850,BLACK
+1851,BLACK
+1852,BLACK
+1853,BLACK
+1854,BLACK
+1855,BLACK
+1856,BLACK
+1857,BLACK
+1858,Black
+1859,Black
+1860,Black
+1861,Black
+1862,Black
+1863,Black
+1864,Black
+1865,Black
+1866,Black
+1867,Black
+1868,Black
+1869,Black
+1870,Black
+1871,Black
+1872,Black
+1873,Black
+1874,Black
+1875,Black
+1876,Black
+1877,Black
+1878,Black
+1879,Black
+1880,Black
+1881,Black
+1882,Black
+1883,Black
+1884,Black
+1885,Black
+1886,Black
+1887,Black
+1888,Black
+1889,Black
+1890,Black
+1891,Black
+1892,Black
+1893,Black
+1894,Black
+1895,Black
+1896,Black
+1897,Black
+1898,Black
+1899,Black
+1900,Black
+1901,Black
+1902,Black
+1903,Black
+1904,Black
+1905,Black
+1906,Black
+1907,Black
+1908,BLACK
+1909,BLACK
+1910,BLACK
+1911,BLACK
+1912,BLACK
+1913,BLACK
+1914,BLACK
+1915,BLACK
+1916,Black
+1917,Black
+1918,Black
+1919,Black
+1920,Black
+1921,Black
+1922,Black
+1923,Black
+1924,Black
+1925,Black
+1926,red
+1927,Black
+1928,red
+1929,red
+1930,Black
+1931,red
+1932,Black
+1933,Black
+1934,Black
+1935,Black
+1936,Black
+1937,Black
+1938,Black
+1939,Black
+1940,Black
+1941,red
+1942,Black
+1943,Black
+1944,Black
+1945,red
+1946,Black
+1947,Black
+1948,Black
+1949,Black
+1950,Black
+1951,Black
+1952,Black
+1953,Black
+1954,Black
+1955,Black
+1956,Black
+1957,Black
+1958,Black
+1959,Black
+1960,Black
+1961,Black
+1962,Black
+1963,Black
+1964,Black
+1965,Black
+1966,Nalla regadi
+1967,Nalla regadi
+1968,Nalla regadi
+1969,Nalla regadi
+1970,Nalla regadi
+1971,Nalla regadi
+1972,red
+1973,Nalla regadi
+1974,Nalla regadi
+1975,Nalla regadi
+1976,Black
+1977,Black
+1978,Black
+1979,Black
+1980,Black
+1981,Black
+1982,Black
+1983,Nalla regadi
+1984,Nalla regadi
+1985,Nalla regadi
+1986,Nalla regadi
+1987,Red
+1988,Chowdu
+1989,Black
+1990,Black
+1991,Black
+1992,Black
+1993,Black
+1994,Black
+1995,Black
+1996,Black
+1997,Black
+1998,Black
+1999,Black
+2000,Black
+2001,Black
+2002,Black
+2003,Black & Red
+2004,Black
+2005,Black
+2006,Black
+2007,Black
+2008,Black
+2009,Chowdu
+2010,Garuku
+2011,Black
+2012,Black
+2013,Black
+2014,Black
+2015,Black
+2016,Black
+2017,Black
+2018,Black
+2019,Black
+2020,Black
+2021,Black
+2022,Black
+2023,Red 
+2024,Black
+2025,Black
+2026,Sowdu
+2027,Black
+2028,Black & Red
+2029,Black
+2030,Black
+2031,Sudda
+2032,Thella kattu
+2033,Black & Mooru
+2034,Black
+2035,Black
+2036,Chowdu
+2037,Chowdu +Nalla regadi
+2038,Black
+2039,Chowdu
+2040,red
+2041,red
+2042,Sand+Ondu+White
+2043,Sudda Neela
+2044,Sand +Ondu
+2045,Chowdu
+2046,Nalla regadi
+2047,Red
+2048,Nalla regadi
+2049,Sand
+2050,Nalla regadi
+2051,Nalla regadi
+2052,Gurugu 
+2053,Red
+2054,Black
+2055,Black
+2056,Black
+2057,Chowdu
+2058,Sudda Neela
+2059,Nalla regadi
+2060,Nalla regadi
+2061,Chowdu
+2062,Chowdu
+2063,Chowdu
+2064,Sudda Neela
+2065,Tella masaka
+2066,Chowdu + Nalla regadi
+2067,red
+2068,Black
+2069,Black
+2070,Black
+2071,Black
+2072,Black
+2073,Nalla regadi
+2074,Nalla regadi
+2075,Nalla regadi
+2076,Nalla regadi
+2077,Nalla regadi
+2078,Nalla regadi
+2079,Nalla savudu
+2080,Black
+2081,Chowdu
+2082,Chowdu
+2083,red
+2084,Regadi
+2085,red
+2086,Chowdu
+2087,Nalla regadi
+2088,Chowdu
+2089,Chowdu
+2090,Chowdu
+2091,Regadi
+2092,Regadi
+2093,Regadi
+2094,Chowdu
+2095,Chowdu
+2096,Chowdu
+2097,Red
+2098,Nalla regadi
+2099,Nalla regadi
+2100,Nalla regadi
+2101,Chowdu
+2102,"Black, chowdu"
+2103,Black
+2104,Chowdu
+2105,red
+2106,Chowdu
+2107,Chowdu
+2108,Chowdu
+2109,Chowdu+ Nalla regadi
+2110,Chowdu
+2111,Chowdu
+2112,Nalla regadi
+2113,Chowdu+ Red
+2114,red
+2115,Chowdu +Black
+2116,Red + Nalla regadi
+2117,Chowdu
+2118,Nalla regadi
+2119,Nalla regadi
+2120,Erra maska
+2121,Nalla regadi + chowdu
+2122,Chowdu
+2123,Chowdu
+2124,Chowdu
+2125,Sand +Chowdu
+2126,Chowdu Sudda
+2127,Chowdu
+2128,Black + Chowdu
+2129,Chowdu + Black
+2130,Black
+2131,Black
+2132,Red
+2133,Black
+2134,sand
+2135,red
+2136,Red
+2137,Red
+2138,Black
+2139,Red
+2140,Red
+2141,Red
+2142,Red
+2143,Red
+2144,Red
+2145,Black
+2146,Red
+2147,Red
+2148,Red
+2149,Red
+2150,Red
+2151,Black
+2152,Black
+2153,Red
+2154,Black
+2155,Black
+2156,Red
+2157,Red
+2158,Red
+2159,Red
+2160,Black
+2161,Red
+2162,Black
+2163,Black
+2164,Black
+2165,Black
+2166,Black
+2167,Black
+2168,Black
+2169,Black
+2170,Black
+2171,Red
+2172,Red
+2173,Red
+2174,Red
+2175,Black
+2176,Black
+2177,Red
+2178,Black
+2179,Sand
+2180,Red
+2181,Red
+2182,Red
+2183,Black
+2184,Red
+2185,Red
+2186,Red
+2187,Red
+2188,Red
+2189,Red
+2190,Black
+2191,Red
+2192,Sand
+2193,Sand
+2194,Red
+2195,Sand
+2196,Red
+2197,Red
+2198,Red
+2199,Red
+2200,Black
+2201,Black
+2202,Sand
+2203,Sand
+2204,Red
+2205,Red
+2206,Red
+2207,Red
+2208,Red
+2209,Sand
+2210,Red
+2211,Red
+2212,Sand
+2213,Red
+2214,Red
+2215,Red
+2216,Red
+2217,Red
+2218,Red
+2219,Black
+2220,Red
+2221,Red
+2222,Red
+2223,Red
+2224,Red
+2225,Red
+2226,Sand
+2227,Red
+2228,Red
+2229,Red
+2230,Black
+2231,Red
+2232,Black
+2233,Red
+2234,Red
+2235,Red
+2236,Red
+2237,Red
+2238,Red
+2239,Alkhaline
+2240,Red
+2241,Alkhaline
+2242,Red
+2243,red
+2244,Red
+2245,Alkhaline
+2246,Alkhaline
+2247,Red
+2248,Red
+2249,Alkhaline
+2250,Red
+2251,Red
+2252,Red
+2253,Alkhaline
+2254,Red
+2255,Alkhaline
+2256,Red
+2257,red
+2258,red
+2259,Red
+2260,Alkhaline
+2261,Black
+2262,Red
+2263,Red
+2264,Red
+2265,Red
+2266,Red
+2267,Red
+2268,Black
+2269,Red
+2270,Red
+2271,Black
+2272,Black
+2273,Red
+2274,Red
+2275,Red
+2276,Red
+2277,Red
+2278,Black
+2279,Black
+2280,red
+2281,Red
+2282,Red
+2283,Red
+2284,red
+2285,red
+2286,Red
+2287,Red
+2288,Red
+2289,Red
+2290,Red
+2291,Sand
+2292,Red
+2293,Red
+2294,Red
+2295,Red
+2296,Red
+2297,Red
+2298,Red
+2299,Red
+2300,Alkhaline
+2301,Alkhaline
+2302,Red
+2303,Black
+2304,Red
+2305,Red
+2306,Red
+2307,Red
+2308,Red
+2309,Red
+2310,Red
+2311,Red
+2312,Red
+2313,Black
+2314,Red
+2315,Red
+2316,Red
+2317,Red
+2318,Red
+2319,Red
+2320,Red
+2321,Red
+2322,Black
+2323,Red
+2324,Red
+2325,Red
+2326,Red
+2327,Red
+2328,Red
+2329,Red
+2330,Black
+2331,Red
+2332,Red
+2333,Red
+2334,Black
+2335,Black
+2336,Red
+2337,Black
+2338,Red
+2339,Red
+2340,Red
+2341,Black
+2342,Black
+2343,Black
+2344,Black
+2345,Red
+2346,Black
+2347,Red
+2348,Red
+2349,Red
+2350,Black
+2351,Black
+2352,Red
+2353,Red
+2354,Red
+2355,Black
+2356,Red
+2357,Red
+2358,Red
+2359,Black
+2360,Black
+2361,Black
+2362,Black
+2363,Black
+2364,Black
+2365,Black
+2366,Black
+2367,Black
+2368,Black
+2369,Black
+2370,Black
+2371,Black
+2372,Black
+2373,Black
+2374,Black
+2375,Black
+2376,Black
+2377,Black
+2378,Black
+2379,Black
+2380,Black
+2381,Black
+2382,Black
+2383,Black
+2384,Black
+2385,Black
+2386,Black
+2387,Black
+2388,Black
+2389,Black
+2390,Black
+2391,Black
+2392,Black
+2393,Black
+2394,Black
+2395,Black
+2396,Black
+2397,Black
+2398,Black
+2399,Black
+2400,Black
+2401,Black
+2402,Black
+2403,Black
+2404,Black
+2405,Black
+2406,Black
+2407,Black
+2408,Black
+2409,Black
+2410,Black
+2411,Black
+2412,Black
+2413,Black
+2414,Black
+2415,Black
+2416,Black
+2417,Black
+2418,Black
+2419,Black
+2420,Black
+2421,Black
+2422,Black
+2423,Black
+2424,Black
+2425,Black
+2426,Black
+2427,Redsoil
+2428,Redsoil
+2429,Redsoil
+2430,Redsoil
+2431,Redsoil
+2432,Redsoil
+2433,Redsoil
+2434,Redsoil
+2435,Redsoil
+2436,Redsoil
+2437,Black
+2438,Black
+2439,Black
+2440,Black
+2441,Black
+2442,Black
+2443,Black
+2444,Black
+2445,Black
+2446,Black
+2447,Black
+2448,Black
+2449,Black
+2450,Black
+2451,Black
+2452,Black
+2453,Black
+2454,Black
+2455,Black
+2456,Black
+2457,Black
+2458,Black
+2459,Black
+2460,Black
+2461,Redsoil
+2462,Redsoil
+2463,Redsoil
+2464,Redsoil
+2465,Redsoil
+2466,Redsoil
+2467,Redsoil
+2468,Redsoil
+2469,Redsoil
+2470,Redsoil
+2471,Redsoil
+2472,Redsoil
+2473,Redsoil
+2474,Redsoil
+2475,Black
+2476,Black
+2477,Black
+2478,Black
+2479,Black
+2480,Black
+2481,Black
+2482,Redsoil
+2483,Redsoil
+2484,Redsoil
+2485,Redsoil
+2486,Redsoil
+2487,Redsoil
+2488,Redsoil
+2489,Redsoil
+2490,Redsoil
+2491,Redsoil
+2492,Redsoil
+2493,Redsoil
+2494,Redsoil
+2495,Redsoil
+2496,Redsoil
+2497,Redsoil
+2498,Redsoil
+2499,Redsoil
+2500,Redsoil
+2501,Redsoil
+2502,Redsoil
+2503,Redsoil
+2504,Redsoil
+2505,Redsoil
+2506,Redsoil
+2507,Redsoil
+2508,Redsoil
+2509,Redsoil
+2510,Redsoil
+2511,Redsoil
+2512,Redsoil
+2513,Redsoil
+2514,Redsoil
+2515,Redsoil
+2516,Redsoil
+2517,Redsoil
+2518,Redsoil
+2519,Redsoil
+2520,Redsoil
+2521,Redsoil
+2522,Redsoil
+2523,Redsoil
+2524,Redsoil
+2525,Redsoil
+2526,Redsoil
+2527,Redsoil
+2528,Redsoil
+2529,Redsoil
+2530,Redsoil
+2531,Redsoil
+2532,Black
+2533,Black
+2534,Black
+2535,Black
+2536,Black
+2537,Black
+2538,Black
+2539,Black
+2540,Black
+2541,Black
+2542,Black
+2543,Black
+2544,Black
+2545,Black
+2546,Black
+2547,Black
+2548,Black
+2549,Black
+2550,Black
+2551,Black
+2552,Black
+2553,Black
+2554,Black
+2555,Black
+2556,Black
+2557,Redsoil
+2558,Redsoil
+2559,Redsoil
+2560,Redsoil
+2561,Redsoil
+2562,Redsoil
+2563,Redsoil
+2564,Redsoil
+2565,Redsoil
+2566,Redsoil
+2567,Redsoil
+2568,Redsoil
+2569,Redsoil
+2570,Redsoil
+2571,Redsoil
+2572,Redsoil
+2573,Redsoil
+2574,Redsoil
+2575,Redsoil
+2576,Redsoil
+2577,Redsoil
+2578,Redsoil
+2579,Redsoil
+2580,Redsoil
+2581,Redsoil
+2582,Redsoil
+2583,Redsoil
+2584,Redsoil
+2585,Redsoil
+2586,Redsoil
+2587,Redsoil
+2588,Redsoil
+2589,Redsoil
+2590,Redsoil
+2591,Redsoil
+2592,Black
+2593,Black
+2594,Black
+2595,Black
+2596,Black
+2597,Black
+2598,Black
+2599,Black
+2600,Black
+2601,Black
+2602,Black
+2603,Black
+2604,Black
+2605,Black
+2606,Black
+2607,Black
+2608,Black
+2609,Black
+2610,Black
+2611,Black
+2612,Black
+2613,Black
+2614,Black
+2615,Black
+2616,Black
+2617,Black
+2618,Black
+2619,Black
+2620,Black
+2621,Black
+2622,Black
+2623,Black
+2624,Black
+2625,Black
+2626,Black
+2627,Black
+2628,Black
+2629,Black
+2630,Black
+2631,Black
+2632,Black
+2633,Black
+2634,Black
+2635,Black
+2636,Black
+2637,Black
+2638,Black
+2639,Black
+2640,Black
+2641,Black
+2642,Black
+2643,Black
+2644,Black
+2645,Black
+2646,Black
+2647,Black
+2648,Black
+2649,Black
+2650,Black
+2651,Black
+2652,Black
+2653,Black
+2654,Black
+2655,Black
+2656,Black
+2657,Black
+2658,Black
+2659,Black
+2660,Black
+2661,Black
+2662,Black
+2663,Black
+2664,Black
+2665,Black
+2666,Black
+2667,Black
+2668,Black
+2669,Black
+2670,Black
+2671,Black
+2672,Black
+2673,Black
+2674,Black
+2675,Black
+2676,Black
+2677,Black
+2678,Black
+2679,Black
+2680,Black
+2681,Black
+2682,Black
+2683,Black
+2684,Black
+2685,Black
+2686,Black
+2687,Black
+2688,Black
+2689,Black
+2690,Black
+2691,Black
+2692,Black
+2693,Black
+2694,Black
+2695,Black
+2696,Black
+2697,Black
+2698,Black
+2699,Black
+2700,Black
+2701,Black
+2702,Black
+2703,Black
+2704,Black
+2705,Black
+2706,Black
+2707,Black
+2708,Black
+2709,Black
+2710,Black
+2711,Black
+2712,Black
+2713,Black
+2714,Black
+2715,Black
+2716,Black
+2717,Black
+2718,Black
+2719,Black
+2720,Black
+2721,Black
+2722,Black
+2723,Black
+2724,Black
+2725,Black
+2726,Black
+2727,Black
+2728,Black
+2729,Black
+2730,Black
+2731,Black
+2732,Black
+2733,Black
+2734,Black
+2735,Black
+2736,Black
+2737,Black
+2738,Black
+2739,Black
+2740,Black
+2741,Black
+2742,Black
+2743,Black
+2744,Black
+2745,Black
+2746,Black
+2747,Black
+2748,Black
+2749,Black
+2750,Black
+2751,Black
+2752,Black
+2753,Black
+2754,Black
+2755,Black
+2756,Black
+2757,Black
+2758,Black
+2759,Black
+2760,Black
+2761,Black
+2762,Black
+2763,Black
+2764,Black
+2765,Black
+2766,Black
+2767,Black
+2768,Black
+2769,Black
+2770,Black
+2771,Black
+2772,Black
+2773,Black
+2774,Black
+2775,Black
+2776,Black
+2777,Black
+2778,Black
+2779,Black
+2780,Black
+2781,Black
+2782,Black
+2783,Black
+2784,Black
+2785,Black
+2786,Black
+2787,Black
+2788, Black
+2789,Black
+2790,Black
+2791,Black
+2792,Black
+2793,Black
+2794,Red
+2795,Red
+2796,Red
+2797,Red
+2798,Red
+2799,Red
+2800,Red
+2801,Red
+2802,Red
+2803,Red
+2804,Red
+2805,Red
+2806,Red
+2807,Red
+2808,Red
+2809,Red
+2810,Red
+2811,Red
+2812,Red
+2813,Red
+2814,Red
+2815,Red
+2816,Red
+2817,Red
+2818,Red
+2819,Red
+2820,Red
+2821,Red
+2822,Red
+2823,Red
+2824,Red
+2825,Red
+2826,Red
+2827,Red
+2828,Red
+2829,Red
+2830,Red
+2831,Red
+2832,Red
+2833,Red
+2834,Red
+2835,Red
+2836,Black
+2837,Black
+2838,Black
+2839,Black
+2840,Black
+2841,Black
+2842,Black
+2843,Black
+2844,Black
+2845,Black
+2846,Red
+2847,Red
+2848,Red
+2849,Red
+2850,Red
+2851,Red
+2852,Red
+2853,Red
+2854,Red
+2855,Red
+2856,Red
+2857,Red
+2858,Red
+2859,Red
+2860,Red
+2861,Black
+2862,Red
+2863,Black
+2864,Red
+2865,Black
+2866,Red
+2867,Red
+2868,Red
+2869,Black
+2870,Red
+2871,Red
+2872,Red
+2873,Red
+2874,Red
+2875,Red
+2876,Red
+2877,Red
+2878,Red
+2879,Red
+2880,Red
+2881,Red
+2882,Red
+2883,Red
+2884,Red
+2885,Red
+2886,Red
+2887,Red
+2888,Red
+2889,Red
+2890,Red
+2891,Black
+2892,Black
+2893,Black
+2894,Red
+2895,Red
+2896,Red
+2897,Red
+2898,Red
+2899,Red
+2900,Red
+2901,Red
+2902,Red
+2903,Black
+2904,Red
+2905,Red
+2906,Red
+2907,Red
+2908,Black
+2909,Red
+2910,Red
+2911,Red
+2912,Red
+2913,Red
+2914,Black
+2915,Black
+2916,Red
+2917,Black
+2918,Black
+2919,Red
+2920,Red
+2921,Black
+2922,Red
+2923,Red
+2924,Red
+2925,Red
+2926,Red
+2927,Black
+2928,Black
+2929,Red
+2930,Red
+2931,Red
+2932,Black
+2933,Red
+2934,Red
+2935,Red
+2936,Black
+2937,Black
+2938,Red
+2939,Red
+2940,Red
+2941,Red
+2942,Red
+2943,Red
+2944,Red
+2945,Black
+2946,Red
+2947,Black
+2948,Black
+2949,Black
+2950,Black
+2951,Red
+2952,Red
+2953,Red
+2954,Red
+2955,Red
+2956,Red
+2957,Red
+2958,Red
+2959,Red
+2960,Red
+2961,Red
+2962,Red
+2963,Red
+2964,Red
+2965,Red
+2966,Red
+2967,Red
+2968,Red
+2969,Red
+2970,Red
+2971,Red
+2972,Red
+2973,Black
+2974,Black
+2975,Black
+2976,Red
+2977,Black
+2978,Black
+2979,Black
+2980,Black
+2981,Black
+2982,Black
+2983,Black
+2984,Black
+2985,Black
+2986,Black
+2987,Black
+2988,Black
+2989,Black
+2990,Black
+2991,Red
+2992,Red
+2993,Red
+2994,Red
+2995,Red
+2996,Red
+2997,Red
+2998,Red
+2999,Red
+3000,Red
+3001,Red
+3002,Red
+3003,Red
+3004,Red
+3005,Red
+3006,Red
+3007,Red
+3008,Red
+3009,Red
+3010,Red
+3011,Red
+3012,Red
+3013,Red
+3014,Red
+3015,Red
+3016,Red
+3017,Red
+3018,Red
+3019,Red
+3020,Red
+3021,Red
+3022,Red
+3023,Black
+3024,Black
+3025,Black
+3026,Black
+3027,Red
+3028,Red
+3029,Red
+3030,Black
+3031,Red
+3032,Red
+3033,Red
+3034,Red
+3035,Black
+3036,Red
+3037,Red
+3038,Red
+3039,Red
+3040,Black
+3041,Black
+3042,Black
+3043,Black
+3044,Black
+3045,Black
+3046,Black
+3047,Black
+3048,Black
+3049,Red
+3050,Red
+3051,Red
+3052,Red
+3053,Red
+3054,Red
+3055,Red
+3056,Red
+3057,Red
+3058,Red
+3059,Red
+3060,Red
+3061,Red
+3062,Red
+3063,Red
+3064,Red
+3065,Red
+3066,Red
+3067,Red
+3068,Red
+3069,Red
+3070,Red
+3071,Red
+3072,Red
+3073,Red
+3074,Red
+3075,Red
+3076,Red
+3077,Red
+3078,Red
+3079,Red
+3080,Red
+3081,Red
+3082,Red
+3083,Red
+3084,Red
+3085,Red
+3086,Red
+3087,Red
+3088,Red
+3089,Red
+3090,Red
+3091,Red
+3092,Red
+3093,Red
+3094,Red
+3095,Red
+3096,Red
+3097,Red
+3098,Red
+3099,Red
+3100,Red
+3101,Red
+3102,Red
+3103,Red
+3104,Red
+3105,Red
+3106,Red
+3107,Red
+3108,Red
+3109,Red
+3110,Red
+3111,Red
+3112,Red
+3113,Red
+3114,Red
+3115,Red
+3116,Red
+3117,Red
+3118,Red
+3119,Red
+3120,Red
+3121,Red
+3122,Red
+3123,Red
+3124,Red
+3125,Red
+3126,Red
+3127,Red
+3128,Red
+3129,Red
+3130,Red
+3131,Red
+3132,Red
+3133,Red
+3134,Red
+3135,Red
+3136,Red
+3137,Red
+3138,Red
+3139,Red
+3140,Red
+3141,Red
+3142,Red
+3143,Red
+3144,Red
+3145,Red
+3146,Red
+3147,Red
+3148,Red
+3149,Red
+3150,Red
+3151,Red
+3152,Red
+3153,Red
+3154,Red
+3155,Red
+3156,Red
+3157,Red
+3158,Red
+3159,Red
+3160,Red
+3161,Red
+3162,Red
+3163,Red
+3164,Red
+3165,Red
+3166,Red
+3167,Red
+3168,Red
+3169,Red
+3170,Red
+3171,Red
+3172,Red
+3173,Red
+3174,Red
+3175,Red
+3176,Red
+3177,Red
+3178,Red
+3179,Red
+3180,Red
+3181,Red
+3182,Red
+3183,Red
+3184,Red
+3185,Red
+3186,Red
+3187,Red
+3188,Red
+3189,Red
+3190,Red
+3191,Red
+3192,Red
+3193,Red
+3194,Red
+3195,Red
+3196,Red
+3197,Red
+3198,Red
+3199,Red
+3200,Red
+3201,Red
+3202,Red
+3203,Red
+3204,Red
+3205,Red
+3206,Red
+3207,Red
+3208,Red
+3209,Red
+3210,Red
+3211,Red
+3212,Red
+3213,Red
+3214,Red
+3215,Red
+3216,Red
+3217,Red
+3218,Red
+3219,Red
+3220,Red
+3221,Red
+3222,Red
+3223,Red
+3224,Red
+3225,Red
+3226,Red
+3227,Red
+3228,Red
+3229,Red
+3230,Red
+3231,Red
+3232,Red
+3233,Red
+3234,Red
+3235,Red
+3236,Red
+3237,Red
+3238,Red
+3239,Red
+3240,Red
+3241,Red
+3242,Red
+3243,Red
+3244,Red
+3245,Red
+3246,Red
+3247,Red
+3248,Red
+3249,Red
+3250,Red
+3251,Red
+3252,Red
+3253,Red
+3254,Red
+3255,Red
+3256,Red
+3257,Red
+3258,Red
+3259,Black
+3260,Black
+3261,Black
+3262,Red
+3263,Black
+3264,Black
+3265,Red
+3266,Red
+3267,Paddy
+3268,Black
+3269,Black
+3270,Black
+3271,Black
+3272,Black
+3273,Black
+3274,Black
+3275,Black
+3276,Black
+3277,Black
+3278,Black
+3279,Black soil
+3280,Black soil
+3281,Black soil
+3282,Black soil
+3283,Black soil
+3284,Black soil
+3285,Black soil
+3286,Black soil
+3287,Black soil
+3288,Black soil
+3289,Black soil
+3290,Black soil
+3291,Black soil
+3292,Black soil
+3293,Black soil
+3294,Black soil
+3295,Red soil
+3296,Black soil
+3297,Red soil
+3298,Red soil
+3299,Black soil
+3300,Red soil
+3301,Red soil
+3302,Red soil
+3303,Red soil
+3304,Black soil
+3305,Red soil
+3306,Red soil
+3307,Red soil
+3308,Red soil
+3309,Sandy loam
+3310,Sandy loam
+3311,Sandy loam
+3312,Sandy loam
+3313,Sandy loam
+3314,Sandy loam
+3315,Black soil
+3316,Red soil
+3317,Red soil
+3318,Red soil
+3319,Red soil
+3320,Red soil
+3321,Red soil
+3322,Red soil
+3323,Red soil
+3324,Red soil
+3325,Red soil
+3326,Sandy loam
+3327,Sandy loam
+3328,Sandy loam
+3329,Red soil
+3330,Red soil
+3331,Red soil
+3332,Red soil
+3333,Red soil
+3334,Red soil
+3335,Sandy loam
+3336,Black soil
+3337,Black soil
+3338,Black soil
+3339,Sandy loam
+3340,Sandy loam
+3341,Sandy loam
+3342,Sandy loam
+3343,Sandy loam
+3344,Sandy loam
+3345,Sandy loam
+3346,Sandy loam
+3347,Sandy loam
+3348,Sandy loam
+3349,Sandy loam
+3350,Sandy loam
+3351,Red soil
+3352,Sandy loam
+3353,Sandy loam
+3354,Red soil
+3355,Sandy loam
+3356,Red soil
+3357,Sandy loam
+3358,Red soil
+3359,Sandy loam
+3360,Red soil
+3361,Sandy loam
+3362,Sandy loam
+3363,Sandy loam
+3364,Sandy loam
+3365,Sandy loam
+3366,Red soil
+3367,Black soil
+3368,Sandy loam
+3369,Red soil
+3370,Red soil
+3371,Red soil
+3372,Black soil
+3373,Sandy loam
+3374,Sandy loam
+3375,Sandy loam
+3376,Sandy loam
+3377,Sandy loam
+3378,Sandy loam
+3379,Black soil
+3380,Black soil
+3381,Black soil
+3382,Black soil
+3383,Black soil
+3384,Black soil
+3385,Red soil
+3386,Black soil
+3387,Red soil
+3388,Sandy loam
+3389,Sandy loam
+3390,Red soil
+3391,Red soil
+3392,Red soil
+3393,Red soil
+3394,Red soil
+3395,Red soil
+3396,Red soil
+3397,Red soil
+3398,Red soil
+3399,Red soil
+3400,Red soil
+3401,Red soil
+3402,Red soil
+3403,Red soil
+3404,Red soil
+3405,Sandy loam
+3406,Sandy loam
+3407,Sandy loam
+3408,Red soil
+3409,Red soil
+3410,Red soil
+3411,Red soil
+3412,Red soil
+3413,Red soil
+3414,Red soil
+3415,Red soil
+3416,Red soil
+3417,Red soil
+3418,Red soil
+3419,Black soil
+3420,Black soil
+3421,Black soil
+3422,Black soil
+3423,Black soil
+3424,Black soil
+3425,Black soil
+3426,Black soil
+3427,Black soil
+3428,Black soil
+3429,Black soil
+3430,Black soil
+3431,Black soil
+3432,Black soil
+3433,Red soil
+3434,Red soil
+3435,Sandy loam
+3436,Sandy loam
+3437,Black soil
+3438,Black soil
+3439,Red soil
+3440,Black soil
+3441,Red soil
+3442,Black soil
+3443,Black soil
+3444,Black soil
+3445,Black soil
+3446,Black soil
+3447,Black soil
+3448,Sandy loam
+3449,Red soil
+3450,Black soil
+3451,Black soil
+3452,Black soil
+3453,Black soil
+3454,Black soil
+3455,Black soil
+3456,Black soil
+3457,Black soil
+3458,Black soil
+3459,Sandy loam
+3460,Sandy loam
+3461,Sandy loam
+3462,Sandy loam
+3463,Sandy loam
+3464,Sandy loam
+3465,Sandy loam
+3466,Black soil
+3467,Saline soil
+3468,Red soil
+3469,Red soil
+3470,Red soil
+3471,Red soil
+3472,Red soil
+3473,Red soil
+3474,red soil
+3475,red soil
+3476,red sandy
+3477,red soil
+3478,black soil
+3479,black soil
+3480,red soil
+3481,Red soil
+3482,Red soil
+3483,Red soil
+3484,red soil
+3485,sandy loam
+3486,res soil
+3487,red soil
+3488,red soil
+3489,Red soil
+3490,Red soil
+3491,Red soil
+3492,Red soil
+3493,Red Soil
+3494,Red soil
+3495,Red soil
+3496,Red soil
+3497,Red soil
+3498,Red soil
+3499,Red soil
+3500,Red soil
+3501,Red Soil
+3502,Red Soil
+3503,Red Soil
+3504,Red Soil
+3505,Red Soil
+3506,Red Soil
+3507,Red Soil
+3508,Red Soil
+3509,Red Soil
+3510,Red Soil
+3511,Red Soil
+3512,Red Soil
+3513,red soil
+3514,red soil
+3515,Red soil
+3516,Red soil
+3517,Red soil
+3518,Red soil
+3519,Red soil
+3520,Red soil
+3521,Red soil
+3522,Red soil
+3523,Red soil
+3524,Red soil
+3525,Red soil
+3526,Red soil
+3527,Red soil
+3528,Red soil
+3529,Red soil
+3530,Red soil
+3531,Red soil
+3532,Red soil
+3533,Red soil
+3534,Red soil
+3535,Red soil
+3536,Red soil
+3537,Red soil
+3538,Red soil
+3539,Red soil
+3540,Red soil
+3541,Red soil
+3542,Red soil
+3543,Red soil
+3544,Red soil
+3545,Red soil
+3546,Red soil
+3547,red soil
+3548,red soil
+3549,Black soil
+3550,Black soil
+3551,sandy loam
+3552,sandy loam
+3553,sandy loam
+3554,Black soil
+3555,red soil
+3556,red soil
+3557,red soil
+3558,red soil
+3559,red soil
+3560,red soil
+3561,Black soil
+3562,red soil
+3563,red soil
+3564,res soil
+3565,red soil
+3566,red soil
+3567,red soil
+3568,red soil
+3569,Red soil
+3570,red soil
+3571,red soil
+3572,Redsoil
+3573,Red soil
+3574,Red soil
+3575,Red soil
+3576,Red soil
+3577,Black soil
+3578,sandy loam
+3579,Red soil
+3580,Red soil
+3581,Black soil
+3582,Red soil
+3583,Black soil
+3584,Red sandy
+3585,Red soil
+3586,Red soil
+3587,Red Soil
+3588,Red Soil
+3589,Red Soil
+3590,Red soil
+3591,Red soil
+3592,Red soil
+3593,Red Soil
+3594,Red Soil
+3595,Red Soil
+3596,Red Soil
+3597,Red Soil
+3598,Red soil
+3599,Red Soil
+3600,red soil
+3601,Red Soil
+3602,Red Soil
+3603,Red Soil
+3604,Red Soil
+3605,Red soil
+3606,Red soil
+3607,Red soil
+3608,Red Soil
+3609,Red Soil
+3610,Red Soil
+3611,Red Soil
+3612,Red Soil
+3613,Red Soil
+3614,Red Soil
+3615,Red Soil
+3616,Red soil
+3617,Red soil
+3618,Red soil
+3619,Red soil
+3620,Red soil
+3621,Saline soil
+3622,Red Soil
+3623,red soil
+3624,Red Soil
+3625,Saline soil
+3626,Saline soil
+3627,Red Soil
+3628,Saline soil
+3629,Red Soil
+3630,Saline soil
+3631,Saline soil
+3632,Redsoil
+3633,Saline soil
+3634,Red soil
+3635,Saline soil
+3636,Saline Soil
+3637,Red Soil
+3638,Red Soil
+3639,Red soil
+3640,Red Soil
+3641,Red soil
+3642,Red Soil
+3643,Red Soil
+3644,Red Soil
+3645,Red Soil
+3646,Red Soil
+3647,Red Soil
+3648,Red Soil
+3649,Red Soil
+3650,Red Soil
+3651,Red Soil
+3652,Black soil
+3653,Black soil
+3654,Black soil
+3655,Red soil
+3656,Red soil
+3657,Red soil
+3658,Black soil
+3659,Black soil
+3660,Black soil
+3661,Black soil
+3662,Black soil
+3663,Red soil
+3664,Red soil
+3665,Red soil
+3666,Red soil
+3667,Red soil
+3668,Red soil
+3669,Red soil
+3670,Red soil
+3671,Red soil
+3672,Red soil
+3673,Red soil
+3674,Red soil
+3675,Red soil
+3676,Red soil
+3677,Red soil
+3678,Red soil
+3679,Red soil
+3680,Red soil
+3681,Red soil
+3682,Red soil
+3683,Red soil
+3684,Red soil
+3685,Red soil
+3686,Red soil
+3687,Red soil
+3688,Red soil
+3689,Red soil
+3690,Red soil
+3691,Red soil
+3692,Red soil
+3693,Red soil
+3694,Red soil
+3695,Red soil
+3696,Red soil
+3697,Red soil
+3698,Red soil
+3699,Red soil
+3700,Red soil
+3701,Red soil
+3702,Red soil
+3703,Red soil
+3704,Red soil
+3705,Red soil
+3706,Red soil
+3707,Red soil
+3708,Red soil
+3709,Red soil
+3710,Red soil
+3711,Red soil
+3712,Red soil
+3713,Red soil
+3714,Red soil
+3715,Red soil
+3716,Red soil
+3717,Red soil
+3718,Red soil
+3719,Red soil
+3720,Red soil
+3721,Red soil
+3722,Red soil
+3723,Red soil
+3724,Red soil
+3725,Red soil
+3726,Black 
+3727,Black 
+3728,RED
+3729,RED
+3730,RED
+3731,RED
+3732,RED
+3733,RED
+3734,RED
+3735,Black 
+3736,Black 
+3737,Black 
+3738,Black 
+3739,   Black
+3740,Red Sandy
+3741,Red Sandy
+3742,Red Sandy
+3743,Red Sandy
+3744,Red Sandy
+3745,   Black
+3746,   Black
+3747,   Black
+3748,   Black
+3749,Red
+3750,Red
+3751,Red
+3752,Red
+3753,Red
+3754,Red
+3755,Red
+3756,Red
+3757,Red
+3758,Black 
+3759,Black 
+3760,Black 
+3761,Black 
+3762,Black 
+3763,Black 
+3764,Red
+3765,Red
+3766,Red
+3767,Red
+3768,Red
+3769,Black 
+3770,Black 
+3771, Red
+3772,Black  
+3773,Black
+3774,Black
+3775,Black
+3776,Red
+3777,Red Sandy
+3778,Red
+3779,Red Sandy
+3780,Black
+3781,Black
+3782,Red Sandy
+3783,red sandy
+3784,red sandy
+3785,red sandy
+3786,red sandy\
+3787,black sandy
+3788,blacksandy
+3789,red sandy
+3790,red sandy
+3791,black sandy
+3792,red sandy
+3793,black sandy 
+3794,black sandy
+3795,red sandy
+3796,black sandy
+3797,red sandy
+3798,red sandy
+3799,red sandy
+3800,black
+3801,black sandy
+3802,red sandy
+3803,red sandy
+3804,red sandy
+3805,red sandy
+3806,red sandy
+3807,red sandy
+3808,RED
+3809,RED
+3810,RED
+3811,RED
+3812,RED
+3813,RED
+3814,RED
+3815,RED
+3816,Red
+3817,Red Sandy
+3818,Red
+3819,Red Sandy
+3820,Black
+3821,Black
+3822,Black
+3823,Black
+3824,Red Sandy
+3825,Red Sandy
+3826,Black
+3827,Black
+3828,Black
+3829,Black
+3830,Black
+3831,Black
+3832,Black
+3833,Black
+3834,Black
+3835,Red
+3836,Red 
+3837,Black
+3838,Black Sandy
+3839,Black
+3840,Red Sandy
+3841,Red Sandy
+3842,Black
+3843,Black Sandy
+3844,Red Sandy
+3845,Red Sandy
+3846,Red Sandy
+3847,Black 
+3848,Black 
+3849,Black 
+3850,Black 
+3851,Black 
+3852,Black 
+3853,Black 
+3854,Red Sandy
+3855,Black Sandy
+3856,Red
+3857,Black
+3858,Black
+3859,Black
+3860,Black
+3861,Black
+3862,Red
+3863,Black
+3864,Black Sandy
+3865,Black
+3866,Black
+3867,Black
+3868,Black
+3869,Black
+3870,Red
+3871,Red Sandy
+3872,Black
+3873,Black
+3874,Black
+3875,Black Sandy
+3876,Black 
+3877,Black 
+3878,Black 
+3879,Black
+3880,Black
+3881,Black 
+3882,Black 
+3883,Black 
+3884,Black 
+3885,Black 
+3886,Black 
+3887,Black
+3888,Black
+3889,Black
+3890,Black
+3891,Black
+3892,Black
+3893,Red
+3894,Black Sandy
+3895,Black
+3896,Black
+3897,Red
+3898,Red
+3899,Red
+3900,Red
+3901,Black Sandy
+3902,Red Sandy
+3903,Red Sandy
+3904,Red
+3905,Black
+3906,Black
+3907,Black
+3908,Black
+3909,Red
+3910,Red
+3911,Black
+3912,Black
+3913,Black
+3914,Black Sandy
+3915,Red Sandy
+3916,Black Sandy
+3917,Black
+3918,Black Sandy
+3919,Red Sandy
+3920,Black
+3921,Red
+3922,Black
+3923,Black Sandy
+3924,Black Sandy
+3925,Black Sandy
+3926,Black Sandy
+3927,Black
+3928,Black
+3929,Black
+3930,Red Sandy
+3931,Black
+3932,Black
+3933,Black
+3934,Black
+3935,Black
+3936,Black
+3937,Black
+3938,Red
+3939,Black
+3940,Black Sandy
+3941,Black
+3942,Black Sandy
+3943,Black
+3944,Black Sandy
+3945,Black
+3946,Black
+3947,Red
+3948,Red
+3949,Red
+3950,Red
+3951,Red
+3952,Red Sandy
+3953,Red
+3954,Red Sandy
+3955,Red
+3956,Red Sandy
+3957,Black
+3958,Red Sandy
+3959,Black Sandy
+3960,Red
+3961,Red
+3962,Red
+3963,Red Sandy
+3964,Red
+3965,Red
+3966,Red
+3967,Black Sandy
+3968,Red
+3969,Red
+3970,Red
+3971,Red
+3972,Red Sandy
+3973,Red Sandy
+3974,Red Sandy
+3975,Red
+3976,Red
+3977,Black Sandy
+3978,Red Sandy
+3979,Black Sandy
+3980,Red Sandy
+3981,Red Sandy
+3982,Red Sandy
+3983,Red Sandy
+3984,Black
+3985,Black
+3986,Black
+3987,Black
+3988,Black
+3989,Black
+3990,Black
+3991,Black
+3992,Black
+3993,Black Sandy
+3994,Black
+3995,Black
+3996,Black
+3997,Red
+3998,Black
+3999,Black
+4000,Black
+4001,Black
+4002,Sandy
+4003,Black
+4004,Black
+4005,Black
+4006,Black
+4007,Black
+4008,Black
+4009,Black
+4010,Black
+4011,Sandy
+4012,Sandy
+4013,Sandy
+4014,Red
+4015,Sandy
+4016,Red
+4017,Sandy
+4018,Sandy
+4019,Black
+4020,Black
+4021,Sandy
+4022,Sandy Loam
+4023,Sandy Loam
+4024,Sandy Loam
+4025,Sandy Loam
+4026,Sandy Loam
+4027,Sandy Loam
+4028,Sandy Loam
+4029,Black
+4030,Loam
+4031,Loam
+4032,Black
+4033,Black
+4034,Sandy Loam
+4035,Black
+4036,Sandy
+4037,Sandy
+4038,Sandy Loam
+4039,Black
+4040,Black
+4041,Sandy
+4042,Sandy
+4043,Black
+4044,Black
+4045,Sandy
+4046,Sandy
+4047,Sandy
+4048,Sandy
+4049,Black
+4050,Black
+4051,White
+4052,Black
+4053,Red
+4054,Red
+4055,Sandy
+4056,Red
+4057,Red
+4058,Red
+4059,Sandy
+4060,Black
+4061,Sandy
+4062,Black
+4063,Black
+4064,Red
+4065,Red
+4066,Red
+4067,Black
+4068,Black
+4069,Sandy
+4070,Black
+4071,Sandy
+4072,Sandy
+4073,Sandy
+4074,Black
+4075,Black
+4076,Black
+4077,Sandy
+4078,Red
+4079,Sandy
+4080,Black
+4081,Sandy Loam
+4082,Sandyloam
+4083,Black
+4084,Red
+4085,Red
+4086,Red
+4087,Sandy
+4088,Sandy
+4089,Black
+4090,Sandy Loam
+4091,Sandy Loam
+4092,Sandy Loam
+4093,Loam
+4094,Sandy Loam
+4095,Sandy Loam
+4096,Sandy Loam
+4097,Sandy Loam
+4098,Sandy Loam
+4099,Loam
+4100,Loam
+4101,Sandy Loam
+4102,Sandy Loam
+4103,Sandy Loam
+4104,Sandy Loam
+4105,Sandy Loam
+4106,Sandy Loam
+4107,Sandy Loam
+4108,Sandy Loam
+4109,Sandy Loam
+4110,Sandy Loam
+4111,Loam
+4112,Sandy Loam
+4113,Loam
+4114,Loam
+4115,Sandy Loam
+4116,Loam
+4117,Sandy Loam
+4118,Loam
+4119,Loam
+4120,Black
+4121,Black
+4122,Black
+4123,Black
+4124,Sandy
+4125,Red
+4126,Sandy Loam
+4127,Sandy Loam
+4128,Red
+4129,Sandy
+4130,Black
+4131,Sandy Loam
+4132,Black
+4133,Black
+4134,Black
+4135,Sandy
+4136,Sandy
+4137,Sandy
+4138,Sandy
+4139,Red
+4140,Sandy
+4141,Red Sandy
+4142,Black
+4143,Black
+4144,Sandyloam
+4145,Red
+4146,Red
+4147,Red
+4148,Sandyloam
+4149,Loam
+4150,Sandyloam
+4151,Red
+4152,Sandyloam
+4153,Sandyloam
+4154,Sandyloam
+4155,Loam
+4156,Sandyloam
+4157,Sandy
+4158,Sandy
+4159,Sandyloam
+4160,Loam
+4161,Sandyloam
+4162,Sandy Loam
+4163,Sandyloam
+4164,Sandyloam
+4165,Sandy Loam
+4166,Black
+4167,Sandy
+4168,Black
+4169,Sandy
+4170,Black
+4171,Red
+4172,Black
+4173,Black
+4174,Sandy
+4175,Black
+4176,Black
+4177,Sandy
+4178,Black
+4179,Red
+4180,Black
+4181,Black
+4182,Black
+4183,Black
+4184,Red
+4185,Red
+4186,Sandy
+4187,Sandy
+4188,Sandy Loam
+4189,Sandy Loam
+4190,Sandy Loam
+4191,Red
+4192,Red
+4193,Red
+4194,Red
+4195,Sandy Loam
+4196,Sandy Loam
+4197,Sandy Loam
+4198,Sandy Loam
+4199,Sandy Loam
+4200,Sandy Loam
+4201,Sandy Loam
+4202,Sandy Loam
+4203,Sandy Loam
+4204,Sandy Loam
+4205,Sandy Loam
+4206,Sandy Loam
+4207,Sandy
+4208,Sandy Loam
+4209,Sandy Loam
+4210,Sandy Loam
+4211,Sandy Loam
+4212,Sandy Loam
+4213,Sandy Loam
+4214,Sandy Loam
+4215,Red
+4216,Red
+4217,Red
+4218,Red
+4219,Sandy Loam
+4220,Black
+4221,Red
+4222,Red
+4223,Red
+4224,Sandy Loam
+4225,Sandy Loam
+4226,Sandy Loam
+4227,Sandy Loam
+4228,Red
+4229,Sandy Loam
+4230,Sandy Loam
+4231,Sandy
+4232,Sandy
+4233,Sandy Loam
+4234,Sandy
+4235,Sandy
+4236,Sandy
+4237,Sandy
+4238,Sandy
+4239,Sandy Loam
+4240,Sandy Loam
+4241,Black
+4242,Sandy
+4243,Sandy Loam
+4244,Loam
+4245,Sandy Loam
+4246,Sandy Loam
+4247,Sandy Loam
+4248,Loam
+4249,Sandy Loam
+4250,Red
+4251,Red
+4252,Red
+4253,Red
+4254,Red
+4255,Sandy Loam
+4256,Sandy Loam
+4257,Red
+4258,Red
+4259,Sandy 
+4260,Red
+4261,Red
+4262,Sandy Loam
+4263,Black
+4264,Sandy Loam
+4265,Red
+4266,Red
+4267,Red
+4268,Sandy Loam
+4269,Red
+4270,Red
+4271,Sandy Loam
+4272,Black
+4273,Red
+4274,Black
+4275,Sandy Loam
+4276,Red
+4277,Black
+4278,Sandy Loam
+4279,Sandy Loam
+4280,Sandy Loam
+4281,Black
+4282,Sandy
+4283,Red
+4284,Black
+4285,Black
+4286,Black
+4287,Black
+4288,Red
+4289,Black
+4290,Black
+4291,Black
+4292,Black
+4293,Red
+4294,Black
+4295,Black
+4296,Red
+4297,Sandy Loam
+4298,Sandy Loam
+4299,Sandy Loam
+4300,Sandy Loam
+4301,Red
+4302,Red
+4303,Red
+4304,Sandy Loam
+4305,Sandy Loam
+4306,Sandy Loam
+4307,Red
+4308,Black
+4309,Black
+4310,Sandy Loam
+4311,Black
+4312,Black
+4313,Red
+4314,Sandy Loam
+4315,Black
+4316,Red
+4317,Black
+4318,Black
+4319,Black
+4320,Sandy Loam
+4321,Sandy Loam
+4322,Red
+4323,Black
+4324,Black
+4325,Sandy Loam
+4326,Black
+4327,Black
+4328,Sandy 
+4329,Sandy Loam
+4330,Black
+4331,Black
+4332,Black
+4333,Sandy Loam
+4334,Black
+4335,Black
+4336,Red
+4337,Red
+4338,Red
+4339,Red
+4340,Sandy Loam
+4341,Red
+4342,Sandy Loam
+4343,Red
+4344,Red
+4345,Red
+4346,Red
+4347,Red
+4348,Red
+4349,Red
+4350,Red
+4351,Sandy 
+4352,Red
+4353,Red
+4354,Red
+4355,Red
+4356,Red
+4357,Sandy
+4358,Black 
+4359,Black 
+4360,Black 
+4361,Black 
+4362,Sand
+4363,Red
+4364,Red
+4365,Red
+4366,Red
+4367,Red
+4368,Red
+4369,Red
+4370,Red
+4371,Red
+4372,Sandy Loam
+4373,Sandy Loam
+4374,Red
+4375,Red
+4376,Red
+4377,Red
+4378,Red
+4379,Red
+4380,Red
+4381,Red
+4382,Sandy
+4383,Red
+4384,Red
+4385,Sandy Loam
+4386,Red
+4387,Sandy Loam
+4388,Red
+4389,Red
+4390,Red
+4391,Sandy Loam 
+4392,Cashewnut
+4393,Sandy Loam 
+4394,Black
+4395,Red
+4396,Red
+4397,Red
+4398,Sandy Loam
+4399,Red
+4400,Red
+4401,Red
+4402,Red
+4403,Red
+4404,Sandy Loam
+4405,Red
+4406,Black
+4407,Red
+4408,Sandy Loam
+4409,Red
+4410,Sandy
+4411,Sandy Loam
+4412,Black
+4413,Red
+4414,Sandy Loam
+4415,Red
+4416,Red
+4417,Red
+4418,Red
+4419,Sandy Loam
+4420,Black
+4421,Black
+4422,Sandy Loam
+4423,Black
+4424,Sandy Loam
+4425,Black
+4426,Black
+4427,Black
+4428,Sandy Loam
+4429,Sandy Loam
+4430,Black
+4431,Red
+4432,Red
+4433,Red
+4434,Red
+4435,Red
+4436,Red
+4437,Red
+4438,Red
+4439,Sandy Loam
+4440,Sandy Loam
+4441,Sandy Loam
+4442,Sandy Loam
+4443,Sandy Loam
+4444,Sandy Loam
+4445,Sandy Loam
+4446,Sandy Loam
+4447,Sandy Loam
+4448,Sandy Loam
+4449,Sandy Loam
+4450,Sandy Loam
+4451,Sandy 
+4452,Sandy Loam
+4453,Red
+4454,Red
+4455,Sandy Loam
+4456,Sandy Loam
+4457,Sandy
+4458,Red
+4459,Sandy Loam
+4460,Sandy Loam
+4461,Red
+4462,Red
+4463,Red
+4464,Red
+4465,Red
+4466,Black
+4467,Sandy
+4468,Sandy Loam
+4469,Black
+4470,Red
+4471,Sandy
+4472,Red
+4473,Sandy
+4474,Sandy
+4475,Black
+4476,Black
+4477,Sandy Loam
+4478,Black
+4479,Sandy
+4480,Red
+4481,Red
+4482,Black
+4483,Sandy
+4484,Sandy
+4485,Loam
+4486,Red
+4487,Red
+4488,Red
+4489,Sandy
+4490,Red
+4491,Red
+4492,Sandy Loam
+4493,Sandy
+4494,Sandy Loam
+4495,Red
+4496,Red
+4497,Red
+4498,Red
+4499,Red
+4500,Black Clay
+4501,Black Clay
+4502,Black Clay
+4503,Black Clay
+4504,Black Clay
+4505,Black Clay
+4506,Black Clay
+4507,Black Clay
+4508,Black Clay
+4509,Black Clay
+4510,Black Clay
+4511,Black Clay
+4512,Black Clay
+4513,Black Clay
+4514,Black Clay
+4515,Black Clay
+4516,Black Clay
+4517,Black Clay
+4518,Black Clay
+4519,Black Clay
+4520,Black Clay
+4521,Black Clay
+4522,Black Clay
+4523,Black Clay
+4524,Black Clay
+4525,Black Clay
+4526,Black Clay
+4527,Black Clay
+4528,Black Clay 
+4529,Black Clay 
+4530,Black Clay 
+4531,Black Clay 
+4532,Black Clay 
+4533,Black Clay 
+4534,Black Clay 
+4535,Black Clay 
+4536,Black Clay 
+4537,Black Clay 
+4538,Black Clay 
+4539,Black Clay 
+4540,Black Clay 
+4541,Black Clay 
+4542,Black Clay 
+4543,Black Clay 
+4544,Black Clay 
+4545,Black Clay 
+4546,Black Clay 
+4547,Black Clay
+4548,Black Clay
+4549,Black Clay
+4550,Black Clay
+4551,Black Clay
+4552,Black Clay
+4553,Black Clay
+4554,Black Clay
+4555,Black Clay
+4556,Black Clay
+4557,Black Clay
+4558,Black Clay
+4559,Black Clay
+4560,Black Clay
+4561,Black Clay
+4562,Black Clay
+4563,Black Clay
+4564,Black Clay
+4565,Black Clay
+4566,Black Clay
+4567,Black Clay
+4568,Black Clay
+4569,Black Clay
+4570,Black Clay
+4571,Black Clay
+4572,Black Clay
+4573,Black Clay
+4574,Black Clay
+4575,Black Clay
+4576,Black Clay
+4577,Black Clay
+4578,Black Clay
+4579,Black Clay
+4580,Black Clay
+4581,Black Clay
+4582,Black Clay
+4583,Black Clay
+4584,Black Clay
+4585,Black Clay
+4586,Black Clay
+4587,Black Clay
+4588,Black Clay
+4589,Black Clay
+4590,Black Clay
+4591,Black Clay
+4592,Black Clay
+4593,Black Clay
+4594,Black Clay
+4595,Black Clay
+4596,Black Clay
+4597,Black Clay
+4598,Black Clay
+4599,Black Clay
+4600,Black Clay
+4601,Black Clay
+4602,Black Clay
+4603,Black Clay
+4604,Black Clay
+4605,Black Clay
+4606,Black Clay
+4607,Black Clay
+4608,Black Clay
+4609,Black Clay
+4610,Black Clay
+4611,Black Clay
+4612,Black Clay
+4613,Black Clay
+4614,Black Clay
+4615,Black Clay
+4616,Black Clay
+4617,Black Clay
+4618,Black Clay
+4619,Black Clay
+4620,Black Clay
+4621,Black Clay
+4622,Black Clay
+4623,Black Clay
+4624,Black Clay
+4625,Black Clay
+4626,Black Clay
+4627,Black Clay
+4628,Black Clay
+4629,Black Clay
+4630,Black Clay
+4631,Black Clay
+4632,Black Clay
+4633,Black Clay
+4634,Black Clay
+4635,Black Clay
+4636,Black Clay
+4637,Black Clay
+4638,Black Clay
+4639,Black Clay
+4640,Black Clay
+4641,Black Clay
+4642,Black Clay
+4643,Black Clay
+4644,Black Clay
+4645,Black Clay
+4646,Black Clay
+4647,Black Clay
+4648,Black Clay
+4649,Black Clay
+4650,Black Clay
+4651,Black Clay
+4652,Black Clay
+4653,Black Clay
+4654,Black Clay
+4655,Black Clay
+4656,Black Clay
+4657,Black Clay
+4658,Black Clay
+4659,Black Clay
+4660,Black Clay
+4661,Black Clay
+4662,Black Clay
+4663,Black Clay
+4664,Black Clay
+4665,Black Clay
+4666,Black Clay
+4667,Black Clay
+4668,Black Clay
+4669,Black Clay
+4670,Black Clay
+4671,Black Clay
+4672,Black Clay
+4673,Clay
+4674,Black
+4675,Light Broiwn
+4676,Black
+4677,Black
+4678,Red Sandy
+4679,Red Sandy Loam
+4680,Brown
+4681,Red
+4682,Black
+4683,Black
+4684,red
+4685,Red
+4686,Sandy
+4687,Clay Sandy
+4688,Brown
+4689,Red
+4690,Red
+4691,Black 
+4692,Black
+4693,Light Broiwn
+4694,Black
+4695,Light Broiwn
+4696,Brown
+4697,Brown
+4698,Light Broiwn
+4699,Black
+4700,Brown
+4701,Light Broiwn
+4702,Brown Clay
+4703,Brown
+4704,Red Sandy Loam
+4705,Light Broiwn
+4706,Light Broiwn
+4707,Black
+4708,Black
+4709,Light Broiwn
+4710,Light Broiwn
+4711,Brown
+4712,Brown
+4713,Black
+4714,Brown
+4715,Brown Light
+4716,Light Broiwn
+4717,Light Broiwn
+4718,Black
+4719,Light Broiwn
+4720,Black
+4721,Brown
+4722,Red Sandy Loam
+4723,Red Sandy Loam
+4724,Brown
+4725,Light Broiwn
+4726,Brown
+4727,Black
+4728,Brown
+4729,Light Broiwn
+4730,Light Broiwn
+4731,Clay
+4732,Clay
+4733,Brown
+4734,Light Broiwn
+4735,Light Broiwn
+4736,Light Broiwn
+4737,Black
+4738,Brown 
+4739,Brown
+4740,Brown
+4741,Red
+4742,Brown
+4743,Black
+4744,Brown
+4745,Red Sandy Loam
+4746,Brown
+4747,Light Broiwn
+4748,Black
+4749,Clay
+4750,Brown
+4751,Light Broiwn
+4752,Black
+4753,Black
+4754,Light Broiwn
+4755,Light Brown
+4756,Light Broiwn
+4757,Black
+4758,Light Brown
+4759,Black
+4760,Black
+4761,Sandy Loam
+4762,Sandy Loam
+4763,Brown
+4764,Red
+4765,Brown
+4766,Red
+4767,Red
+4768,Brown Clay
+4769,Broan Clay
+4770,Black
+4771,Brown
+4772,Black
+4773,Light Brown
+4774,Brown
+4775,Black
+4776,Brown
+4777,Red Sandy
+4778,Red
+4779,Red  Sandy
+4780,Brown
+4781,Brown
+4782,Clay
+4783,Red
+4784,Red
+4785,Black
+4786,Brown Clay
+4787,Light Brown
+4788,Brown Dark
+4789,Black
+4790,Brown
+4791,Black
+4792,Light Brown
+4793,Brown
+4794,Red Sandy
+4795,Sandy Loam
+4796,Red Sandy
+4797,Black
+4798,Sandy Loam
+4799,Red Sandy
+4800,Black
+4801,Black
+4802,Sandy Loam
+4803,Light Brown
+4804,Black
+4805,Light Brown
+4806,Red Sandy 
+4807,Brown
+4808,Brown Clay
+4809,Black
+4810,Brown
+4811,Black
+4812,Red
+4813,Black
+4814,Black
