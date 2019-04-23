@@ -3,8 +3,6 @@
 """
 Created on Tue Aug 21 12:06:22 2018
 
-@author : 
-        : caffeine110
 
 AIM     : TO build Ann which predicts which Customer is most likely to leave the job
         : implimenting ANN in Sklearn
@@ -38,7 +36,7 @@ def build_Model():
     clf_model.add(Dense(output_dim = 15, init = 'uniform', activation='relu'))
 
     #Adding the third hidden layer
-    #clf_model.add(Dense(output_dim = 15, init = 'uniform', activation='relu'))
+    clf_model.add(Dense(output_dim = 15, init = 'uniform', activation='relu'))
 
     #Adding the third hidden layer
     #clf_model.add(Dense(output_dim = 15, init = 'uniform', activation='relu'))
@@ -113,7 +111,7 @@ def main():
 
 
     from keras.callbacks import EarlyStopping
-    early_stopping = EarlyStopping(monitor='val_loss', patience=3)
+    early_stopping = EarlyStopping(monitor='val_loss', patience=4)
 
 
     ### fitting the model`

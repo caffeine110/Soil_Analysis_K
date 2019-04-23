@@ -13,12 +13,10 @@ AIM     : To build Ann which predicts which Customer is most likely to leave the
 ### importing data
 def get_Data():
     ### importing data
-    from preprocessing import X_train, X_test, Y_train, Y_test
-    X_test = X_train
-    Y_test = Y_train
+    from process_test import X
 
     #return X_train, X_test, Y_train, Y_test
-    return X_train, X_train, Y_train, Y_train
+    return X
 
 
 
@@ -67,7 +65,7 @@ def build_Model():
 
 ###############################################################################
 def load_Weights(saved_model):
-    saved_model.load_weights('checkpoints/my_clf_Model_weights.h5')
+    saved_model.load_weights('/home/gaurav/Developer_repo/Soil_Analysis/Deployable/phase_3_model_DNN/checkpoints/my_clf_Model_weights.h5')
     return saved_model
 
 
@@ -124,7 +122,7 @@ def plot_Accuracy_Graph(Y_test, Y_pred):
 ###############################################################################
 ### Accure Scores
 def accuracy_Score(Y_test, Y_pred):
-    #Y_test = Y_test > 0.5
+    Y_test = Y_test > 0.5
     Y_pred = Y_pred > 0.4
     
     print(Y_test)
@@ -140,35 +138,67 @@ def accuracy_Score(Y_test, Y_pred):
 
 
 ###############################################################################
-import numpy as np
-import pandas as pd
-
-
-### function call to get data
-X_train, X_test, Y_train, Y_test = get_Data()
-
-### function call to build MOdel
-saved_model = build_Model()
-
-saved_model = load_Weights(saved_model)
-
-Y_pred = get_Predictions(saved_model, X_test)
-
-print(Y_pred)
-
-
-#display_CM(Y_test,Y_pred)
-
-# To print the Accuracy Score
+def get_best_fitting_Crop(test_soil_para):
+    import numpy as np
+    import pandas as pd
     
+    ### function call to get data
+    #X = get_Data()
 
-#accuracy_Score(Y_test, Y_pred)
 
-#plot_Accuracy_Graph(Y_test, Y_pred)
+    float_test_soil_para = test_soil_para
+    #float_test_soil_para = [ float(i) for i in test_soil_para ]
 
+
+    X = np.array(float_test_soil_para)
+    X = X.reshape(1,15)
+    ### function call to build MOdel
+    saved_model = build_Model()
+    
+    saved_model = load_Weights(saved_model)
+    
+    Y_pred = get_Predictions(saved_model, X)
+    
+    print(Y_pred)
+    
+    
+    crop_label = np.argmax(Y_pred, axis=1)
+    print(crop_label)
+    crop_label = crop_label.tolist()
+    crop_label = crop_label[0]
+    
+    dictionary = { 0 : 'Topica', 1 : 'blackgram', 2 : 'cottan/groundnut', 3 : 'cotton', 5 :'groundnut',
+                  7 : 'jonna', 8 : 'maize', 9 : 'mulberry' ,10 : 'paddy' ,11 : 'potato' , 
+                  12 : 'redgram' ,13 : 'sugarcane' ,14 : 'sunflower' }
+    
+    
+    crop_type = dictionary[crop_label]
+    
+    print(crop_type)
+    
+    return crop_type
+
+
+#get_crop()
 
 
 ###############################################################################
-#if __name__ == '__main__':
-#    main()
+"""
+#Y_pred.argsort()[-3:][::-1]
 
+y = list()
+Y_pred = Y_pred.reshape(15,1)
+y = Y_pred.tolist()
+
+print(y)
+
+for i in y:
+    print(i)
+    type(i)
+
+"""
+
+#test_soil_para = [1,1,1.073756,13.111439205,7.3076,0.20419851113,0.386997517,16.994856,06.0894044665,1461.48171638,275.1377171215881,13.750777171,0.93561339956,0.551166257362,11.470392332515 ]
+#crop_type = get_best_fitting_Crop(test_soil_para)
+#print(crop_type)
+#print('EOF')
