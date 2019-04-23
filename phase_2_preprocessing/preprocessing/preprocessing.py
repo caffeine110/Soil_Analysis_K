@@ -171,7 +171,7 @@ def main():
     api.remove_Duplicates(df)
     #api.change_Column_Names(df)
     api.remove_NaN(df)
-    api.rounding(df)
+    #api.rounding(df)
     api.get_Details(df)
     api.new_CSV(df)
 

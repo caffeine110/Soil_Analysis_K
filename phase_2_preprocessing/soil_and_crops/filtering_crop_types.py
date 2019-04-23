@@ -49,10 +49,12 @@ with open('../saperation/only_crop_types.csv') as csvfile:
               'Cotton/Ground Nut','Cotton/Ground Nut' ,'Cotton/Groundnut' ,'cottan/groundnut',
               'Ground Nat/Cottan' ,'Ground Nut /Cotton' ,'Ground Nut/ Cotton','GroundNut/Cotton',
               'cottan/groundnut' ]
+
+
         if crop_type in cotton:
             crop_type = 'cotton'
             
-        sunflower = ['SUNFLOWER','Sunflower','sunflower']
+        sunflower = ['SUNFLOWER','Sunflower','sunflower', 'Jonna+ sunflower',]
         if crop_type in sunflower:
             crop_type = 'sunflower'
 
@@ -73,7 +75,7 @@ with open('../saperation/only_crop_types.csv') as csvfile:
             crop_type = 'sugercane'
 
 
-        paddy = [ 'paddy','paddy  ', 'PADDY' ]
+        paddy = [ 'paddy','paddy  ' ,'Paady','Paddy','Paddy ', 'paddy','paddy  ', 'PADDY' ]
         if crop_type in paddy:
             crop_type = 'paddy'
 
@@ -86,7 +88,6 @@ with open('../saperation/only_crop_types.csv') as csvfile:
         mulbarry = [ 'Mulbarry','Mulberrry  ', 'Mulberry' ]
         if crop_type in mulbarry:
             crop_type = 'mulbarry'
-
 
 
         maize = [ 'maize','Maize', 'Mazi','Mc' ]
@@ -104,11 +105,6 @@ with open('../saperation/only_crop_types.csv') as csvfile:
             crop_type = 'greengram'
 
 
-        paddy = [ 'paddy','paddy  ' ,'Paady','Paddy','Paddy ' ]
-        if crop_type in paddy:
-            crop_type = 'paddy'
-
-
         potato = [ 'Potatao','Potato' ]
         if crop_type in potato:
             crop_type = 'potato'
@@ -117,7 +113,7 @@ with open('../saperation/only_crop_types.csv') as csvfile:
         if crop_type in redgram:
             crop_type = 'redgram'
 
-        jonna = [ 'Jonna/Senaga','Jonna+ sunflower','Mahendra Jonna','Pacha Jonna',
+        jonna = [ 'Jonna/Senaga','Mahendra Jonna','Pacha Jonna',
                  'Pacha Jonna','Peasara + Pacha Gaddi' ]
         if crop_type in jonna:
             crop_type = 'jonna'
