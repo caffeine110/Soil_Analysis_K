@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        *{padding:0;margin:0;box-sizing:border-box}
+        header {
+            padding:20px;
+            width:100%;
+            height:100px;
+            text-align:center;
+            background-color:#8e44ad;
+            color:#fff;
+            font-size:30px;
+            font-family:sans-serif;
+        }
+        header hr {
+            width:40px;
+            margin:0 auto;
+            margin-top:10px;
+            border:none;
+            border-bottom:2px solid #fff;
+        }
+        div.wrapper {
+            width:75%;
+            margin:0 auto;
+            padding:20px;
+        }
+        div.wrapper form {
+            width:80%;
+            margin:0 auto;
+            padding-top:20px;
+        }
+        div.wrapper form div.input-box{
+            width:80%;
+            text-align:center;
+            
+        }
+        div.wrapper form div.input-box input{
+            border:none;
+            padding:10px 50px 10px 10px;
+            border:2px solid #f9f9f9;
+            border-bottom:1px solid #999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Predictive Analytics in Soil Health Data
+        <hr />
+    </header>
+    <div class="wrapper">
+        <form action="http://localhost:5000/" method="POST">
+
+            <!--
+            test_soil_para = [ Lattitude, Longitude, Soil_type, Crop_type, pH, EC, OC, Avail_P,
+                          Exch_K, Avail_Ca, Avail_Mg, Avail_S, Avail_Zn, Avail_B,
+                          Avail_Fe, Avail_Cu, Avail_Mn]
+ 
+            -->
+            <h3>Enter data :</h3>
+            <div class="input-box">
+                <label for="name">Lattitude : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Longitude : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Soil_type : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Crop_type : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">pH: </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">EC : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">OC : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_P : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Exch_K : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Ca : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_S : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Zn : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            
+            <div class="input-box">
+                <label for="name">Avail_B : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Fe : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Cu : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Mn : </label>
+                <input type='text' name="" placeholder="placeholder" />
+            </div>
+            <div class="input-box">
+                <label for="name">Submit: </label>
+                <input type='button' name="" placeholder="get Predictions" />
+            </div>
+
+        
+        </form>
+
+    </div>
+    <script src="jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        *{padding:0;margin:0;box-sizing:border-box}
+        header {
+            padding:20px;
+            width:100%;
+            height:100px;
+            text-align:center;
+            background-color:#8e44ad;
+            color:#fff;
+            font-size:30px;
+            font-family:sans-serif;
+        }
+        header hr {
+            width:40px;
+            margin:0 auto;
+            margin-top:10px;
+            border:none;
+            border-bottom:2px solid #fff;
+        }
+        div.wrapper {
+            width:75%;
+            margin:0 auto;
+            padding:20px;
+        }
+        div.wrapper form {
+            width:80%;
+            margin:0 auto;
+            padding-top:20px;
+        }
+        div.wrapper form div.input-box{
+            width:65%;
+            text-align:right;
+            font-size:14px;
+        }
+        div.wrapper form div.input-box label {
+            font-weight:bolder;
+        }
+        div.wrapper form div.input-box input{
+            border:none;
+            padding:10px 55px 10px 10px;
+            border:2px solid #f9f9f9;
+            border-bottom:1px solid #999;
+            font-size:14px;
+        }
+        div.button_div {
+            width:100%;
+            margin:0 auto;
+            padding:30px 200px;
+            text-align:center;
+        }
+        div.button_div button.button {
+            text-decoration:none;
+            color:#8e44ad;
+            padding:10px 40px;
+            border:2px solid #8e44ad;
+            border-radius:10px;
+            background-color:#fff;
+        }
+        div.button_div button.button:hover {
+            background-color: #8e44ad;
+            color:#fff;
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        Predictive Analytics in Soil Health Data
+        <hr />
+    </header>
+    <div class="wrapper">
+        <form action="http://localhost:5000/get_fertilizers_required" method="POST">
+
+            <!--
+            test_soil_para = [ Lattitude, Longitude, Soil_type, Crop_type, pH, EC, OC, Avail_P,
+                          Exch_K, Avail_Ca, Avail_Mg, Avail_S, Avail_Zn, Avail_B,
+                          Avail_Fe, Avail_Cu, Avail_Mn]
+ 
+            -->
+            <h3>Enter data :</h3>
+            <div class="input-box">
+                <label for="name">Latitude : </label>
+                <input type='text' name="Latitude" value="16.19" />
+            </div>
+            <div class="input-box">
+                <label for="name">Longitude : </label>
+                <input type='text' name="Longitude" value="80.86" />
+            </div>
+            <div class="input-box">
+                <label for="name">pH: </label>
+                <input type='text' name="pH" value="3.68" />
+            </div>
+            <div class="input-box">
+                <label for="name">EC : </label>
+                <input type='text' name="EC" value="20.5" />
+            </div>
+            <div class="input-box">
+                <label for="name">OC : </label>
+                <input type='text' name="OC" value="8.31" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_P : </label>
+                <input type='text' name="Avail_P" value="0.76" />
+            </div>
+            <div class="input-box">
+                <label for="name">Exch_K : </label>
+                <input type='text' name="Exch_K" value="0.71" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Ca : </label>
+                <input type='text' name="Avail_Ca" value="26.23" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Mg : </label>
+                <input type='text' name="Avail_Mg" value="527" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_S : </label>
+                <input type='text' name="Avail_S" value="4669.0" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Zn : </label>
+                <input type='text' name="Avail_Zn" value="592.0" />
+            </div>            
+            <div class="input-box">
+                <label for="name">Avail_B : </label>
+                <input type='text' name="Avail_B" value="84.5" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Fe : </label>
+                <input type='text' name="Avail_Fe" value="4.84" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Cu : </label>
+                <input type='text' name="Avail_Cu" value="1.23" />
+            </div>
+            <div class="input-box">
+                <label for="name">Avail_Mn : </label>
+                <input type='text' name="Avail_Mn" value="13.0" />
+            </div>
+            
+            <div class="button_div">
+                <button type="submit" class="button" href="http://127.0.0.1:5000/">Predict Again</a>
+            </div>
+            
+        
+        </form>
+
+    </div>
+    <script src="jquery.min.js"></script>
+</body>
+</html>
