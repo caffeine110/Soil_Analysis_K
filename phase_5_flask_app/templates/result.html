@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        *{padding:0;margin:0;box-sizing:border-box}
+        header {
+            padding:20px;
+            width:100%;
+            height:100px;
+            text-align:center;
+            background-color:#8e44ad;
+            color:#fff;
+            font-size:30px;
+            font-family:sans-serif;
+        }
+        header hr {
+            width:40px;
+            margin:0 auto;
+            margin-top:10px;
+            border:none;
+            border-bottom:2px solid #fff;
+        }
+        div.wrapper {
+            width:75%;
+            margin:0 auto;
+            padding:20px;
+            padding-top:30px;
+        }
+        div.wrapper form {
+            width:80%;
+            margin:0 auto;
+            padding-top:20px;
+        }
+        div.wrapper form div.input-box{
+            width:80%;
+            text-align:center;
+            
+        }
+        div.wrapper form div.input-box input{
+            border:none;
+            padding:10px 50px 10px 10px;
+            border:2px solid #f9f9f9;
+            border-bottom:1px solid #999;
+        }
+        /*form styling*/
+        table {
+            width:50%;
+            margin:0 auto;
+            font-size:14px;
+            font-family:sans-serif;
+        }
+        table th {
+            padding:20px;
+            text-align:center;
+            border-bottom:2px solid #8e44ad;
+            color:#8e44ad;
+        }
+        table tr td {
+            padding:10px 20px;
+            text-align:center;
+            border-bottom:1px solid #eee;
+        }
+        table tr td.left {
+            font-weight:bolder;
+        }
+        table tr:nth-child(even) {
+            background-color:#f2f2f2;
+        }
+        div.button_div {
+            width:50%;
+            margin:0 auto;
+            padding:30px 200px;
+            text-align:center;
+        }
+        div.button_div a.button {
+            text-decoration:none;
+            color:#8e44ad;
+            padding:10px 40px;
+            border:2px solid #8e44ad;
+            border-radius:10px;
+        }
+        div.button_div a.button:hover {
+            background-color: #8e44ad;
+            color:#fff;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        Predictive Analytics in Soil Health Data
+        <hr />
+    </header>
+    <div class="wrapper">
+        <table class="result">
+            <th>Parameter</th>
+            <th>Predicted OutPut</th>
+            {%for r in range(n) %}
+            <tr>
+                <td class="left"> {{result_string[r] }} :</td>
+                <td>{{result[r]}}</td>
+            </tr>
+            {%endfor%}
+        </ul>
+        </table>
+    </div>
+    <div class="button_div">
+        <a class="button" href="http://127.0.0.1:5000/">Predict Again</a>
+    </div>
+    <script src="jquery.min.js"></script>
+</body>
+</html>

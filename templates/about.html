@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About | Predictive analytics in Soil Health Data</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+
+    <h1> About | Predictive analytics in Soil Health Data </h1>
+    <p> Predictive analytics in Soil Health Data.</p>
+    <p>Predictive Analytics in Agricultural Soil Health Data to predict the best fitting crop and Fertilizers required for particular soil sample.
+      I got the dataset of farmers for states Karnataka and Andhra Pradesh through the dataverse.icrisat.org which is legal activity.
+      
+      The data is processed well using various data mining techniques like Cleaning, Integration, Selection, Transformation and Feature Extraction well precisely.
+      DNN model is designed using Keras for multi class classification problem with a distinct crop types and trained on processed data separately for both states.
+      
+      Model is optimised by trying different combinations of Neurons in each layers of the DNN model, by setting best Optimizer like adam and SGD, using softmax activation function, Minimizing Loss of Loss function, and Validating over accuracy metrics like accuracy score.
+      </p>
+
+    {% endblock %}
+  </body>
+</html>
